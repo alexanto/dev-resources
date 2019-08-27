@@ -5,3 +5,4 @@
  - [Learn Programming with Python in 100 Steps](https://www.udemy.com/course/python-tutorial-for-beginners/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-nq9jmC04dDgnrUl51kxaiQ)
  - [Learn Python 3.6 for Total Beginners](https://www.udemy.com/course/python-3-for-total-beginners/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-K2FU8c8uM1Tur43_9KqnGQ)
  - [Python OOP : Four Pillars of OOP in Python 3 for Beginners](https://www.udemy.com/course/python-oops-beginners/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-oBBv1HLYDEZzcvn6VdjuLg)
+ - [Try Django 1.11 // Python Web Development](https://www.udemy.com/course/try-django-v1-11-python-web-development/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-9KZTB_VDeUz5RihcAm1bNg)
