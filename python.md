@@ -11,3 +11,13 @@
  - [Learn Python Programming Masterclass](https://www.udemy.com/python-the-complete-python-developer-course/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-QywXX.4zUmezJZAxzXWkag&LSNPUBID=JVFxdTr9V80)
  - [The Python Bible™ | Everything You Need to Program in Python](https://www.udemy.com/the-python-bible/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-2cZF.JHSTpPJbvo2QXgRoQ&LSNPUBID=JVFxdTr9V80)
  - [30 Days of Python | Unlock your Python Potential](https://www.udemy.com/course/30-days-of-python/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-RW3PmNUoc8JVDLWlMyXvug)
+ 
+ ### Ebooks
+- [A Whirlwind Tour of Python](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/)
+- [20 Python Libraries You Aren't Using (But Should)](https://learning.oreilly.com/library/view/20-python-libraries/9781492037866/)
+- [Hadoop with Python](https://learning.oreilly.com/library/view/hadoop-with-python/9781492048435/)
+- [How to Make Mistakes in Python](https://learning.oreilly.com/library/view/how-to-make/9781492048275/)
+- [Functional Programming in Python](https://learning.oreilly.com/library/view/functional-programming-in/9781492048633/)
+- [Python in Education](https://learning.oreilly.com/library/view/python-in-education/9781492037880/)
+- [Picking a Python Version: A Manifesto](https://learning.oreilly.com/library/view/picking-a-python/9781492048565/)
+- [Python Web Frameworks](https://learning.oreilly.com/library/view/python-web-frameworks/9781492037873/)
