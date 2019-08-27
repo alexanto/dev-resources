@@ -1,2 +1,2 @@
 - [PageSpeed tools](https://developers.google.com/speed/)
-- [Lighhouse]https://developers.google.com/web/tools/lighthouse/
+- [Lighhouse](https://developers.google.com/web/tools/lighthouse/)
