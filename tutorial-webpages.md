@@ -4,3 +4,5 @@
 - [Udacity](https://www.udacity.com/courses/school-of-programming)
 - [Udemy](https://www.udemy.com/)
 - [Pluralsight](https://www.pluralsight.com/)
+- [Coursera](https://www.coursera.org/)
+- [CodeAcademy](https://www.codecademy.com/)
