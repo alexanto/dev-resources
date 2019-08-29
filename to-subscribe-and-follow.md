@@ -1,0 +1,3 @@
+- [Newsletters for Developers](https://cooperpress.com/publications/)
+- [Angular Blog](https://blog.angular.io/)
+- [Daily JS](https://medium.com/dailyjs)
