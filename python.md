@@ -22,3 +22,4 @@
 - [ ] [Python in Education](https://learning.oreilly.com/library/view/python-in-education/9781492037880/)
 - [ ] [Picking a Python Version: A Manifesto](https://learning.oreilly.com/library/view/picking-a-python/9781492048565/)
 - [ ] [Python Web Frameworks](https://learning.oreilly.com/library/view/python-web-frameworks/9781492037873/)
+- [ ] [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
