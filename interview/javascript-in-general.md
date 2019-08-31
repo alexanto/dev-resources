@@ -68,3 +68,131 @@ Here are two ways to fix it that involves adding more brackets: `(function foo()
   console.log(x) // 1
   ```
   A variable that is `undefined` is a variable that has been declared, but not assigned a value. It is of type `undefined`. If a function does not return any value as the result of executing it is assigned to a variable, the variable also has the value of `undefined`. To check for it, compare using the strict equality `(===)` operator or `typeof` which will give the `'undefined'` string. Note that you should not be using the abstract equality operator to check, as it will also return `true` if the value is `null`.
+  
+  ```
+  var foo;
+  console.log(foo); // undefined
+  console.log(foo === undefined); // true
+  console.log(typeof foo === 'undefined'); // true
+  console.log(foo == null); // true. Wrong, don't use this to check!
+  function bar() {}
+  var baz = bar();
+  console.log(baz); // undefined
+  ```
+  
+  
+  A variable that is null will have been explicitly assigned to the null value. It represents no value and is different from undefined in the sense that it has been explicitly assigned. To check for `null`, simply compare using the strict equality operator. Note that like the above, you should not be using the abstract equality operator `(==)` to check, as it will also return `true` if the value is `undefined`.
+  
+  ```
+  var foo = null;
+  console.log(foo === null); // true
+  console.log(foo == undefined); // true. Wrong, don't use this to check!
+  ```
+  
+  As a personal habit, I never leave my variables undeclared or unassigned. I will explicitly assign `null` to them after declaring, if I don't intend to use it yet.
+  
+  **References**
+  * https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables
+  * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/undefined
+  
+* **Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?**
+
+  This question is pretty vague. My best guess at its intention is that it is asking about constructors in JavaScript. Technically speaking, `function Person(){}` is just a normal function declaration. The convention is use PascalCase for functions that are intended to be used as constructors.
+`var person = Person()` invokes the Person as a function, and not as a constructor. Invoking as such is a common mistake if it the function is intended to be used as a constructor. Typically, the constructor does not return anything, hence invoking the constructor like a normal function will return undefined and that gets assigned to the variable intended as the instance.
+`var person = new Person()` creates an instance of the Person object using the new operator, which inherits from `Person.prototype`. An alterative would be to use `Object.create`, such as: `Object.create(Person.prototype)`.
+
+  ```
+  function Person(name) {
+    this.name = name;
+  }
+  var person = Person('John');
+  console.log(person); // undefined
+  console.log(person.name); // Uncaught TypeError: Cannot read property 'name' of undefined
+  var person = new Person('John');
+  console.log(person); // Person { name: "John" }
+  console.log(person.name); // "john"
+  ```
+
+   **References**
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
+  
+* **What’s the difference between .call and .apply?**
+
+  Both `.call` and `.apply` are used to invoke functions and the first parameter will be used as the value of this within the function. However, `.call` takes in a comma-separated arguments as the next arguments while `.apply` takes in an array of arguments as the next argument. An easy way to remember this is C for call and comma-separated and A for apply and array of arguments.
+
+
+```
+function add(a, b) {
+  return a + b;
+}
+console.log(add.call(null, 1, 2)) // 3
+console.log(add.apply(null, [1, 2])) // 3
+```
+
+* **Explain Function.prototype.bind.**
+
+  Taken word-for-word from MDN:
+  The `bind()` method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+  In my experience, it is most useful for binding the value of this in methods of classes that you want to pass into other functions. This is frequently done in React components.
+
+  **References**
+  * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+  
+* **When would you use `document.write()`?**
+
+  `document.write()` writes a string of text to a document stream opened by `document.open()`. When `document.write()` is executed after the page has loaded, it will call document.open which clears the whole document (`<head>` and `<body>`removed!) and replaces the contents with the given parameter value in string. Hence it is usually considered dangerous and prone to misuse.
+There are some answers online that explain `document.write()` is being used in analytics code or when you want to include styles that should only work if JavaScript is enabled. It is even being used in HTML5 boilerplate to load scripts in parallel and preserve execution order! However, I suspect those reasons might be outdated and in the modern day, they can be achieved without using `document.write()`. Please do correct me if I'm wrong about this.
+  
+  **References**
+  * https://www.quirksmode.org/blog/archives/2005/06/three_javascrip_1.html
+  * https://github.com/h5bp/html5-boilerplate/wiki/Script-Loading-Techniques#documentwrite-script-tag
+  
+* **Have you ever used JavaScript templating? If so, what libraries have you used?**
+
+  Yes. Handlebars, Underscore, Lodash, AngularJS and JSX. I disliked templating in AngularJS because it made heavy use of strings in the directives and typos would go uncaught. JSX is my new favourite as it is closer to JavaScript and there is barely and syntax to be learnt. Nowadays, you can even use ES2015 template string literals as a quick way for creating templates without relying on third-party code.
+ 
+```
+const template = `<div>My name is: ${name}</div>`;
+```
+
+However, do beware of a potential XSS in the above approach as the contents are not escaped for you, unlike in templating libraries.
+
+* **What is the difference between == and ===?**
+
+  `==` is the abstract equality operator while `===` is the strict equality operator. The `==` operator will compare for equality after doing any necessary type conversions. The `===` operator will not do type conversion, so if two values are not the same type `===` will simply return false. When using `==`, funky things can happen, such as:
+  
+  ```
+  1 == '1' // true
+  1 == [1] // true
+  1 == true // true
+  0 == '' // true
+  0 == '0' // true
+  0 == false // true
+  ```
+
+   My advice is never to use the `==` operator, except for convenience when comparing against `null` or `undefined`, where a `== null` will return `true` if a is `null` or `undefined`.
+  
+  ```
+  var a = null;
+  console.log(a == null); // true
+  console.log(a == undefined); // true
+  ```
+
+    **References**
+    * https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
+
+* **Make this work:**
+
+  ```
+  duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+  function duplicate(arr) {
+    return arr.concat(arr);
+  }
+  ```
+
+* **Why is it called a Ternary expression, what does the word “Ternary” indicate?**
+
+  “Ternary” indicates three, and a ternary expression accepts three operands, the test condition, the “then” expression and the “else” expression. Ternary expressions are not specific to JavaScript and I’m not sure why it is even in this list.
+
+  **References**
+  * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
