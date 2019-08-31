@@ -95,6 +95,7 @@
   * Sent to server with every HTTP request — Yes
   * Capacity (per domain) — 4kb
   * Accessibility — Any window
+  
   *localStorage*
   * Initiator — Client
   * Expiry — Forever
@@ -103,6 +104,7 @@
   * Sent to server with every HTTP request — No
   * Capacity (per domain) — 5MB
   * Accessibility — Any window
+  
   *sessionStorage*
   * Initiator — Client
   * Expiry — On tab close
