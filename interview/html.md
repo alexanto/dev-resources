@@ -120,7 +120,7 @@
   * http://tutorial.techaltum.com/local-and-session-storage.html
 
 
-* **Describe the difference between <script>, <script async> and <script defer>.**
+* **Describe the difference between `<script>`, `<script async>` and `<script defer>`.**
   * `<script>` - HTML parsing is blocked, the script is fetched and executed immediately, HTML parsing resumes after the script is executed.
   * `<script async>` - The script will be fetched in parallel to HTML parsing and executed as soon as it is available (potentially before HTML parsing completes). Use async when the script is independent of any other scripts on the page, for example analytics.
   * `<script defer>` - The script will be fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encoun­tered in the document. If a script relies on a fully-parsed DOM, the defer attribute will be useful in ensuring that the HTML is fully parsed before executing. There's not much difference from putting a normal <script> at the end of <body>. A deferred script must not contain document.write.
@@ -130,3 +130,14 @@
   * https://stackoverflow.com/questions/10808109/script-tag-async-defer
   * https://bitsofco.de/async-vs-defer/
   Note: The async and defer attrib­utes are ignored for scripts that have no src attribute.
+  
+* **Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?**
+  
+    Placing `<link>`s in the `<head>`— Putting `<link>`s in the head is part of the specification. Besides that, placing at the top allows the page to render progressively which improves user experience. The problem with putting stylesheets near the bottom of the document is that it prohibits progressive rendering in many browsers, including Internet Explorer. Some browsers block rendering to avoid having to repaint elements of the page if their styles change. The user is stuck viewing a blank white page. It prevents the flash of unstyled contents.
+  
+   Placing `<scripts>`s just before `</body>` — `<script>`s block HTML parsing while they are being downloaded and executed. Downloading the scripts at the bottom will allow the HTML to be parsed and displayed to the user first.
+
+   An exception for positioning of <script>s at the bottom is when your script contains document.write(), but these days it's not a good practice to use document.write(). Also, placing <script>s at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. One possible workaround is to put `<script>`in the `<head>` and use the defer attribute.
+  
+    **References**
+   * https://developer.yahoo.com/performance/rules.html#css_top
