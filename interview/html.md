@@ -113,3 +113,8 @@
   * Sent to server with every HTTP request — No
   * Capacity (per domain) — 5MB
   * Accessibility — Same tab
+  
+  
+  **References**
+  * https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+  * http://tutorial.techaltum.com/local-and-session-storage.html
