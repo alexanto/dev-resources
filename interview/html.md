@@ -67,3 +67,47 @@
   
   **References**
   * http://html5doctor.com/html5-custom-data-attributes/
+  
+* **Consider HTML5 as an open web platform. What are the building blocks of HTML5?**
+
+  * Semantics — Allowing you to describe more precisely what your content is.
+  * Connectivity — Allowing you to communicate with the server in new and innovative ways.
+  * Offline and storage — Allowing webpages to store data on the client-side locally and operate offline more efficiently.
+  * Multimedia — Making video and audio first-class citizens in the Open Web.
+  * 2D/3D graphics and effects — Allowing a much more diverse range of presentation options.
+  * Performance and integration — Providing greater speed optimization and better usage of computer hardware.
+  * Device access — Allowing for the usage of various input and output devices.
+  * Styling — Letting authors write more sophisticated themes.
+  
+  **References**
+  * https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+  
+* **Describe the difference between a cookie, sessionStorage and localStorage.**
+
+  All the above mentioned technologies are key-value storage mechanisms on the client side. They are only able to store values as strings.
+  
+  *cookie*
+  * Initiator — Client or server. Server can use Set-Cookieheader
+  * Expiry — Manually set
+  * Persistent across browser sessions — 
+  * Depends on whether expiration is set
+  * Have domain associated — Yes
+  * Sent to server with every HTTP request — Yes
+  * Capacity (per domain) — 4kb
+  * Accessibility — Any window
+  *localStorage*
+  * Initiator — Client
+  * Expiry — Forever
+  * Persistent across browser sessions — Yes
+  * Have domain associated — No
+  * Sent to server with every HTTP request — No
+  * Capacity (per domain) — 5MB
+  * Accessibility — Any window
+  *sessionStorage*
+  * Initiator — Client
+  * Expiry — On tab close
+  * Persistent across browser sessions — No
+  * Have domain associated — No
+  * Sent to server with every HTTP request — No
+  * Capacity (per domain) — 5MB
+  * Accessibility — Same tab
