@@ -254,3 +254,56 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
   * http://stackoverflow.com/questions/21862054/single-page-app-advantages-and-disadvantages
   * http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/
   * https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52
+  
+* **What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?**
+
+  Some examples of languages that compile to JavaScript include CoffeeScript, Elm, ClojureScript, PureScript and TypeScript.
+  
+  Advantages:
+  * Fixes some of the longstanding problems in JavaScript and discourages JavaScript anti-patterns.
+  * Enables you to write shorter code, by providing some syntactic sugar on top of JavaScript, which I think ES5 lacks, but ES2015 is awesome.
+  * Static types are awesome (in the case of TypeScript) for large projects that need to be maintained over time.
+
+  Disadvantages:
+  * Require a build/compile process as browsers only run JavaScript and your code will need to be compiled into JavaScript before being served to browsers.
+  * Debugging can be a pain if your source maps do not map nicely to your pre-compiled source.
+  * Most developers are not familiar with these languages and will need to learn it. There’s a ramp up cost involved for your team if you use it for your projects.
+  * Smaller community (depends on the language), which means resources, tutorials, libraries and tooling would be harder to find.
+  * IDE/editor support might be lacking.
+  * These languages will always be behind the latest JavaScript standard.
+  * Practically, ES2015 has vastly improved JavaScript and made it much nicer to write. I don’t really see the need for CoffeeScript these days.
+  **References**
+  * https://softwareengineering.stackexchange.com/questions/72569/what-are-the-pros-and-cons-of-coffeescript
+  
+* **What is event loop? What is the difference between call stack and task queue?**
+
+  The event loop is a single-threaded loop that monitors the call stack and checks if there is any work to be done in the task queue. If the call stack is empty and there are callback functions in the task queue, a function is dequeued and pushed onto the call stack to be executed.
+  If you haven’t already checked out Philip Robert’s talk on the Event Loop, you should. It is one of the most viewed videos on JavaScript.
+  
+  **References**
+  * https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html
+  * http://theproactiveprogrammer.com/javascript/the-javascript-event-loop-a-stack-and-a-queue/
+  
+* **Explain the differences on the usage of foo between function `foo() {}` and `var foo = function() {}`**
+
+  The former is a function declaration while the latter is a function expression. The key difference is that function expressions are not hoisted (they have the same hoisting behaviour as variables). For more explanation on hoisting, refer to the question above on hoisting. If you try to invoke a function expression before it is defined, you will get an `Uncaught TypeError: XXX is not a function error`.
+    Function Declaration
+    
+    ```
+    foo(); // 'FOOOOO'
+  function foo() {
+    console.log('FOOOOO');
+  }
+  ```
+  Function Expression
+  
+  ```
+  foo(); // Uncaught TypeError: foo is not a function
+  var foo = function() {
+    console.log('FOOOOO');
+  }
+  ```
+  
+  **References**
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+
