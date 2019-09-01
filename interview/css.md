@@ -69,3 +69,7 @@
   In a BFC, each box’s left outer edge touches the left edge of the containing block (for right-to-left formatting, right edges touch).
   
   Vertical margins between adjacent block-level boxes in a BFC collapse. Read more on collapsing margins.
+  
+  **References**
+  * https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+  * https://www.sitepoint.com/understanding-block-formatting-contexts-in-css/
