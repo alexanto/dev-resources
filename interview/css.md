@@ -289,11 +289,11 @@ The box model has the following rules:
 
  A positioned element is an element whose computed `position` property is either `relative`, `absolute`, `fixed` or `sticky`.
  
- * `static` - The default position; the element will flow into the page as it normally would. The top, right, bottom, left and z-index properties do not apply.
- * `relative` - The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).
+  * `static` - The default position; the element will flow into the page as it normally would. The top, right, bottom, left and z-index properties do not apply.
+  * `relative` - The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).
  * `absolute` - The element is removed from the flow of the page and positioned at a specified position relative to its closest positioned ancestor if any, or otherwise relative to the initial containing block. Absolutely positioned boxes can have margins, and they do not collapse with any other margins. These elements do not affect the position of other elements.
  * `fixed` - The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn't move when scrolled.
- * `sticky` - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
+  * `sticky` - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
  
  **References**
  * https://developer.mozilla.org/en/docs/Web/CSS/position
@@ -320,9 +320,9 @@ The box model has the following rules:
  
 * **What existing CSS frameworks have you used locally, or in production? How would you change/improve them?**
 
- * **Bootstrap** — Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely-used.
- * **Semantic UI** — Source code structure makes theme customization is extremely hard to understand. Painful to customize with unconventional theming system. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
- * **Bulma** — A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.
+  * **Bootstrap** — Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely-used.
+  * **Semantic UI** — Source code structure makes theme customization is extremely hard to understand. Painful to customize with unconventional theming system. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
+  * **Bulma** — A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.
 
 
 
