@@ -306,4 +306,89 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
   
   **References**
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+  
+* **What is an error-first callback?**
 
+    Error-first callbacks are used to pass errors and data as well. You have to pass the error as the first parameter, and it has to be checked to see if something went wrong. Additional arguments are used to pass data.
+    
+    ```
+    fs.readFile(filePath, function(err, data) {  
+    if (err) {
+      // handle the error, the return is important here
+      // so execution stops here
+      return console.log(err)
+    }
+    // use the data object
+    console.log(data)
+  })
+  ```
+  
+* **How can you avoid callback hells?**
+
+  There are lots of ways to solve the issue of callback hells:
+  
+  * modularization: break callbacks into independent functions
+  * use a control flow library, like async
+  * use generators with Promises
+  * use async/await
+  
+* **What are Promises?**
+
+    Promises are a concurrency primitive, first described in the 80s. Now they are part of most modern programming languages to make your life easier. Promises can help you better handle async operations.
+
+    An example can be the following snippet, which after 100ms prints out the result string to the standard output. Also, note the catch, which can be used for error handling. Promises are chainable.
+    
+  ```
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('result')
+    }, 100)
+  })
+    .then(console.log)
+    .catch(console.error)
+  ```
+  
+* **What tools can be used to assure consistent style? Why is it important?**
+
+    When working in a team, consistent style is important, so team members can modify more projects easily, without having to get used to a new style each time.
+
+    Also, it can help eliminate programming issues using static analysis.
+
+    Tools that can help:
+    
+     * ESLint
+     * Standard
+     
+     
+* **What's a stub? Name a use case!**
+
+    Stubs are functions/programs that simulate the behaviors of components/modules. Stubs provide canned answers to function calls made during test cases.
+
+    An example can be writing a file, without actually doing so.
+    
+    ```
+    var fs = require('fs')
+
+    var writeFileStub = sinon.stub(fs, 'writeFile', function (path, data, cb) {  
+      return cb(null)
+    })
+
+    expect(writeFileStub).to.be.called
+    writeFileStub.restore()
+    ```
+    
+* **What's a test pyramid? Give an example!**
+
+    A test pyramid describes the ratio of how many unit tests, integration tests and end-to-end test you should write.
+    
+    An example for an HTTP API may look like this:
+
+    * lots of low-level unit tests for models (dependencies are stubbed),
+    * fewer integration tests, where you check how your models interact with each other (dependencies are not stubbed),
+    * less end-to-end tests, where you call your actual endpoints (dependencies are not stubbed).
+    
+* **What's your favorite HTTP framework and why?**
+
+    There is no right answer for this. The goal here is to understand how deeply one knows the framework she/he uses. Tell what are the pros and cons of picking that framework.
+    
+    
