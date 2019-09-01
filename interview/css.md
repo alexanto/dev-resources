@@ -73,3 +73,215 @@
   **References**
   * https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
   * https://www.sitepoint.com/understanding-block-formatting-contexts-in-css/
+  
+ * **What are the various clearing techniques and which is appropriate for what context?**
+ 
+ * Empty `div` method - `<div style="clear:both;"></div>`.
+ * Clearfix method — Refer to the `.clearfix` class above.
+ * `overflow: auto` or `overflow: hidden` method - Parent will establish a new block formatting context and expand to contains its floated children.
+ 
+ * In large projects, I would write a utility .clearfix class and use them in places where I need it. overflow: hiddenmight clip children if the children is taller than the parent and is not very ideal.
+ 
+* **Explain CSS sprites, and how you would implement them on a page or site.**
+ 
+ CSS sprites combine multiple images into one single larger image. It is commonly used technique for icons (Gmail uses it). How to implement it:
+ 
+ 1. Use a sprite generator that packs multiple images into one and generate the appropriate CSS for it.
+ 2. Each image would have a corresponding CSS class with background-image, background-position and background-size properties defined.
+ 3. To use that image, add the corresponding class to your element.
+ 
+ **Advantages:**
+ 
+ * Reduce the number of HTTP requests for multiple images (only one single request is required per spritesheet). But with HTTP2, loading multiple images is no longer much of an issue.
+ * Advance downloading of assets that won’t be downloaded until needed, such as images that only appear upon:hover pseudo-states. Blinking wouldn't be seen.
+ 
+* **What are your favorite image replacement techniques and which do you use when?**
+
+ CSS image replacement is a technique of replacing a text element (usually a header tag like an `<h1>`) with an image (often a logo). It has its origins in the time before web fonts and SVG. For years, web developers battled against browser inconsistencies to craft image replacement techniques that struck the right balance between design and accessibility.
+ 
+ It’s not really relevant these days. Check out this link for all the available techniques.
+ 
+ **References**
+ * https://css-tricks.com/the-image-replacement-museum/
+ 
+* **How would you approach fixing browser-specific styling issues?**
+
+ * After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
+ * Use libraries like Bootstrap that already handles these styling issues for you.
+ * Use autoprefixer to automatically add vendor prefixes to your code.
+ * Use Reset CSS or Normalize.css.
+ 
+* **How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?**
+ 
+ * Graceful degradation — The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
+ * Progressive enhancement — The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
+ * Use caniuse.com to check for feature support.
+ * Autoprefixer for automatic vendor prefix insertion.
+ * Feature detection using Modernizr.
+ 
+* **What are the different ways to visually hide content (and make it available only for screen readers)?**
+ 
+ These techniques are related to accessibility (a11y).
+ 
+ * `visibility: hidden`. However the element is still in the flow of the page, and still takes up space.
+ * `width: 0; height: 0`. Make the element not take up any space on the screen at all, resulting in not showing it.
+ * `position; absolute; left: -99999px`. Position it outside of the screen.
+ * `text-indent: -9999px`. This only works on text within the block elements.
+ 
+ I would go with the `absolute` positioning approach, as it has the least caveats and works for most elements.
+ 
+* **Have you ever used a grid system, and if so, what do you prefer?**
+
+ I like the `float`-based grid system because it still has the most browser support among the alternative existing systems (flex, grid). It has been used in for Bootstrap for years and has been proven to work.
+ 
+* **Have you used or implemented media queries or mobile-specific layouts/CSS?**
+
+ Yes. An example would be transforming a stacked pill navigation into a fixed-bottom tab navigation beyond a certain breakpoint.
+ 
+* **How do you optimize your webpages for print?**
+
+ * Create a stylesheet for print or use media queries.
+ 
+ ```
+ <!-- Main stylesheet on top -->
+ <link rel="stylesheet" href="/global.css" media="all" />
+ <!-- Print only, on bottom -->
+ <link rel="stylesheet" href="/print.css" media="print" />
+ ```
+ 
+ Make sure to put non-print styles inside `@media screen { ... }`.
+ 
+ ```
+ @media print {
+   ...
+ }
+ ```
+ 
+ * Deliberately add page breaks.
+ 
+ ```
+ <style>
+ .page-break { 
+   display: none;
+   page-break-before: always; 
+ }
+ </style>
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce eu felis. Curabitur sit amet magna. Nullam aliquet. Aliquam ut diam...
+ <div class="page-break"></div>
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit....
+ ```
+ 
+ **References**
+ * https://davidwalsh.name/optimizing-structure-print-css
+ 
+* **What are some of the “gotchas” for writing efficient CSS?**
+
+ Firstly, understand that browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector. Hence avoid key selectors that are tag and universal selectors. They match a large numbers of elements and browsers will have to do more work in determining if the parents do match.
+ 
+ BEM (Block Element Modifier) methodology recommends that everything has a single class, and, where you need hierarchy, that gets baked into the name of the class as well, this naturally makes the selector efficient and easy to override.
+ 
+ Be aware of which CSS properties trigger reflow, repaint and compositing. Avoid writing styles that change the layout (trigger reflow) where possible.
+ 
+ **References**
+ * https://developers.google.com/web/fundamentals/performance/rendering/
+ * https://csstriggers.com/
+ 
+* **What are the advantages/disadvantages of using CSS preprocessors?**
+
+ **Advantages:**
+ * CSS is made more maintainable.
+ * Easy to write nested selectors.
+ * Variables for consistent theming. Can share theme files across different projects.
+ * Mixins to generate repeated CSS.
+ * Splitting your code into multiple files. CSS files can be split up too but doing so will require a HTTP request to download each CSS file.
+ 
+ **Disadvantages:**
+ * Requires tools for preprocessing. Re-compilation time can be slow.
+ 
+* **Describe what you like and dislike about the CSS preprocessors you have used.**
+
+ **Likes:**
+ * Mostly the advantages mentioned above.
+ * Less is written in JavaScript, which plays well with Node.
+ 
+ **Dislikes:**
+ * I use Sass via node-sass, which is a binding for LibSass, which is written in C++. Have to frequently recompile it when switching between node versions.
+ * In Less, variable names are prefixed with @, which can be confused with native CSS keywords like @media, @import and @font-face rule.
+ 
+* **How would you implement a web design comp that uses non-standard fonts?**
+  Use `@font-face` and define `font-family` for different font-weights.
+  
+ * **Explain how a browser determines what elements match a CSS selector.**
+ 
+  This part is related to the above about writing efficient CSS. Browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector.
+  
+  For example with this selector p span, browsers firstly find all the `<span>` elements, and traverse up its parent all the way up to the root to find the `<p>` element. For a particular <span>, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
+ 
+ **References**
+ * https://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left
+ 
+* **Describe pseudo-elements and discuss what they are used for.**
+
+ A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (`:first-line`, `:first-letter`) or adding elements to the markup (combined with `content: ...`) without having to modify the markup (`:before, :after`).
+ 
+ * `:first-line` and `:first-letter` can be used to decorate text.
+ * Used in the `.clearfix` hack as shown above to add a zero-space element with `clear: both`.
+ * Triangular arrows in tooltips use `:before` and `:after`. Encourages separation of concerns because the triangle is considered part of styling and not really the DOM, but not really possible to draw a triangle with just CSS styles.
+ **References**
+ * https://css-tricks.com/almanac/selectors/a/after-and-before/
+ 
+* **Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.**
+
+ The CSS box model is responsible for calculating:
+ * How much space a block-level element takes up.
+ * Whether or not borders and/or margins overlap, or collapse.
+ * A box’s dimensions.
+ 
+The box model has the following rules:
+
+ * The dimensions of a block element are calculated by `width`, `height`, `padding`, `borders`, and `margins`.
+ * If no height is specified, a `block` element will be as high as the content it contains, plus padding (unless there are floats, for which see below).
+ * If no width is specified, a non-floated `block` element will expand to fit the width of its parent minus padding.
+ * The `height` of an element is calculated by the content's height.
+ * The `width` of an element is calculated by the content's width.
+ * By default, `padding`s and `border`s are not part of the `width` and `height` of an element.
+ 
+ **References**
+ * https://www.smashingmagazine.com/2010/06/the-principles-of-cross-browser-css-coding/#understand-the-css-box-model
+ 
+* **What does * { box-sizing: border-box; } do? What are its advantages?**
+
+ * By default, elements have `box-sizing: content-box` applied, and only the content size is being accounted for.
+  * `box-sizing: border-box` changes how the `width` and `height` of elements are being calculated, `border` and `padding` are also being included in the calculation.
+ * The `height` of an element is now calculated by the content's `height` + vertical `padding` + vertical `border` width.
+ * The `width` of an element is now calculated by the content's width + horizontal `padding` + horizontal `borderwidth`.
+ 
+* **List as many values for the `display` property that you can remember.**
+ 
+  * `none`, `block`, `inline`, `inline-block`, `table`, `table-row`, `table-cell`, `list-item`.
+  
+ * **What’s the difference between `inline` and `inline-block`?**
+ 
+ I shall throw in a comparison with block for good measure.
+ 
+ **Block**
+ * Size — Fills up the width of its parent container.
+ * Positioning — Start on a new line and tolerates no HTML elements next to it (except when you add `float`).
+ * Can specify `width` and `height` — Yes.
+ * Can be aligned with `vertical-align` — Yes.
+ * Margins and paddings — All sides respected.
+ 
+ **Inline-Block**
+ * Size — Depends on content.
+ * Positioning — Flows along with other content and allows other elements beside.
+ * Can specify `width` and `height` — Yes.
+ * Can be aligned with `vertical-align` — Yes.
+ * Margins and paddings — All sides respected.
+ 
+  **Inline**
+ * Size — Depends on content.
+ * Positioning — Flows along with other content and allows other elements beside.
+ * Can specify `width` and `height` — No. Will ignore if being set.
+ * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
+ * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
+ 
