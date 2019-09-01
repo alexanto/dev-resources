@@ -76,71 +76,71 @@
   
  * **What are the various clearing techniques and which is appropriate for what context?**
  
-  * Empty `div` method - `<div style="clear:both;"></div>`.
-  * Clearfix method — Refer to the `.clearfix` class above.
-  * `overflow: auto` or `overflow: hidden` method - Parent will establish a new block formatting context and expand to contains its floated children.
+   * Empty `div` method - `<div style="clear:both;"></div>`.
+   * Clearfix method — Refer to the `.clearfix` class above.
+   * `overflow: auto` or `overflow: hidden` method - Parent will establish a new block formatting context and expand to contains its floated children.
  
-  * In large projects, I would write a utility .clearfix class and use them in places where I need it. overflow: hiddenmight clip children if the children is taller than the parent and is not very ideal.
+   * In large projects, I would write a utility .clearfix class and use them in places where I need it. overflow: hiddenmight clip children if the children is taller than the parent and is not very ideal.
  
 * **Explain CSS sprites, and how you would implement them on a page or site.**
  
- CSS sprites combine multiple images into one single larger image. It is commonly used technique for icons (Gmail uses it). How to implement it:
+  CSS sprites combine multiple images into one single larger image. It is commonly used technique for icons (Gmail uses it). How to implement it:
  
   1. Use a sprite generator that packs multiple images into one and generate the appropriate CSS for it.
   2. Each image would have a corresponding CSS class with background-image, background-position and background-size properties defined.
   3. To use that image, add the corresponding class to your element.
  
- **Advantages:**
+  **Advantages:**
  
- * Reduce the number of HTTP requests for multiple images (only one single request is required per spritesheet). But with HTTP2, loading multiple images is no longer much of an issue.
- * Advance downloading of assets that won’t be downloaded until needed, such as images that only appear upon:hover pseudo-states. Blinking wouldn't be seen.
+  * Reduce the number of HTTP requests for multiple images (only one single request is required per spritesheet). But with HTTP2, loading multiple images is no longer much of an issue.
+  * Advance downloading of assets that won’t be downloaded until needed, such as images that only appear upon:hover pseudo-states. Blinking wouldn't be seen.
  
 * **What are your favorite image replacement techniques and which do you use when?**
 
- CSS image replacement is a technique of replacing a text element (usually a header tag like an `<h1>`) with an image (often a logo). It has its origins in the time before web fonts and SVG. For years, web developers battled against browser inconsistencies to craft image replacement techniques that struck the right balance between design and accessibility.
+  CSS image replacement is a technique of replacing a text element (usually a header tag like an `<h1>`) with an image (often a logo). It has its origins in the time before web fonts and SVG. For years, web developers battled against browser inconsistencies to craft image replacement techniques that struck the right balance between design and accessibility.
  
  It’s not really relevant these days. Check out this link for all the available techniques.
  
- **References**
- * https://css-tricks.com/the-image-replacement-museum/
+  **References**
+  * https://css-tricks.com/the-image-replacement-museum/
  
 * **How would you approach fixing browser-specific styling issues?**
 
- * After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
- * Use libraries like Bootstrap that already handles these styling issues for you.
- * Use autoprefixer to automatically add vendor prefixes to your code.
- * Use Reset CSS or Normalize.css.
+  * After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
+  * Use libraries like Bootstrap that already handles these styling issues for you.
+  * Use autoprefixer to automatically add vendor prefixes to your code.
+  * Use Reset CSS or Normalize.css.
  
 * **How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?**
  
- * Graceful degradation — The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
- * Progressive enhancement — The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
- * Use caniuse.com to check for feature support.
- * Autoprefixer for automatic vendor prefix insertion.
- * Feature detection using Modernizr.
+  * Graceful degradation — The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
+  * Progressive enhancement — The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
+  * Use caniuse.com to check for feature support.
+  * Autoprefixer for automatic vendor prefix insertion.
+  * Feature detection using Modernizr.
  
 * **What are the different ways to visually hide content (and make it available only for screen readers)?**
  
- These techniques are related to accessibility (a11y).
+  These techniques are related to accessibility (a11y).
  
- * `visibility: hidden`. However the element is still in the flow of the page, and still takes up space.
- * `width: 0; height: 0`. Make the element not take up any space on the screen at all, resulting in not showing it.
- * `position; absolute; left: -99999px`. Position it outside of the screen.
- * `text-indent: -9999px`. This only works on text within the block elements.
+  * `visibility: hidden`. However the element is still in the flow of the page, and still takes up space.
+  * `width: 0; height: 0`. Make the element not take up any space on the screen at all, resulting in not showing it.
+  * `position; absolute; left: -99999px`. Position it outside of the screen.
+  * `text-indent: -9999px`. This only works on text within the block elements.
  
- I would go with the `absolute` positioning approach, as it has the least caveats and works for most elements.
+  I would go with the `absolute` positioning approach, as it has the least caveats and works for most elements.
  
 * **Have you ever used a grid system, and if so, what do you prefer?**
 
- I like the `float`-based grid system because it still has the most browser support among the alternative existing systems (flex, grid). It has been used in for Bootstrap for years and has been proven to work.
+  I like the `float`-based grid system because it still has the most browser support among the alternative existing systems (flex, grid). It has been used in for Bootstrap for years and has been proven to work.
  
 * **Have you used or implemented media queries or mobile-specific layouts/CSS?**
 
- Yes. An example would be transforming a stacked pill navigation into a fixed-bottom tab navigation beyond a certain breakpoint.
+  Yes. An example would be transforming a stacked pill navigation into a fixed-bottom tab navigation beyond a certain breakpoint.
  
 * **How do you optimize your webpages for print?**
 
- * Create a stylesheet for print or use media queries.
+  * Create a stylesheet for print or use media queries.
  
  ```
  <!-- Main stylesheet on top -->
@@ -279,15 +279,15 @@ The box model has the following rules:
  * Margins and paddings — All sides respected.
  
   **Inline**
- * Size — Depends on content.
- * Positioning — Flows along with other content and allows other elements beside.
- * Can specify `width` and `height` — No. Will ignore if being set.
- * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
+  * Size — Depends on content.
+  * Positioning — Flows along with other content and allows other elements beside.
+  * Can specify `width` and `height` — No. Will ignore if being set.
+  * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
  * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
  
 * **What’s the difference between a `relative`, `fixed`, `absolute` and `static`-ally positioned element?**
 
- A positioned element is an element whose computed `position` property is either `relative`, `absolute`, `fixed` or `sticky`.
+  A positioned element is an element whose computed `position` property is either `relative`, `absolute`, `fixed` or `sticky`.
  
   * `static` - The default position; the element will flow into the page as it normally would. The top, right, bottom, left and z-index properties do not apply.
   * `relative` - The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).
@@ -295,78 +295,79 @@ The box model has the following rules:
  * `fixed` - The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn't move when scrolled.
   * `sticky` - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
  
- **References**
- * https://developer.mozilla.org/en/docs/Web/CSS/position
+  **References**
+  * https://developer.mozilla.org/en/docs/Web/CSS/position
  
 * **The ‘C’ in CSS stands for Cascading. How is priority determined in assigning styles (a few examples)? How can you use this system to your advantage?**
 
- Browser determines what styles to show on an element depending on the specificity of CSS rules. We assume that the browser has already determined the rules that match a particular element. Among the matching rules, the specificity, four comma-separate values, `a, b, c, d` are calculated for each rule based on the following:
+  Browser determines what styles to show on an element depending on the specificity of CSS rules. We assume that the browser has already determined the rules that match a particular element. Among the matching rules, the specificity, four comma-separate values, `a, b, c, d` are calculated for each rule based on the following:
  
- 1. `a` is whether inline styles are being used. If the property declaration is an inline style on the element, `a` is 1, else 0.
- 2. `b` is the number of ID selectors.
- 3. `c` is the number of classes, attributes and pseudo-classes selectors.
- 4. `d` is the number of tags and pseudo-elements selectors.
+  1. `a` is whether inline styles are being used. If the property declaration is an inline style on the element, `a` is 1, else 0.
+  2. `b` is the number of ID selectors.
+  3. `c` is the number of classes, attributes and pseudo-classes selectors.
+  4. `d` is the number of tags and pseudo-elements selectors.
  
  
- The resulting specificity is not a score, but a matrix of values that can be compared column by column. When comparing selectors to determine which has the highest specificity, look from left to right, and compare the highest value in each column. So a value in column `b` will override values in columns `c` and d, no matter what they might be. As such, specificity of `0,1,0,0` would be greater than one of `0,0,10,10`.
+  The resulting specificity is not a score, but a matrix of values that can be compared column by column. When comparing selectors to determine which has the highest specificity, look from left to right, and compare the highest value in each column. So a value in column `b` will override values in columns `c` and d, no matter what they might be. As such, specificity of `0,1,0,0` would be greater than one of `0,0,10,10`.
  
- In the cases of equal specificity: the latest rule is the one that counts. If you have written the same rule into your style sheet (regardless of internal or external) twice, then the lower rule in your style sheet is closer to the element to be styled, it is deemed to be more specific and therefore will be applied.
+  In the cases of equal specificity: the latest rule is the one that counts. If you have written the same rule into your style sheet (regardless of internal or external) twice, then the lower rule in your style sheet is closer to the element to be styled, it is deemed to be more specific and therefore will be applied.
  
- I would write CSS rules with low specificity so that they can be easily overridden if necessary. When writing CSS UI component library code, it is important that they have low specificities so that users of the library can override them without using too complicated CSS rules just for the sake of increasing specificity or resorting to `!important`.
+  I would write CSS rules with low specificity so that they can be easily overridden if necessary. When writing CSS UI component library code, it is important that they have low specificities so that users of the library can override them without using too complicated CSS rules just for the sake of increasing specificity or resorting to `!important`.
  
- **References**
+  **References**
   * https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
   * https://www.sitepoint.com/web-foundations/specificity/
  
 * **What existing CSS frameworks have you used locally, or in production? How would you change/improve them?**
 
-  * **Bootstrap** — Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely-used.
-  * **Semantic UI** — Source code structure makes theme customization is extremely hard to understand. Painful to customize with unconventional theming system. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
-  * **Bulma** — A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.
+   * **Bootstrap** — Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely-used.
+   * **Semantic UI** — Source code structure makes theme customization is extremely hard to understand. Painful to customize with unconventional theming system. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
+   * **Bulma** — A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.
   
 * **Have you played around with the new CSS Flexbox or Grid specs?**
 
- Yes. Flexbox is mainly meant for 1-dimensional layouts while Grid is meant for 2-dimensional layouts.
+  Yes. Flexbox is mainly meant for 1-dimensional layouts while Grid is meant for 2-dimensional layouts.
 
- Flexbox solves many common problems in CSS, such as vertical centering of elements within a container, sticky footer, etc. Bootstrap and Bulma are based on Flexbox, and it is probably the recommended way to create layouts these days. Have tried Flexbox before but ran into some browser incompatibility issues (Safari) in using `flex-grow`, and I had to rewrite my code using `inline-blocks` and math to calculate the widths in percentages, it wasn’t a nice experience.
+  Flexbox solves many common problems in CSS, such as vertical centering of elements within a container, sticky footer, etc. Bootstrap and Bulma are based on Flexbox, and it is probably the recommended way to create layouts these days. Have tried Flexbox before but ran into some browser incompatibility issues (Safari) in using `flex-grow`, and I had to rewrite my code using `inline-blocks` and math to calculate the widths in percentages, it wasn’t a nice experience.
  
- Grid is by far the most intuitive approach for creating grid-based layouts (it better be!) but browser support is not wide at the moment.
+  Grid is by far the most intuitive approach for creating grid-based layouts (it better be!) but browser support is not wide at the moment.
 
- **References**
+  **References**
   * https://philipwalton.github.io/solved-by-flexbox/
   * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   * https://css-tricks.com/snippets/css/complete-guide-grid/
   
 * **How is responsive design different from adaptive design?**
 
-  Both responsive and adaptive design attempt to optimize the user experience across different devices, adjusting for different viewport sizes, resolutions, usage contexts, control mechanisms, and so on.
+   Both responsive and adaptive design attempt to optimize the user experience across different devices, adjusting for different viewport sizes, resolutions, usage contexts, control mechanisms, and so on.
 
- Responsive design works on the principle of flexibility — a single fluid website that can look good on any device. Responsive websites use media queries, flexible grids, and responsive images to create a user experience that flexes and changes based on a multitude of factors. Like a single ball growing or shrinking to fit through several different hoops.
+  Responsive design works on the principle of flexibility — a single fluid website that can look good on any device. Responsive websites use media queries, flexible grids, and responsive images to create a user experience that flexes and changes based on a multitude of factors. Like a single ball growing or shrinking to fit through several different hoops.
 
- Adaptive design is more like the modern definition of progressive enhancement. Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. The site detects the type of device used, and delivers the pre-set layout for that device. Instead of a single ball going through several different-sized hoops, you’d have several different balls to use depending on the hoop size.
+  Adaptive design is more like the modern definition of progressive enhancement. Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. The site detects the type of device used, and delivers the pre-set layout for that device. Instead of a single ball going through several different-sized hoops, you’d have several different balls to use depending on the hoop size.
  
- **References**
+  **References**
   * https://developer.mozilla.org/en-US/docs/Archive/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design
   * http://mediumwell.com/responsive-adaptive-mobile/
   * https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
   
 * **Have you ever worked with retina graphics? If so, when and what techniques did you use?**
 
- I tend to use higher resolution graphics (twice the display size) to handle retina display. The better way would be to use a media query like @media only screen and (min-device-pixel-ratio: 2) { ... } and change the background-image.
+  I tend to use higher resolution graphics (twice the display size) to handle retina display. The better way would be to use a media query like @media only screen and (min-device-pixel-ratio: 2) { ... } and change the background-image.
  
- For icons, I would also opt to use svgs and icon fonts where possible, as they render very crisply regardless of resolution.
+  For icons, I would also opt to use svgs and icon fonts where possible, as they render very crisply regardless of resolution.
  
- Another method would be to use JavaScript to replace the <img> src attribute with higher resolution versions after checking the window.devicePixelRatio value.
- **References**
+  Another method would be to use JavaScript to replace the <img> src attribute with higher resolution versions after checking the window.devicePixelRatio value.
+  
+  **References**
   * https://www.sitepoint.com/css-techniques-for-retina-displays/
   
 * **Is there any reason you’d want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?**
 
- `translate()` is a value of CSS `transform`. Changing `transform` or `opacity` does not trigger browser `reflow` or repaint, only compositions, whereas changing the absolute positioning triggers `reflow`. `transform` causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. Hence translate() is more efficient and will result in shorter paint times for smoother animations.
+  `translate()` is a value of CSS `transform`. Changing `transform` or `opacity` does not trigger browser `reflow` or repaint, only compositions, whereas changing the absolute positioning triggers `reflow`. `transform` causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. Hence translate() is more efficient and will result in shorter paint times for smoother animations.
 
- When using `translate()`, the element still takes up its original space (sort of like `position: relative`), unlike in changing the absolute positioning.
+  When using `translate()`, the element still takes up its original space (sort of like `position: relative`), unlike in changing the absolute positioning.
 
- **References**
+  **References**
   * https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
 
 
