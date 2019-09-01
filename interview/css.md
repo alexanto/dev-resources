@@ -285,3 +285,46 @@ The box model has the following rules:
  * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
  * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
  
+* **What’s the difference between a `relative`, `fixed`, `absolute` and `static`-ally positioned element?**
+
+ A positioned element is an element whose computed `position` property is either `relative`, `absolute`, `fixed` or `sticky`.
+ 
+ * `static` - The default position; the element will flow into the page as it normally would. The top, right, bottom, left and z-index properties do not apply.
+ * `relative` - The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).
+ * `absolute` - The element is removed from the flow of the page and positioned at a specified position relative to its closest positioned ancestor if any, or otherwise relative to the initial containing block. Absolutely positioned boxes can have margins, and they do not collapse with any other margins. These elements do not affect the position of other elements.
+ * `fixed` - The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn't move when scrolled.
+ * `sticky` - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
+ 
+ **References**
+ * https://developer.mozilla.org/en/docs/Web/CSS/position
+ 
+* **The ‘C’ in CSS stands for Cascading. How is priority determined in assigning styles (a few examples)? How can you use this system to your advantage?**
+
+ Browser determines what styles to show on an element depending on the specificity of CSS rules. We assume that the browser has already determined the rules that match a particular element. Among the matching rules, the specificity, four comma-separate values, `a, b, c, d` are calculated for each rule based on the following:
+ 
+ 1. `a` is whether inline styles are being used. If the property declaration is an inline style on the element, `a` is 1, else 0.
+ 2. `b` is the number of ID selectors.
+ 3. `c` is the number of classes, attributes and pseudo-classes selectors.
+ 4. `d` is the number of tags and pseudo-elements selectors.
+ 
+ 
+ The resulting specificity is not a score, but a matrix of values that can be compared column by column. When comparing selectors to determine which has the highest specificity, look from left to right, and compare the highest value in each column. So a value in column `b` will override values in columns `c` and d, no matter what they might be. As such, specificity of `0,1,0,0` would be greater than one of `0,0,10,10`.
+ 
+ In the cases of equal specificity: the latest rule is the one that counts. If you have written the same rule into your style sheet (regardless of internal or external) twice, then the lower rule in your style sheet is closer to the element to be styled, it is deemed to be more specific and therefore will be applied.
+ 
+ I would write CSS rules with low specificity so that they can be easily overridden if necessary. When writing CSS UI component library code, it is important that they have low specificities so that users of the library can override them without using too complicated CSS rules just for the sake of increasing specificity or resorting to `!important`.
+ 
+ **References**
+ * https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+ * https://www.sitepoint.com/web-foundations/specificity/
+ 
+* **What existing CSS frameworks have you used locally, or in production? How would you change/improve them?**
+
+ * **Bootstrap** — Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely-used.
+ * **Semantic UI** — Source code structure makes theme customization is extremely hard to understand. Painful to customize with unconventional theming system. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
+ * **Bulma** — A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.
+
+
+
+ 
+ 
