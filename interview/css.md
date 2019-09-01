@@ -76,19 +76,19 @@
   
  * **What are the various clearing techniques and which is appropriate for what context?**
  
- * Empty `div` method - `<div style="clear:both;"></div>`.
- * Clearfix method — Refer to the `.clearfix` class above.
- * `overflow: auto` or `overflow: hidden` method - Parent will establish a new block formatting context and expand to contains its floated children.
+  * Empty `div` method - `<div style="clear:both;"></div>`.
+  * Clearfix method — Refer to the `.clearfix` class above.
+  * `overflow: auto` or `overflow: hidden` method - Parent will establish a new block formatting context and expand to contains its floated children.
  
- * In large projects, I would write a utility .clearfix class and use them in places where I need it. overflow: hiddenmight clip children if the children is taller than the parent and is not very ideal.
+  * In large projects, I would write a utility .clearfix class and use them in places where I need it. overflow: hiddenmight clip children if the children is taller than the parent and is not very ideal.
  
 * **Explain CSS sprites, and how you would implement them on a page or site.**
  
  CSS sprites combine multiple images into one single larger image. It is commonly used technique for icons (Gmail uses it). How to implement it:
  
- 1. Use a sprite generator that packs multiple images into one and generate the appropriate CSS for it.
- 2. Each image would have a corresponding CSS class with background-image, background-position and background-size properties defined.
- 3. To use that image, add the corresponding class to your element.
+  1. Use a sprite generator that packs multiple images into one and generate the appropriate CSS for it.
+  2. Each image would have a corresponding CSS class with background-image, background-position and background-size properties defined.
+  3. To use that image, add the corresponding class to your element.
  
  **Advantages:**
  
