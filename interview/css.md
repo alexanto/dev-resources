@@ -262,28 +262,28 @@
   
  * **What’s the difference between `inline` and `inline-block`?**
  
-  I shall throw in a comparison with block for good measure.
+   I shall throw in a comparison with block for good measure.
  
-  **Block**
-  * Size — Fills up the width of its parent container.
-  * Positioning — Start on a new line and tolerates no HTML elements next to it (except when you add `float`).
-  * Can specify `width` and `height` — Yes.
-  * Can be aligned with `vertical-align` — Yes.
-  * Margins and paddings — All sides respected.
+    **Block**
+    * Size — Fills up the width of its parent container.
+    * Positioning — Start on a new line and tolerates no HTML elements next to it (except when you add `float`).
+    * Can specify `width` and `height` — Yes.
+    * Can be aligned with `vertical-align` — Yes.
+    * Margins and paddings — All sides respected.
 
-  **Inline-Block**
-  * Size — Depends on content.
-  * Positioning — Flows along with other content and allows other elements beside.
-  * Can specify `width` and `height` — Yes.
-  * Can be aligned with `vertical-align` — Yes.
-  * Margins and paddings — All sides respected.
+    **Inline-Block**
+    * Size — Depends on content.
+    * Positioning — Flows along with other content and allows other elements beside.
+    * Can specify `width` and `height` — Yes.
+    * Can be aligned with `vertical-align` — Yes.
+    * Margins and paddings — All sides respected.
 
-   **Inline**
-   * Size — Depends on content.
-   * Positioning — Flows along with other content and allows other elements beside.
-   * Can specify `width` and `height` — No. Will ignore if being set.
-   * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
-  * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
+     **Inline**
+     * Size — Depends on content.
+     * Positioning — Flows along with other content and allows other elements beside.
+     * Can specify `width` and `height` — No. Will ignore if being set.
+     * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
+    * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
 
 * **What’s the difference between a `relative`, `fixed`, `absolute` and `static`-ally positioned element?**
 
