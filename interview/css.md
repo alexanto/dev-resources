@@ -176,46 +176,46 @@
  
 * **What are some of the “gotchas” for writing efficient CSS?**
 
- Firstly, understand that browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector. Hence avoid key selectors that are tag and universal selectors. They match a large numbers of elements and browsers will have to do more work in determining if the parents do match.
+  Firstly, understand that browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector. Hence avoid key selectors that are tag and universal selectors. They match a large numbers of elements and browsers will have to do more work in determining if the parents do match.
  
- BEM (Block Element Modifier) methodology recommends that everything has a single class, and, where you need hierarchy, that gets baked into the name of the class as well, this naturally makes the selector efficient and easy to override.
+  BEM (Block Element Modifier) methodology recommends that everything has a single class, and, where you need hierarchy, that gets baked into the name of the class as well, this naturally makes the selector efficient and easy to override.
  
- Be aware of which CSS properties trigger reflow, repaint and compositing. Avoid writing styles that change the layout (trigger reflow) where possible.
+  Be aware of which CSS properties trigger reflow, repaint and compositing. Avoid writing styles that change the layout (trigger reflow) where possible.
  
- **References**
- * https://developers.google.com/web/fundamentals/performance/rendering/
- * https://csstriggers.com/
+  **References**
+   * https://developers.google.com/web/fundamentals/performance/rendering/
+   * https://csstriggers.com/
  
 * **What are the advantages/disadvantages of using CSS preprocessors?**
 
- **Advantages:**
-  * CSS is made more maintainable.
-  * Easy to write nested selectors.
-  * Variables for consistent theming. Can share theme files across different projects.
-  * Mixins to generate repeated CSS.
-  * Splitting your code into multiple files. CSS files can be split up too but doing so will require a HTTP request to download each CSS file.
+  **Advantages:**
+   * CSS is made more maintainable.
+   * Easy to write nested selectors.
+   * Variables for consistent theming. Can share theme files across different projects.
+   * Mixins to generate repeated CSS.
+   * Splitting your code into multiple files. CSS files can be split up too but doing so will require a HTTP request to download each CSS file.
  
- **Disadvantages:**
-  * Requires tools for preprocessing. Re-compilation time can be slow.
+  **Disadvantages:**
+   * Requires tools for preprocessing. Re-compilation time can be slow.
  
 * **Describe what you like and dislike about the CSS preprocessors you have used.**
 
- **Likes:**
-  * Mostly the advantages mentioned above.
-  * Less is written in JavaScript, which plays well with Node.
+  **Likes:**
+   * Mostly the advantages mentioned above.
+   * Less is written in JavaScript, which plays well with Node.
  
- **Dislikes:**
-  * I use Sass via node-sass, which is a binding for LibSass, which is written in C++. Have to frequently recompile it when switching between node versions.
- * In Less, variable names are prefixed with @, which can be confused with native CSS keywords like @media, @import and @font-face rule.
- 
+  **Dislikes:**
+   * I use Sass via node-sass, which is a binding for LibSass, which is written in C++. Have to frequently recompile it when switching between node versions.
+  * In Less, variable names are prefixed with @, which can be confused with native CSS keywords like @media, @import and @font-face rule.
+
 * **How would you implement a web design comp that uses non-standard fonts?**
   Use `@font-face` and define `font-family` for different font-weights.
   
  * **Explain how a browser determines what elements match a CSS selector.**
  
-  This part is related to the above about writing efficient CSS. Browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector.
+   This part is related to the above about writing efficient CSS. Browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector.
   
-  For example with this selector p span, browsers firstly find all the `<span>` elements, and traverse up its parent all the way up to the root to find the `<p>` element. For a particular <span>, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
+   For example with this selector p span, browsers firstly find all the `<span>` elements, and traverse up its parent all the way up to the root to find the `<p>` element. For a particular <span>, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
  
  **References**
  * https://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left
@@ -232,59 +232,59 @@
  
 * **Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.**
 
- The CSS box model is responsible for calculating:
- * How much space a block-level element takes up.
- * Whether or not borders and/or margins overlap, or collapse.
- * A box’s dimensions.
- 
-The box model has the following rules:
+  The CSS box model is responsible for calculating:
+  * How much space a block-level element takes up.
+  * Whether or not borders and/or margins overlap, or collapse.
+  * A box’s dimensions.
 
- * The dimensions of a block element are calculated by `width`, `height`, `padding`, `borders`, and `margins`.
- * If no height is specified, a `block` element will be as high as the content it contains, plus padding (unless there are floats, for which see below).
- * If no width is specified, a non-floated `block` element will expand to fit the width of its parent minus padding.
- * The `height` of an element is calculated by the content's height.
- * The `width` of an element is calculated by the content's width.
- * By default, `padding`s and `border`s are not part of the `width` and `height` of an element.
+ The box model has the following rules:
+
+  * The dimensions of a block element are calculated by `width`, `height`, `padding`, `borders`, and `margins`.
+  * If no height is specified, a `block` element will be as high as the content it contains, plus padding (unless there are floats, for which see below).
+  * If no width is specified, a non-floated `block` element will expand to fit the width of its parent minus padding.
+  * The `height` of an element is calculated by the content's height.
+  * The `width` of an element is calculated by the content's width.
+  * By default, `padding`s and `border`s are not part of the `width` and `height` of an element.
  
- **References**
- * https://www.smashingmagazine.com/2010/06/the-principles-of-cross-browser-css-coding/#understand-the-css-box-model
+  **References**
+  * https://www.smashingmagazine.com/2010/06/the-principles-of-cross-browser-css-coding/#understand-the-css-box-model
  
 * **What does * { box-sizing: border-box; } do? What are its advantages?**
 
- * By default, elements have `box-sizing: content-box` applied, and only the content size is being accounted for.
+  * By default, elements have `box-sizing: content-box` applied, and only the content size is being accounted for.
   * `box-sizing: border-box` changes how the `width` and `height` of elements are being calculated, `border` and `padding` are also being included in the calculation.
- * The `height` of an element is now calculated by the content's `height` + vertical `padding` + vertical `border` width.
- * The `width` of an element is now calculated by the content's width + horizontal `padding` + horizontal `borderwidth`.
+  * The `height` of an element is now calculated by the content's `height` + vertical `padding` + vertical `border` width.
+  * The `width` of an element is now calculated by the content's width + horizontal `padding` + horizontal `borderwidth`.
  
 * **List as many values for the `display` property that you can remember.**
  
-  * `none`, `block`, `inline`, `inline-block`, `table`, `table-row`, `table-cell`, `list-item`.
+   * `none`, `block`, `inline`, `inline-block`, `table`, `table-row`, `table-cell`, `list-item`.
   
  * **What’s the difference between `inline` and `inline-block`?**
  
- I shall throw in a comparison with block for good measure.
+  I shall throw in a comparison with block for good measure.
  
- **Block**
- * Size — Fills up the width of its parent container.
- * Positioning — Start on a new line and tolerates no HTML elements next to it (except when you add `float`).
- * Can specify `width` and `height` — Yes.
- * Can be aligned with `vertical-align` — Yes.
- * Margins and paddings — All sides respected.
- 
- **Inline-Block**
- * Size — Depends on content.
- * Positioning — Flows along with other content and allows other elements beside.
- * Can specify `width` and `height` — Yes.
- * Can be aligned with `vertical-align` — Yes.
- * Margins and paddings — All sides respected.
- 
-  **Inline**
+  **Block**
+  * Size — Fills up the width of its parent container.
+  * Positioning — Start on a new line and tolerates no HTML elements next to it (except when you add `float`).
+  * Can specify `width` and `height` — Yes.
+  * Can be aligned with `vertical-align` — Yes.
+  * Margins and paddings — All sides respected.
+
+  **Inline-Block**
   * Size — Depends on content.
   * Positioning — Flows along with other content and allows other elements beside.
-  * Can specify `width` and `height` — No. Will ignore if being set.
-  * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
- * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
- 
+  * Can specify `width` and `height` — Yes.
+  * Can be aligned with `vertical-align` — Yes.
+  * Margins and paddings — All sides respected.
+
+   **Inline**
+   * Size — Depends on content.
+   * Positioning — Flows along with other content and allows other elements beside.
+   * Can specify `width` and `height` — No. Will ignore if being set.
+   * Can be aligned with `vertical-align` — Only horizontal sides respected. Vertical sides, if specified, do not affect layout. Vertical space it takes up depends on `line-height`, even though the `border` and `padding` appear visually around the content.
+  * Margins and paddings — Becomes like a `block` element where you can set vertical margins and paddings.
+
 * **What’s the difference between a `relative`, `fixed`, `absolute` and `static`-ally positioned element?**
 
   A positioned element is an element whose computed `position` property is either `relative`, `absolute`, `fixed` or `sticky`.
