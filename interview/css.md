@@ -99,25 +99,25 @@
 
   CSS image replacement is a technique of replacing a text element (usually a header tag like an `<h1>`) with an image (often a logo). It has its origins in the time before web fonts and SVG. For years, web developers battled against browser inconsistencies to craft image replacement techniques that struck the right balance between design and accessibility.
  
- It’s not really relevant these days. Check out this link for all the available techniques.
+  It’s not really relevant these days. Check out this link for all the available techniques.
  
-  **References**
-  * https://css-tricks.com/the-image-replacement-museum/
+   **References**
+   * https://css-tricks.com/the-image-replacement-museum/
  
 * **How would you approach fixing browser-specific styling issues?**
 
-  * After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
-  * Use libraries like Bootstrap that already handles these styling issues for you.
-  * Use autoprefixer to automatically add vendor prefixes to your code.
-  * Use Reset CSS or Normalize.css.
+   * After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
+   * Use libraries like Bootstrap that already handles these styling issues for you.
+   * Use autoprefixer to automatically add vendor prefixes to your code.
+   * Use Reset CSS or Normalize.css.
  
 * **How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?**
  
-  * Graceful degradation — The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
-  * Progressive enhancement — The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
-  * Use caniuse.com to check for feature support.
-  * Autoprefixer for automatic vendor prefix insertion.
-  * Feature detection using Modernizr.
+   * Graceful degradation — The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
+   * Progressive enhancement — The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
+   * Use caniuse.com to check for feature support.
+   * Autoprefixer for automatic vendor prefix insertion.
+   * Feature detection using Modernizr.
  
 * **What are the different ways to visually hide content (and make it available only for screen readers)?**
  
@@ -189,23 +189,23 @@
 * **What are the advantages/disadvantages of using CSS preprocessors?**
 
  **Advantages:**
- * CSS is made more maintainable.
- * Easy to write nested selectors.
- * Variables for consistent theming. Can share theme files across different projects.
- * Mixins to generate repeated CSS.
- * Splitting your code into multiple files. CSS files can be split up too but doing so will require a HTTP request to download each CSS file.
+  * CSS is made more maintainable.
+  * Easy to write nested selectors.
+  * Variables for consistent theming. Can share theme files across different projects.
+  * Mixins to generate repeated CSS.
+  * Splitting your code into multiple files. CSS files can be split up too but doing so will require a HTTP request to download each CSS file.
  
  **Disadvantages:**
- * Requires tools for preprocessing. Re-compilation time can be slow.
+  * Requires tools for preprocessing. Re-compilation time can be slow.
  
 * **Describe what you like and dislike about the CSS preprocessors you have used.**
 
  **Likes:**
- * Mostly the advantages mentioned above.
- * Less is written in JavaScript, which plays well with Node.
+  * Mostly the advantages mentioned above.
+  * Less is written in JavaScript, which plays well with Node.
  
  **Dislikes:**
- * I use Sass via node-sass, which is a binding for LibSass, which is written in C++. Have to frequently recompile it when switching between node versions.
+  * I use Sass via node-sass, which is a binding for LibSass, which is written in C++. Have to frequently recompile it when switching between node versions.
  * In Less, variable names are prefixed with @, which can be confused with native CSS keywords like @media, @import and @font-face rule.
  
 * **How would you implement a web design comp that uses non-standard fonts?**
