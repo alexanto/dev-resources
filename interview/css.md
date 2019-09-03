@@ -421,6 +421,13 @@
   **Good to hear**
   * They allow us to write more maintainable and scalable CSS
   * Some disadvantages of using CSS preprocessors (setup, re-compilation time can be slow etc.)
+  
+ * **Can you name the four types of @media properties?**
+  
+   * `all`, which applies to all media type devices
+   * `print`, which only applies to printers
+   * `screen`, which only applies to screens (desktops, tablets, mobile etc.)
+   * `speech`, which only applies to screenreaders
 
 
  
