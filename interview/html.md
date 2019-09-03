@@ -172,3 +172,11 @@
   * Web crawlers use alt tags to understand image content, so they are considered important for Search Engine Optimization (SEO).
 
   * Put the . at the end of alt tag to improve accessibility.
+  
+* **Can a web page contain multiple `<header>` elements? What about `<footer>` elements?**
+  
+    Yes to both. The W3 documents state that the tags represent the header(`<header>`) and footer(`<footer>`) areas of their nearest ancestor "section". So not only can the page `<body>` contain a header and a footer, but so can every `<article>` and `<section>` element.
+
+  **Good to hear**
+    * W3 recommends having as many as you want, but only 1 of each for each "section" of your page, i.e. body, section etc.
+W3 recommends having as many as you want, but only 1 of each for each "section" of your page, i.e. body, section etc.
