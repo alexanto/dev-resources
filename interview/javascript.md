@@ -576,20 +576,6 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     * CORS behavior is not an error,  it’s a security mechanism to protect users.
     * CORS is designed to prevent a malicious website that a user may unintentionally visit from making a request to a legitimate website to read their personal data or perform actions against their will.
     
-* **Describe the layout of the CSS Box Model and briefly describe each component.**
-    
-    `Content`: The inner-most part of the box filled with content, such as text, an image, or video player. It has the dimensions `content-box width` and `content-box height`.
-
-    `Padding`: The transparent area surrounding the content. It has dimensions `padding-box width` and `padding-box height`.
-
-    `Border`: The area surrounding the padding (if any) and content. It has dimensions `border-box width` and `border-box height`.
-
-    `Margin`: The transparent outer-most layer that surrounds the border. It separates the element from other elements in the DOM. It has dimensions `margin-box width` and `margin-box height`.
-    
-    **Good to hear**
-    * This is a very common question asked during front-end interviews and while it may seem easy, it is critical you know it well!
-    * Shows a solid understanding of spacing and the DOM
-    
 * **What is the DOM?**
 
   The DOM (Document Object Model) is a cross-platform API that treats HTML and XML documents as a tree structure consisting of nodes. These nodes (such as elements and text nodes) are objects that can be programmatically manipulated and any visible changes made to them are reflected live in the document. In a browser, this API is available to JavaScript where DOM nodes can be manipulated to change their styles, contents, placement in the document, or interacted with through event listeners.
