@@ -1840,3 +1840,316 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     }
     ```
     
+* **What is the difference between `undefined` and `not defined` in JavaScript?**
+
+    In JavaScript, if you try to use a variable that doesn't exist and has not been declared, then JavaScript will throw an error `var name is not defined` and script will stop executing. However, if you use `typeof undeclared_variable`, then it will return `undefined`.
+
+    Before getting further into this, let's first understand the difference between declaration and definition.
+
+    Let's say `var x` is a declaration because you have not defined what value it holds yet, but you have declared its existence and the need for memory allocation.
+    
+    ```
+    var x; // declaring x
+    console.log(x); //output: undefined 
+    ```
+    
+    Here `var x = 1` is both a declaration and definition (also we can say we are doing an initialisation). In the example above, the declaration and assignment of value happen inline for variable x. In JavaScript, every variable or function declaration you bring to the top of its current scope is called `hoisting`.
+
+    The assignment happens in order, so when we try to access a variable that is declared but not defined yet, we will get the result `undefined`.
+    
+    ```
+    var x; // Declaration
+    if(typeof x === 'undefined') // Will return true
+    ```
+    
+    If a variable that is neither declared nor defined, when we try to reference such a variable we'd get the result `not defined`
+    
+    ```
+    console.log(y);  // Output: ReferenceError: y is not defined
+    ```
+    
+* **What will be the output of the code below?**
+
+    ```
+    var y = 1;
+    if (function f(){}) {
+      y += typeof f;
+    }
+    console.log(y);
+    ```
+    
+    The output would be `1undefined`. The if condition statement evaluates using `eval`, so `eval(function f(){})` returns`function f(){}` (which is true). Therefore, inside the `if` statement, executing `typeof f` returns `undefined` because the `if` statement code executes at run time, and the statement inside the `if` condition is evaluated during run time.
+    
+    ```
+    var k = 1;
+    if (1) {
+      eval(function foo(){});
+      k += typeof foo;
+    }
+    console.log(k); 
+    ```
+    
+    The code above will also output `1undefined`
+    
+    ```
+    var k = 1;
+    if (1) {
+      function foo(){};
+      k += typeof foo;
+    }
+    console.log(k); // output 1function
+    ```
+    
+* **What is the drawback of creating true private methods in JavaScript?**
+    
+    One of the drawbacks of creating true private methods in JavaScript is that they are very memory-inefficient, as a new copy of the method would be created for each instance.
+    
+    ```
+    var Employee = function (name, company, salary) {
+      this.name = name || "";       //Public attribute default value is null
+      this.company = company || ""; //Public attribute default value is null
+      this.salary = salary || 5000; //Public attribute default value is null
+
+      // Private method
+      var increaseSalary = function () {
+          this.salary = this.salary + 1000;
+      };
+
+      // Public method
+      this.dispalyIncreasedSalary = function() {
+          increaseSlary();
+          console.log(this.salary);
+      };
+    };
+
+    // Create Employee class object
+    var emp1 = new Employee("John","Pluto",3000);
+    // Create Employee class object
+    var emp2 = new Employee("Merry","Pluto",2000);
+    // Create Employee class object
+    var emp3 = new Employee("Ren","Pluto",2500);
+    ```
+    
+    Here each instance variable `emp1`, `emp2`, `emp3` has its own copy of the `increaseSalary` private method.
+    
+    So, as a recommendation, don’t use private methods unless it’s necessary.
+    
+* **What will be the output of the following code?**
+    ```
+    var output = (function(x){
+      delete x;
+      return x;
+    })(0);
+
+    console.log(output);
+    ```
+    
+    The output would be `0`. The `delete` operator is used to delete properties from an object. Here `x` is not an object but a local variable. `delete` operators don't affect local variables.
+    
+* **What will be the output of the following code?**
+    
+    ```
+    var x = 1;
+    var output = (function(){
+     delete x;
+      return x;
+    })();
+  
+    console.log(output);
+    ```
+    
+    
+    The output would be `1`. The `delete` operator is used to delete the property of an object. Here `x` is not an object, but rather it's the global variable of type `number`.
+    
+* **What will be the output of the code below?**
+
+    ```
+    var x = { foo : 1};
+    var output = (function(){
+      delete x.foo;
+      return x.foo;
+   })();
+  
+  console.log(output);
+  ```
+  
+  The output would be `undefined`. The `delete` operator is used to delete the property of an object. Here, `x` is an object which has the property `foo`, and as it is a self-invoking function, we will delete the `foo` property from object `x`. After doing so, when we try to reference a deleted property `foo`, the result is `undefined`.
+  
+* **What will be the output of the code below?**
+
+    ```
+    var Employee = {
+      company: 'xyz'
+    }
+    var emp1 = Object.create(Employee);
+    delete emp1.company
+    console.log(emp1.company);
+    ```
+    
+    The output would be `xyz`. Here, `emp1` object has `company` as its prototype property. The `delete` operator doesn't delete prototype property.
+
+  `emp1` object doesn't have company as its own property. You can test it `console.log(emp1.hasOwnProperty('company')); //output : false`. However, we can delete the `company` property directly from the `Employee` object using `delete Employee.company`. Or, we can also delete the `emp1` object using the `__proto__` property `delete emp1.__proto__.company`.
+  
+* **What will be the output of the code below?**
+
+    ```
+    var trees = ["xyz","xxxx","test","ryan","apple"];
+    delete trees[3];
+  
+    console.log(trees.length);
+    ```
+    
+    The output would be `5`. When we use the `delete` operator to delete an array element, the array length is not affected from this. This holds even if you deleted all elements of an array using the `delete` operator.
+
+    In other words, when the `delete` operator removes an array element, that deleted element is not longer present in array. In place of value at deleted index `undefined x 1` in chrome and `undefined` is placed at the index. If you do `console.log(trees)` output `["xyz", "xxxx", "test", undefined × 1, "apple"]` in Chrome and in Firefox `["xyz", "xxxx", "test", undefined, "apple"]`.
+    
+* **What is the difference between the function declarations below?**
+
+    ```
+    var foo = function(){ 
+    // Some code
+    }; 
+    ```
+    
+    ```
+    function bar(){ 
+    // Some code
+    }; 
+    ```
+    
+    The main difference is the function `foo` is defined at `run-time` whereas function `bar` is defined at parse time. To understand this in better way, let's take a look at the code below:
+    
+    ```
+    Run-Time function declaration 
+    <script>
+    foo(); // Calling foo function here will give an Error
+      var foo = function(){ 
+        console.log("Hi I am inside Foo");
+     }; 
+     </script>
+    ```
+    
+    ```
+    <script>
+    Parse-Time function declaration 
+    bar(); // Calling foo function will not give an Error
+     function bar(){ 
+      console.log("Hi I am inside Foo");
+     }; 
+    </script>
+    ```
+    
+    Another advantage of this first-one way of declaration is that you can declare functions based on certain conditions. For example:
+
+    ```
+    <script>
+    if(testCondition) {// If testCondition is true then 
+       var foo = function(){ 
+        console.log("inside Foo with testCondition True value");
+       }; 
+     }else{
+       var foo = function(){ 
+        console.log("inside Foo with testCondition false value");
+       }; 
+    }
+    </script>
+    ```
+    
+    However, if you try to run similar code using the format below, you'd get an error:
+    
+    ```
+    <script>
+    if(testCondition) {// If testCondition is true then 
+       function foo(){ 
+        console.log("inside Foo with testCondition True value");
+       }; 
+     }else{
+       function foo(){ 
+        console.log("inside Foo with testCondition false value");
+       }; 
+    }
+    </script>
+    ```
+    
+* **What is function hoisting in JavaScript?**
+
+    Function Expression
+    
+    ```
+    var foo = function foo(){ 
+      return 12; 
+    }; 
+    ```
+    
+    In JavaScript, variable and functions are `hoisted`. Let's take function `hoisting` first. Basically, the JavaScript interpreter looks ahead to find all variable declarations and then hoists them to the top of the function where they're declared. For example:
+    
+    ```
+    foo(); // Here foo is still undefined 
+    var foo = function foo(){ 
+      return 12; 
+    }; 
+    ```
+    
+    Behind the scene of the code above looks like this:
+    
+    ```
+    var foo = undefined;
+    foo(); // Here foo is undefined 
+ 	   foo = function foo(){
+ 	      / Some code stuff
+      }
+    ```
+    
+    ```
+    var foo = undefined;
+ 	 foo = function foo(){
+ 	     / Some code stuff
+    }
+    foo(); // Now foo is defined here
+    ```
+
+* **What is the instanceof operator in JavaScript? What would be the output of the code below?**
+
+    ```
+    function foo(){ 
+      return foo; 
+    }
+    new foo() instanceof foo;
+    ```
+    
+    Here, `instanceof` operator checks the current object and returns true if the object is of the specified type.
+
+    For Example:
+    
+    ```
+    var dog = new Animal();
+    dog instanceof Animal // Output : true
+    ```
+    
+    Here `dog instanceof Animal` is true since `dog` inherits from `Animal.prototype`.
+    
+    ```
+    var name = new String("xyz");
+    name instanceof String // Output : true
+    ```
+      
+    Here  `name instanceof String` is true since `dog` inherits from `String.prototype`. Now let's understand the code below:
+        
+    ```
+    function foo(){ 
+      return foo; 
+    }
+    new foo() instanceof foo;
+    ```
+    
+    Here function `foo` is returning `foo`, which again points to function `foo`.
+    
+    ```
+    function foo(){
+      return foo; 
+    }
+    var bar = new foo();
+    // here bar is pointer to function foo(){return foo}.
+    ```
+    
+    So the `new foo() instanceof foo` return `false`;
