@@ -1460,7 +1460,7 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     * Throws an error on invalid usage of `delete`.
     * Prohibits some syntax likely to be defined in future versions of ECMAScript
     
-* **What is a potential pitfall with using `typeof bar === "object"` to determine if `bar` is an object? How can this pitfall be avoided?
+* **What is a potential pitfall with using `typeof bar === "object"` to determine if `bar` is an object? How can this pitfall be avoided?**
 
     Although `typeof bar === "object"` is a reliable way of checking if bar is an object, the surprising gotcha in JavaScript is that null is also considered an object!
 
@@ -1489,4 +1489,86 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     ES5 makes the array case quite simple, including its own null check:
 
     ```console.log(Array.isArray(bar));```
+    
+* **What will the code below output to the console and why?**
+
+    ```
+    (function(){
+      var a = b = 3;
+    })();
+
+    console.log("a defined? " + (typeof a !== 'undefined'));
+    console.log("b defined? " + (typeof b !== 'undefined'));
+    ```
+    
+    Since both `a` and `b` are defined within the enclosing scope of the function, and since the line they are on begins with the `var` keyword, most JavaScript developers would expect `typeof a` and `typeof b` to both be undefined in the above example.
+
+    However, that is *not* the case. The issue here is that most developers incorrectly understand the statement `var a = b = 3`; to be shorthand for:
+    ```
+    var b = 3;
+    var a = b;
+    ```
+    But in fact, `var a = b = 3`; is actually shorthand for:
+    ```
+    b = 3;
+    var a = b;
+    ```
+    As a result (if you are not using strict mode), the output of the code snippet would be:
+    ```
+    a defined? false
+    b defined? true
+    ```
+    
+    But how can `b` be defined outside of the scope of the enclosing function? Well, since the statement `var a = b = 3`; is shorthand for the statements `b = 3`; and `var a = b`;, `b` ends up being a global variable (since it is not preceded by the `var` keyword) and is therefore still in scope even outside of the enclosing function.
+
+    Note that, in strict mode (i.e., with `use strict`), the statement `var a = b = 3`; will generate a runtime error of    `ReferenceError: b is not defined`, thereby avoiding any headfakes/bugs that might othewise result. (Yet another prime example of why you should use `use strict` as a matter of course in your code!)
+    
+* **What will the code below output to the console and why?**
+
+    ```
+    var myObject = {
+      foo: "bar",
+      func: function() {
+          var self = this;
+          console.log("outer func:  this.foo = " + this.foo);
+          console.log("outer func:  self.foo = " + self.foo);
+          (function() {
+              console.log("inner func:  this.foo = " + this.foo);
+              console.log("inner func:  self.foo = " + self.foo);
+          }());
+      }
+    };
+    myObject.func();
+    ```
+    
+    The above code will output the following to the console:
+
+    ```
+    outer func:  this.foo = bar
+    outer func:  self.foo = bar
+    inner func:  this.foo = undefined
+    inner func:  self.foo = bar
+    ```
+    
+    In the outer function, both `this` and `self` refer to `myObject` and therefore both can properly reference and access `foo`.
+
+    In the inner function, though, `this` no longer refers to `myObject`. As a result, `this.foo` is undefined in the inner function, whereas the reference to the local variable `self` remains in scope and is accessible there.
+    
+* **What is `NaN`? What is its type? How can you reliably test if a value is equal to `NaN`?**
+
+    The `NaN` property represents a value that is “not a number”. This special value results from an operation that could not be performed either because one of the operands was non-numeric (e.g., `"abc" / 4`), or because the result of the operation is non-numeric.
+
+    While this seems straightforward enough, there are a couple of somewhat surprising characteristics of NaN that can result in hair-pulling bugs if one is not aware of them.
+
+    For one thing, although `NaN` means “not a number”, its type is, believe it or not, `Number`:
+
+    ```console.log(typeof NaN === "number");  // logs "true"```
+    
+    Additionally, `NaN` compared to anything – even itself! – is false:
+
+    ```console.log(NaN === NaN);  // logs "false"```
+    
+    A *semi-reliable* way to test whether a number is equal to NaN is with the built-in function `isNaN()`, but even using `isNaN()` is an imperfect solution.
+
+    A better solution would either be to use `value !== value`, which would only produce true if the value is equal to NaN. Also, ES6 offers a new `Number.isNaN()` function, which is a different and more reliable than the old global `isNaN()` function.  
 
