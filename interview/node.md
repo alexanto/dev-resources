@@ -87,3 +87,7 @@
     5. The execution did not stop after the catch, but before the exception was handled, it continued, and a new, incremented value (2) is returned.
     6. The value is printed to the standard output.
     7. This line won't run, as there was no exception.
+    
+* **What is REPL? What purpose it is used for?**
+
+    REPL stands for (READ, EVAL, PRINT, LOOP). Node js comes with bundled REPL environment. This allows for the easy creation of CLI (Command Line Interface) applications.
