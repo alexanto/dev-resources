@@ -961,5 +961,220 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     * `Array`, `Date` and `function` are all of type `object`
     * Functions in JavaScript are objects with the capability of being callable
     
+* **What are the differences between var, let, const and no keyword statements?**
+
+    **No keyword**
+    
+    When no keyword exists before a variable assignment, it is either assigning a global variable if one does not exist, or reassigns an already declared variable. In non-strict mode, if the variable has not yet been declared, it will assign the variable as a property of the global object (`window` in browsers). In strict mode, it will throw an error to prevent unwanted global variables from being created.
+
+    **var**
+    
+    `var` was the default statement to declare a variable until ES2015. It creates a function-scoped variable that can be reassigned and redeclared. However, due to its lack of block scoping, it can cause issues if the variable is being reused in a loop that contains an asynchronous callback because the variable will continue to exist outside of the block scope.
+
+    Below, by the time the the `setTimeout` callback executes, the loop has already finished and the `i` variable is `10`, so all ten callbacks reference the same variable available in the function scope.
+    
+    ```
+    for (var i = 0; i < 10; i++) {
+      setTimeout(() => {
+        // logs `10` ten times
+        console.log(i)
+      })
+    }
+
+    /* Solutions with `var` */
+    for (var i = 0; i < 10; i++) {
+      // Passed as an argument will use the value as-is in
+      // that point in time
+      setTimeout(console.log, 0, i)
+    }
+
+    for (var i = 0; i < 10; i++) {
+      // Create a new function scope that will use the value
+      // as-is in that point in time
+      ;(i => {
+        setTimeout(() => {
+          console.log(i)
+        })
+      })(i)
+    }
+    ```
+    
+    **let**
+    
+    `let` was introduced in ES2015 and is the new preferred way to declare variables that will be reassigned later. Trying to redeclare a variable again will throw an error. It is block-scoped so that using it in a loop will keep it scoped to the iteration.
+    
+    ```
+    for (let i = 0; i < 10; i++) {
+      setTimeout(() => {
+        // logs 0, 1, 2, 3, ...
+        console.log(i)
+      })
+    }
+    ```
+    
+    **const**
+    
+    `const` was introduced in ES2015 and is the new preferred default way to declare all variables if they won't be reassigned later, even for objects that will be mutated (as long as the reference to the object does not change). It is block-scoped and cannot be reassigned.
+    
+   ```
+   const myObject = {}
+   myObject.prop = "hello!" // No error
+   myObject = "hello" // Error
+   ```
+   
+    **Good to hear**
+    * All declarations are hoisted to the top of their scope.
+
+    * However, with `let` and `const` there is a concept called the temporal dead zone (TDZ). While the declarations are still hoisted, there is a period between entering scope and being declared where they cannot be accessed.
+
+    * Show a common issue with using `var` and how `let` can solve it, as well as a solution that keeps `var`.
+
+    * `var` should be avoided whenever possible and prefer `const` as the default declaration statement for all variables unless they will be reassigned later, then use `let` if so.
+    
+* **What is a cross-site scripting attack (XSS) and how do you prevent it?**
+
+    XSS refers to client-side code injection where the attacker injects malicious scripts into a legitimate website or web application. This is often achieved when the application does not validate user input and freely injects dynamic HTML content.
+
+    For example, a comment system will be at risk if it does not validate or escape user input. If the comment contains unescaped HTML, the comment can inject a `<script>` tag into the website that other users will execute against their knowledge.
+
+    * The malicious script has access to cookies which are often used to store session tokens. If an attacker can obtain a user’s session cookie, they can impersonate the user.
+    * The script can arbitrarily manipulate the DOM of the page the script is executing in, allowing the attacker to insert pieces of content that appear to be a real part of the website.
+    * The script can use AJAX to send HTTP requests with arbitrary content to arbitrary destinations.
+    
+    **Good to hear**
+    * On the client, using `textContent` instead of `innerHTML` prevents the browser from running the string through the HTML parser which would execute scripts in it.
+
+    * On the server, escaping HTML tags will prevent the browser from parsing the user input as actual HTML and therefore won't execute the script.
+    
+* **What is Big O Notation?**
+
+    Big O notation is used in Computer Science to describe the time complexity of an algorithm. The best algorithms will execute the fastest and have the simplest complexity.
+
+    Algorithms don't always perform the same and may vary based on the data they are supplied. While in some cases they will execute quickly, in other cases they will execute slowly, even with the same number of elements to deal with.
+
+    In these examples, the base time is 1 element = `1ms`.
+    
+    **O(1)**
+    
+    ```arr[arr.length - 1]```
+    * 1000 elements = `1ms`
+    
+    Constant time complexity. No matter how many elements the array has, it will theoretically take (excluding real-world variation) the same amount of time to execute.
+    
+    **O(N)**
+    
+    ```arr.filter(fn)```
+    * 1000 elements = `1000ms`
+    
+    Linear time complexity. The execution time will increase linearly with the number of elements the array has. If the array has 1000 elements and the function takes 1ms to execute, 7000 elements will take 7ms to execute. This is because the function must iterate through all elements of the array before returning a result.
+    
+    **O([1, N])**
+    
+    ```arr.some(fn)```
+    * 1000 elements = `1ms <= x <= 1000ms`
+    
+    The execution time varies depending on the data supplied to the function, it may return very early or very late. The best case here is O(1) and the worst case is O(N).
+    
+    **O(NlogN)**
+    
+    ```arr.sort(fn)```
+    * 1000 elements ~= `10000ms`
+    
+    Browsers usually implement the quicksort algorithm for the `sort()` method and the average time complexity of quicksort is O(NlgN). This is very efficient for large collections.
+    
+    **O(N^2)**
+    
+    ```
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = 0; j < arr.length; j++) {
+        // ...
+      }
+    }
+    ```
+    * 1000 elements = `1000000ms`
+    
+    The execution time rises quadratically with the number of elements. Usually the result of nesting loops.
+    
+    **O(N!)**
+    
+    ```
+    const permutations = arr => {
+      if (arr.length <= 2) return arr.length === 2 ? [arr, [arr[1], arr[0]]] : arr
+      return arr.reduce(
+        (acc, item, i) =>
+          acc.concat(
+            permutations([...arr.slice(0, i), ...arr.slice(i + 1)]).map(val => [
+              item,
+              ...val
+            ])
+          ),
+        []
+      )
+    }
+    ```
+    
+    * 1000 elements = `Infinity` (practically) ms
+    
+    The execution time rises extremely fast with even just 1 addition to the array.
+    
+    **Good to hear**
+    * Be wary of nesting loops as execution time increases exponentially.
+    
+* **How can you avoid callback hells?**
+
+    ```
+    getData(function(a) {
+      getMoreData(a, function(b) {
+        getMoreData(b, function(c) {
+          getMoreData(c, function(d) {
+            getMoreData(d, function(e) {
+              // ...
+            })
+          })
+        })
+      })
+    })
+    ```
+    
+    Refactoring the functions to return promises and using `async/await` is usually the best option. Instead of supplying the functions with callbacks that cause deep nesting, they return a promise that can be `await`ed and will be resolved once the data has arrived, allowing the next line of code to be evaluated in a sync-like fashion.
+
+    The above code can be restructured like so:
+    
+    ```
+    async function asyncAwaitVersion() {
+    const a = await getData()
+    const b = await getMoreData(a)
+    const c = await getMoreData(b)
+    const d = await getMoreData(c)
+    const e = await getMoreData(d)
+    // ...
+    }
+    ```
+    
+    There are lots of ways to solve the issue of callback hells:
+    * Modularization: break callbacks into independent functions
+    * Use a control flow library, like async
+    * Use generators with Promises
+    * Use async/await (from v7 on)
+
+    **Good to hear**
+    * As an efficient JavaScript developer, you have to avoid the constantly growing indentation level, produce clean and readable code and be able to handle complex flows.
+    
+* **What is a closure? Can you give a useful example of one?**
+
+    A closure is a function defined inside another function and has access to its lexical scope even when it is executing outside its lexical scope. The closure has access to variables in three scopes:
+
+    * Variables declared in its own scope
+    * Variables declared in the scope of the parent function
+    * Variables declared in the global scope
+    
+    In JavaScript, all functions are closures because they have access to the outer scope, but most functions don't utilise the usefulness of closures: the persistence of state. Closures are also sometimes called stateful functions because of this.
+
+    In addition, closures are the only way to store private data that can't be accessed from the outside in JavaScript. They are the key to the UMD (Universal Module Definition) pattern, which is frequently used in libraries that only expose a public API but keep the implementation details private, preventing name collisions with other libraries or the user's own code.
+
+    **Good to hear**
+    * Closures are useful because they let you associate data with a function that operates on that data.
+    * A closure can substitute an object with only a single method.
+    * Closures can be used to emulate private properties and methods.
   
 
