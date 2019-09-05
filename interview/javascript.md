@@ -1177,7 +1177,7 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     * A closure can substitute an object with only a single method.
     * Closures can be used to emulate private properties and methods.
   
-* **What is functional programming?
+* **What is functional programming?**
 
     Functional programming is a paradigm in which programs are built in a declarative manner using pure functions that avoid shared state and mutable data. Functions that always return the same value for the same input and don't produce side effects are the pillar of functional programming. Many programmers consider this to be the best approach to software development as it reduces bugs and cognitive load.
 
@@ -1206,5 +1206,148 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     * Earlier, this was done with cookies.
     * The storage limit is far larger (at least 5MB) than with cookies and its faster.
     * The data is never transferred to the server and can only be used if the client specifically asks for it.
+    
+* **Explain the differences between imperative and declarative programming.**
+
+    These two types of programming can roughly be summarized as:
+
+    * Imperative: `how` to achieve something
+    * Declarative: `what` should be achieved
+    
+    A common example of declarative programming is CSS. The developer specifies CSS properties that describe what something should look like rather than how to achieve it. The "how" is abstracted away by the browser.
+
+    On the other hand, imperative programming involves the steps required to achieve something. In JavaScript, the differences can be contrasted like so:
+    
+    **Imperative**
+    
+    ```
+    const numbers = [1, 2, 3, 4, 5]
+    const numbersDoubled = []
+    for (let i = 0; i < numbers.length; i++) {
+      numbersDoubled[i] = numbers[i] * 2
+    }
+    ```
+    
+    We manually loop over the numbers of the array and assign the new index as the number doubled.
+    
+    **Declarative**
+    
+    ```
+    const numbers = [1, 2, 3, 4, 5]
+    const numbersDoubled = numbers.map(n => n * 2)
+    ```
+    
+    We declare that the new array is mapped to a new one where each value is doubled.
+    
+    **Good to hear**
+    * Declarative programming often works with functions and expressions. Imperative programming frequently uses statements and relies on low-level features that cause mutations, while declarative programming has a strong focus on abstraction and purity.
+  * Declarative programming is more terse and easier to process at a glance.
+  
+* **What is memoization?**
+
+    Memoization is the process of caching the output of function calls so that subsequent calls are faster. Calling the function again with the same input will return the cached output without needing to do the calculation again.
+
+    A basic implementation in JavaScript looks like this:
+    
+    ```
+    const memoize = fn => {
+      const cache = new Map()
+      return value => {
+        const cachedResult = cache.get(value)
+        if (cachedResult !== undefined) return cachedResult
+        const result = fn(value)
+        cache.set(value, result)
+        return result
+      }
+    }
+    ```
+    
+    **Good to hear**
+    * The above technique returns a unary function even if the function can take multiple arguments.
+    * The first function call will be slower than usual because of the overhead created by checking if a cached result exists and setting a result before returning the value.
+    * Memoization increases performance on subsequent function calls but still needs to do work on the first call.
+    
+* **Contrast mutable and immutable values, and mutating vs non-mutating methods.**
+
+    The two terms can be contrasted as:
+
+    * Mutable: subject to change
+    * Immutable: cannot change
+    
+    In JavaScript, objects are mutable while primitive values are immutable. This means operations performed on objects can change the original reference in some way, while operations performed on a primitive value cannot change the original value.
+
+    All `String.prototype` methods do not have an effect on the original string and return a new string. On the other hand, while some methods of `Array.prototype` do not mutate the original array reference and produce a fresh array, some cause mutations.
+    
+    ```
+    const myString = "hello!"
+    myString.replace("!", "") // returns a new string, cannot mutate the original value
+
+    const originalArray = [1, 2, 3]
+    originalArray.push(4) // mutates originalArray, now [1, 2, 3, 4]
+    originalArray.concat(4) // returns a new array, does not mutate the original
+    ```
+
+    **Good to hear**
+    * List of mutating and non-mutating array methods
+    
+* **What is the only value not equal to itself in JavaScript?**
+
+    `NaN` (Not-a-Number) is the only value not equal to itself when comparing with any of the comparison operators. `NaN` is often the result of meaningless math computations, so two `NaN` values make no sense to be considered equal.
+
+    **Good to hear**
+    * The difference between `isNaN()` and `Number.isNaN()`
+    * `const isNaN = x => x !== x`
+    
+* **What is a pure function?**
+
+    A pure function is a function that satisfies these two conditions:
+
+    * Given the same input, the function returns the same output.
+    * The function doesn't cause side effects outside of the function's scope (i.e. mutate data outside the function or data supplied to the function).
+    
+  Pure functions can mutate local data within the function as long as it satisfies the two conditions above.
+
+  **Pure**
+  
+  ```
+  const a = (x, y) => x + y
+  const b = (arr, value) => arr.concat(value)
+  const c = arr => [...arr].sort((a, b) => a - b)
+  ```
+  
+  **Impure**
+  
+  ```
+  const a = (x, y) => x + y + Math.random()
+  const b = (arr, value) => (arr.push(value), arr)
+  const c = arr => arr.sort((a, b) => a - b)
+  ```
+  
+  **Good to hear**
+  * Pure functions are easier to reason about due to their reliability.
+  * All functions should be pure unless explicitly causing a side effect (i.e. setInnerHTML).
+  * If a function does not return a value, it is an indication that it is causing side effects.
+  
+* **Explain the difference between a static method and an instance method.**
+
+    Static methods belong to a class and don't act on instances, while instance methods belong to the class prototype which is inherited by all instances of the class and acts on them.
+    
+    ```
+    Array.isArray // static method of Array
+    Array.prototype.push // instance method of Array
+    ```
+    
+    In this case, the `Array.isArray` method does not make sense as an instance method of arrays because we already know the value is an array when working with it.
+
+    Instance methods could technically work as static methods, but provide terser syntax:
+    
+    ```
+    const arr = [1, 2, 3]
+    arr.push(4)
+    Array.push(arr, 4)
+    ```
+    
+    **Good to hear**  
+    * How to create static and instance methods with ES2015 class syntax
 
 
