@@ -1728,3 +1728,115 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
 
     ```var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);```
     
+* **Consider the following code. What will the output be, and why?**
+    
+    ```
+    1
+    undefined
+    2
+    ```
+    
+    `var` statements are hoisted (without their value initialization) to the top of the global or function scope it belongs to, even when it’s inside a `with` or `catch` block. However, the error’s identifier is only visible inside the `catch` block. It is equivalent to:
+    
+    ```
+    (function () {
+      var x, y; // outer and hoisted
+      try {
+          throw new Error();
+      } catch (x /* inner */) {
+          x = 1; // inner x, not the outer one
+          y = 2; // there is only one y, which is in the outer scope
+          console.log(x /* inner */);
+      }
+      console.log(x);
+      console.log(y);
+    })();
+    ```
+    
+* **What will be the output of this code?**
+
+    ```
+    var x = 21;
+    var girl = function () {
+        console.log(x);
+        var x = 20;
+    };
+    girl ();
+    ```
+    
+    Neither 21, nor 20, the result is `undefined`
+
+    It’s because JavaScript initialization is not hoisted.
+
+    (Why doesn’t it show the global value of 21? The reason is that when the function is executed, it checks that there’s a local x variable present but doesn’t yet declare it, so it won’t look for global one.)
+    
+* **What do the following lines output, and why?**
+
+    ```
+    console.log(1 < 2 < 3);
+    console.log(3 > 2 > 1);
+    ```
+    
+    The first statement returns `true` which is as expected.
+
+    The second returns `false` because of how the engine works regarding operator associativity for `<` and `>`. It compares left to right, so `3 > 2 > 1` JavaScript translates to `true > 1`. true has value `1`, so it then compares `1 > 1`, which is `false`.
+    
+* **How do you add an element at the begining of an array? How do you add one at the end?**
+
+    ```
+    var myArray = ['a', 'b', 'c', 'd'];
+    myArray.push('end');
+    myArray.unshift('start');
+    console.log(myArray); // ["start", "a", "b", "c", "d", "end"]
+    ```
+    
+    With ES6, one can use the spread operator:
+    
+    ```
+    myArray = ['start', ...myArray];
+    myArray = [...myArray, 'end'];
+    ```
+    
+    Or, in short:
+    
+    ```
+    myArray = ['start', ...myArray, 'end'];
+    ```
+    
+* **What is the value of `typeof undefined == typeof NULL`?**
+
+    The expression will be evaluated to true, since `NULL` will be treated as any other undefined variable.
+
+    Note: JavaScript is case-sensitive and here we are using `NULL` instead of `null`.
+    
+* **What will the following code output and why?**
+
+    ```
+    var b = 1;
+    function outer(){
+        var b = 2
+        function inner(){
+            b++;
+            var b = 3;
+            console.log(b)
+        }
+        inner();
+    }
+    outer();
+    ```
+    
+    Output to the console will be “3”.
+
+    There are three closures in the example, each with it’s own `var b` declaration. When a variable is invoked closures will be checked in order from local to global until an instance is found. Since the `inner` closure has a b variable of its own, that is what will be output.
+
+    Furthermore, due to hoisting the code in inner will be interpreted as follows:
+    
+    ```
+    function inner () {
+      var b; // b is undefined
+      b++; // b is NaN
+      b = 3; // b is 3
+      console.log(b); // output "3"
+    }
+    ```
+    
