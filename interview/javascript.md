@@ -930,5 +930,36 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     **Good to hear**
     * Logical operations do not produce a boolean unless the operand(s) evaluate to a boolean.
     
+    
+* **What is the difference between synchronous and asynchronous code in JavaScript?**
+
+    Synchronous means each operation must wait for the previous one to complete.
+
+    Asynchronous means an operation can occur while another operation is still being processed.
+
+    In JavaScript, all code is synchronous due to the single-threaded nature of it. However, asynchronous operations not part of the program (such as `XMLHttpRequest` or `setTimeout`) are processed outside of the main thread because they are controlled by native code (browser APIs), but callbacks part of the program will still be executed synchronously.
+    
+    **Good to hear**
+    * JavaScript has a concurrency model based on an "event loop".
+    * Functions like `alert` block the main thread so that no user input is registered until the user closes it.
+    
+* **What does the following code evaluate to?**
+
+    ```typeof typeof 0```
+    
+    It evaluates to `"string"`.
+
+    `typeof 0` evaluates to the string `"number"` and therefore `typeof "number"` evaluates to `"string"`.
+    
+    
+* **What are JavaScript data types?**
+
+    The latest ECMAScript standard defines seven data types, six of them being primitive: `Boolean`, `Null`, `Undefined`, `Number`, `String`, `Symbol` and one non-primitive data type: `Object`.
+
+    **Good to hear**
+    * Mention of newly added `Symbol` data type
+    * `Array`, `Date` and `function` are all of type `object`
+    * Functions in JavaScript are objects with the capability of being callable
+    
   
 
