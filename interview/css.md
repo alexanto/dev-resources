@@ -479,3 +479,50 @@
 
   **Good to hear**
   * `background-image`, `background-position` and `background-size` can be used to utilize a spritesheet.
+  
+* **What is the difference between '+' and '~' sibling selectors?.**
+
+   The General Sibling Selector `~` selects all elements that are siblings of a specified element.
+
+   The following example selects all `<p>` elements that are siblings of `<div>` elements:
+   
+   ```
+   div ~ p {
+    background-color: blue;
+   }
+   ```
+  
+  The Adjacent Sibling Selector `+` selects all elements that are the adjacent siblings of a specified element.
+
+  The following example will select all `<p>` elements that are placed immediately after `<div>` elements:
+  
+  ```
+  div + p {
+   background-color: red;
+  }
+  ```
+  
+* **Can you describe how CSS specificity works?**
+
+  Assuming the browser has already determined the set of rules for an element, each rule is assigned a matrix of values, which correspond to the following from highest to lowest specificity:
+
+  * Inline rules (binary - 1 or 0)
+  * Number of id selectors
+  * Number of class, pseudo-class and attribute selectors
+  * Number of tags and pseudo-element selectors
+  
+  When two selectors are compared, the comparison is made on a per-column basis (e.g. an id selector will always be higher than any amount of class selectors, as ids have higher specificity than classes). In cases of equal specificity between multiple rules, the rules that comes last in the page's style sheet is deemed more specific and therefore applied to the element.
+
+  **Good to hear**
+  * Specificity matrix: [inline, id, class/pseudo-class/attribute, tag/pseudo-element]
+  * In cases of equal specificity, last rule is applied
+  
+* **What is a focus ring? What is the correct solution to handle them?**
+
+   A focus ring is a visible outline given to focusable elements such as buttons and anchor tags. It varies depending on the vendor, but generally it appears as a blue outline around the element to indicate it is currently focused.
+
+  In the past, many people specified `outline: 0`; on the element to remove the focus ring. However, this causes accessibility issues for keyboard users because the focus state may not be clear. When not specified though, it causes an unappealing blue ring to appear around an element.
+
+  In recent times, frameworks like Bootstrap have opted to use a more appealing `box-shadow` outline to replace the default focus ring. However, this is still not ideal for mouse users.
+
+  The best solution is an upcoming pseudo-selector `:focus-visible` which can be polyfilled today with JavaScript. It will only show a focus ring if the user is using a keyboard and leave it hidden for mouse users. This keeps both aesthetics for mouse use and accessibility for keyboard use.
