@@ -804,4 +804,131 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     **Good to hear**
     * Prototypes are objects that other objects inherit properties and methods from.
     * Factory functions offer private properties and methods through a closure but increase memory usage as a tradeoff, while classes do not have private properties or methods but reduce memory impact by reusing a single prototype object.
+    
+* **What is the difference between a parameter and an argument?**
+
+    Parameters are the variable names of the function definition, while arguments are the values given to a function when it is invoked.
+    
+    ```
+    function myFunction(parameter1, parameter2) {
+      console.log(arguments[0]) // "argument1"
+    }
+    myFunction("argument1", "argument2")
+    ```
+    
+    **Good to hear**
+    * `arguments` is an array-like object containing information about the arguments supplied to an invoked function.
+    * `myFunction.length` describes the arity of a function (how many parameters it has, regardless of how many arguments it is supplied).
+    
+* **How does prototypal inheritance differ from classical inheritance?**
+    
+    In the classical inheritance paradigm, object instances inherit their properties and functions from a class, which acts as a blueprint for the object. Object instances are typically created using a constructor and the `new` keyword.
+
+    In the prototypal inheritance paradigm, object instances inherit directly from other objects and are typically created using factory functions or `Object.create()`.
+    
+* **What is REST?**
+
+    REST (REpresentational State Transfer) is a software design pattern for network architecture. A RESTful web application exposes data in the form of information about its resources.
+
+    Generally, this concept is used in web applications to manage state. With most applications, there is a common theme of reading, creating, updating, and destroying data. Data is modularized into separate tables like `posts`, `users`, `comments`, and a RESTful API exposes access to this data with:
+
+    * An identifier for the resource. This is known as the endpoint or URL for the resource.
+    * The operation the server should perform on that resource in the form of an HTTP method or verb. The common HTTP methods are GET, POST, PUT, and DELETE.
+    
+    Here is an example of the URL and HTTP method with a posts resource:
+
+    * Reading: `/posts/` => GET
+    * Creating: `/posts/new` => POST
+    * Updating: `/posts/:id` => PUT
+    * Destroying: `/posts/:id` => DELETE
+        
+    **Good to hear**
+    * Alternatives to this pattern like GraphQL
+    
+* **Are semicolons required in JavaScript?**
+    
+    Sometimes. Due to JavaScript's automatic semicolon insertion, the interpreter places semicolons after most statements. This means semicolons can be omitted in most cases.
+
+    However, there are some cases where they are required. They are not required at the beginning of a block, but are if they follow a line and:
+    
+   1.  The line starts with `[`
+   
+   ```
+   const previousLine = 3
+   ;[1, 2, previousLine].map(n => n * 2)
+   ```
+   
+   2. The line starts with `(`
+   
+   ```
+   const previousLine = 3
+   ;(function() {
+     // ...
+   })()
+   ```
+   
+   In the above cases, the interpreter does not insert a semicolon after `3`, and therefore it will see the `3` as attempting object property access or being invoked as a function, which will throw errors.
+
+    **Good to hear**
+    * Semicolons are usually optional in JavaScript but have edge cases where they are required.
+    * If you don't use semicolons, tools like Prettier will insert semicolons for you in the places where they are required on save in a text editor to prevent errors.
+    
+* **What is short-circuit evaluation in JavaScript?**
+
+    Short-circuit evaluation involves logical operations evaluating from left-to-right and stopping early.
+    
+    ```true || false```
+    
+    In the above sample using logical OR, JavaScript won't look at the second operand `false`, because the expression evaluates to `true` regardless. This is known as short-circuit evaluation.
+
+    This also works for logical AND.
+    
+    ```false && true```
+    
+    This means you can have an expression that throws an error if evaluated, and it won't cause issues.
+    
+    ```
+    true || nonexistentFunction()
+    false && nonexistentFunction()
+    ```
+    
+    This remains true for multiple operations because of left-to-right evaluation.
+    
+    ```
+    true || nonexistentFunction() || window.nothing.wouldThrowError
+    true || window.nothing.wouldThrowError
+    true
+    ```
+    
+    A common use case for this behavior is setting default values. If the first operand is falsy the second operand will be evaluated.
+    
+    ```
+    const options = {}
+    const setting = options.setting || "default"
+    setting // "default"
+    ```
+    
+    Another common use case is only evaluating an expression if the first operand is truthy.
+    
+    ```
+    // Instead of:
+    addEventListener("click", e => {
+      if (e.target.closest("button")) {
+        handleButtonClick(e)
+      }
+    })
+
+    // You can take advantage of short-circuit evaluation:
+    addEventListener(
+      "click",
+      e => e.target.closest("button") && handleButtonClick(e)
+    )
+    ```
+    
+    In the above case, if `e.target` is not or does not contain an element matching the `"button"` selector, the function will not be called. This is because the first operand will be falsy, causing the second operand to not be evaluated.
+
+    **Good to hear**
+    * Logical operations do not produce a boolean unless the operand(s) evaluate to a boolean.
+    
+  
 
