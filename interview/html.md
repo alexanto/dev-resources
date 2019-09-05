@@ -192,4 +192,30 @@ W3 recommends having as many as you want, but only 1 of each for each "section" 
   * `<footer>` is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author’s name, copyright information, and related links are typical examples of such content.
 
   **Good to hear**
-  * Other semantic elements are <form> and <table>
+  * Other semantic elements are `<form>` and `<table>`
+  
+* **Discuss the differences between an HTML specification and a browser’s implementation thereof.**
+
+    HTML specifications such as `HTML5` define a set of rules that a document must adhere to in order to be “valid” according to that specification. In addition, a specification provides instructions on how a browser must interpret and render such a document.
+
+    A browser is said to “support” a specification if it handles valid documents according to the rules of the specification. As of yet, no browser supports all aspects of the `HTML5` specification (although all of the major browser support most of it), and as a result, it is necessary for the developer to confirm whether the aspect they are making use of will be supported by all of the browsers on which they hope to display their content. This is why cross-browser support continues to be a headache for developers, despite the improved specificiations.
+
+    **Good to hear**
+    * `HTML5` defines some rules to follow for an invalid `HTML5` document (i.e., one that contains syntactical errors)
+    * However, invalid documents may contain anything, so it's impossible for the specification to handle all possibilities comprehensively.
+    * Thus, many decisions about how to handle malformed documents are left up to the browser.
+    
+* **What are some differences that XHTML has compared to HTML?**
+
+    Some of the key differences are:
+
+    * An XHTML element must have an XHTML `<DOCTYPE>`
+    * Attributes values must be enclosed in quotes
+    * Attribute minimization is forbidden (e.g. one has to use `checked="checked`" instead of `checked`)
+    * Elements must always be properly nested
+    * Elements must always be closed
+    * Special characters must be escaped
+    
+    **Good to hear**
+    * Any element can be self-closed
+    * Tags ands attributes are case-sensitive, usually lowercase
