@@ -680,3 +680,128 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     **Good to hear**
     * Hoisting is JavaScript’s default behavior of moving declarations to the top
     * Functions declarations are hoisted before variable declarations
+    
+* **What is the reason for wrapping the entire contents of a JavaScript source file in a function that is immediately invoked?**
+
+    This technique is very common in JavaScript libraries. It creates a closure around the entire contents of the file which creates a private namespace and thereby helps avoid potential name clashes between different JavaScript modules and libraries. The function is immediately invoked so that the namespace (library name) is assigned the return value of the function.
+    
+    ```
+    const myLibrary = (function() {
+      var privateVariable = 2
+      return {
+        publicMethod: () => privateVariable
+      }
+    })()
+    privateVariable // ReferenceError
+    myLibrary.publicMethod() // 2
+  ```
+  
+  **Good to hear**
+    * Used among many popular JavaScript libraries
+    * Creates a private namespace
+    
+* **What is the difference between lexical scoping and dynamic scoping?**
+  
+    Lexical scoping refers to when the location of a function's definition determines which variables you have access to. On the other hand, dynamic scoping uses the location of the function's invocation to determine which variables are available.
+    
+    **Good to hear**
+    * Lexical scoping is also known as static scoping.
+    * Lexical scoping in JavaScript allows for the concept of closures.
+    * Most languages use lexical scoping because it tends to promote source code that is more easily understood.
+    
+* **What is a MIME type and what is it used for?**
+
+    `MIME` is an acronym for `Multi-purpose Internet Mail Extensions`. It is used as a standard way of classifying file types over the Internet.
+
+    **Good to hear**
+    * A `MIME type` actually has two parts: a type and a subtype that are separated by a slash (/). For example, the `MIME type` for Microsoft Word files is `application/msword` (i.e., type is application and the subtype is msword).
+    
+* **What is the difference between `null` and `undefined`?**
+
+    In JavaScript, two values discretely represent nothing - `undefined` and `null`. The concrete difference between them is that `null` is explicit, while  `undefined` is implicit. When a property does not exist or a variable has not been given a value, the value is `undefined`. `null` is set as the value to explicitly indicate “no value”. In essence, `undefined` is used when the nothing is not known, and `null` is used when the nothing is known.
+
+    **Good to hear**
+    * `typeof undefined` evaluates to `"undefined"`.
+    * `typeof null` evaluates `"object"`. However, it is still a primitive value and this is considered an implementation bug in JavaScript.
+    * `undefined == null` evaluates to `true`.
+    
+* **Describe the different ways to create an object. When should certain ways be preferred over others?**
+
+    **Object literal**
+    
+    Often used to store one occurrence of data.
+    
+    ```
+    const person = {
+      name: "John",
+      age: 50,
+      birthday() {
+        this.age++
+      }
+    }
+    person.birthday() // person.age === 51
+    ```
+    
+    **Constructor**
+    
+    Often used when you need to create multiple instances of an object, each with their own data that other instances of the class cannot affect. The `new` operator must be used before invoking the constructor or the global object will be mutated.
+    
+     ```
+     function Person(name, age) {
+      this.name = name
+      this.age = age
+    }
+    Person.prototype.birthday = function() {
+      this.age++
+    }
+    const person1 = new Person("John", 50)
+    const person2 = new Person("Sally", 20)
+    person1.birthday() // person1.age === 51
+    person2.birthday() // person2.age === 21
+    ```
+    
+    **Factory function**
+    
+    Creates a new object similar to a constructor, but can store private data using a closure. There is also no need to use `new` before invoking the function or the `this` keyword. Factory functions usually discard the idea of prototypes and keep all properties and methods as own properties of the object.
+    
+    ```
+    const createPerson = (name, age) => {
+      const birthday = () => person.age++
+      const person = { name, age, birthday }
+      return person
+    }
+    const person = createPerson("John", 50)
+    person.birthday() // person.age === 51
+    ```
+    
+    **Object.create()**
+    
+    Sets the prototype of the newly created object.
+    
+    ```
+    const personProto = {
+      birthday() {
+        this.age++
+      }
+    }
+    const person = Object.create(personProto)
+    person.age = 50
+    person.birthday() // person.age === 51
+    ```
+    
+    A second argument can also be supplied to `Object.create()` which acts as a descriptor for the new properties to be defined.
+    
+    ```
+    Object.create(personProto, {
+      age: {
+        value: 50,
+        writable: true,
+        enumerable: true
+      }
+    })
+    ```
+    
+    **Good to hear**
+    * Prototypes are objects that other objects inherit properties and methods from.
+    * Factory functions offer private properties and methods through a closure but increase memory usage as a tradeoff, while classes do not have private properties or methods but reduce memory impact by reusing a single prototype object.
+
