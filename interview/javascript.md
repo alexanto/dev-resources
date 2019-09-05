@@ -1624,3 +1624,107 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     **The and (&&) operator**. In an expression of the form `X&&Y`, `X` is first evaluated and interpreted as a boolean value. If this boolean value is `false`, then `false` (0) is returned and `Y` is not evaluated, since the “and” condition has already failed. If this boolean value is “true”, though, we still don’t know if `X&&Y` is true or false until we evaluate Y, and interpret it as a boolean value as well.
 
     However, the interesting thing with the `&&` operator is that when an expression is evaluated as “true”, then the expression itself is returned. This is fine, since it counts as “true” in logical expressions, but also can be used to return that value when you care to do so. This explains why, somewhat surprisingly, `1 && 2` returns 2 (whereas you might it expect it to return `true` or `1`).
+    
+* **What will be the output when the following code is executed? Explain.**
+
+    ```
+    console.log(false == '0')
+    console.log(false === '0')
+    ```
+    
+    The code will output:
+    
+    ```
+    true
+    false
+    ```
+    
+    In JavaScript, there are two sets of equality operators. The triple-equal operator `===` behaves like any traditional equality operator would: evaluates to true if the two expressions on either of its sides have the same type and the same value. The double-equal operator, however, tries to coerce the values before comparing them. It is therefore generally good practice to use the `===` rather than `==`. The same holds true for `!==` vs `!=`.
+    
+* **What is the output out of the following code? Explain your answer.**
+
+    ```
+    var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+    a[b]=123;
+    a[c]=456;
+
+    console.log(a[b]);
+    ```
+    
+    The output of this code will be `456` (not `123`).
+
+    The reason for this is as follows: When setting an object property, JavaScript will implicitly **stringify** the parameter value. In this case, since `b` and `c` are both objects, they will both be converted to `"[object Object]"`. As a result, `a[b]` and `a[c]` are both equivalent to `a["[object Object]"]` and can be used interchangeably. Therefore, setting or referencing `a[c]` is precisely the same as setting or referencing `a[b]`.
+    
+* **What will the following code output to the console:**
+
+    ```
+    console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+    ```
+    
+    The code will output the value of 10 factorial (i.e., 10!, or 3,628,800).
+
+    Here’s why:
+
+    The named function `f()` calls itself recursively, until it gets down to calling `f(1)` which simply returns `1`. Here, therefore, is what this does:
+    
+    ```
+    f(1): returns n, which is 1
+    f(2): returns 2 * f(1), which is 2
+    f(3): returns 3 * f(2), which is 6
+    f(4): returns 4 * f(3), which is 24
+    f(5): returns 5 * f(4), which is 120
+    f(6): returns 6 * f(5), which is 720
+    f(7): returns 7 * f(6), which is 5040
+    f(8): returns 8 * f(7), which is 40320
+    f(9): returns 9 * f(8), which is 362880
+    f(10): returns 10 * f(9), which is 3628800
+    ```
+    
+* **Consider the code snippet below. What will the console output be and why?**
+
+    ```
+    (function(x) {
+      return (function(y) {
+          console.log(x);
+      })(2)
+    })(1);
+    ```
+    
+    The output will be `1`, even though the value of `x` is never set in the inner function. Here’s why:
+  
+    As explained in our JavaScript Hiring Guide, a **closure** is a function, along with all variables or functions that were in-scope at the time that the closure was created. In JavaScript, a closure is implemented as an “inner function”; i.e., a function defined within the body of another function. An important feature of closures is that an inner function still has access to the outer function’s variables.
+
+    Therefore, in this example, since `x` is not defined in the inner function, the scope of the outer function is searched for a defined variable `x`, which is found to have a value of `1`.
+    
+* **What will the following code output to the console and why:**
+
+    ```
+    var hero = {
+      _name: 'John Doe',
+      getSecretIdentity: function (){
+          return this._name;
+      }
+    };
+
+    var stoleSecretIdentity = hero.getSecretIdentity;
+
+    console.log(stoleSecretIdentity());
+    console.log(hero.getSecretIdentity());
+    ```
+    
+    **What is the issue with this code and how can it be fixed?**
+    
+    The code will output:
+    ```
+    undefined
+    John Doe
+    ```
+    The first `console.log` prints `undefined` because we are extracting the method from the hero object, so `stoleSecretIdentity()` is being invoked in the global context (i.e., the window object) where the `_name` property does not exist.
+
+    One way to fix the `stoleSecretIdentity()` function is as follows:
+
+    ```var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);```
+    
