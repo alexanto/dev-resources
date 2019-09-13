@@ -2299,6 +2299,7 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     ```
 * **What are the pros and cons of extending built-in JavaScript objects?**
 * **Explain the same-origin policy with regards to JavaScript.**
+    The same-origin policy prevents JavaScript from making requests across domain boundaries. An origin is defined as a combination of URI scheme, hostname, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
 * **Why is it called a Ternary operator, what does the word "Ternary" indicate?**
 * **What is strict mode? What are some of the advantages/disadvantages of using it?**
 * **What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?**
