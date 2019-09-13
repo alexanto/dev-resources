@@ -2215,6 +2215,8 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     console.log(double); // [2, 4, 6]
     ```
 * **What's the difference between host objects and native objects?**
+    Native objects are objects that are part of the JavaScript language defined by the ECMAScript specification, such as `String`, `Math`, `RegExp`, `Object`, `Function`, etc.
+     Host objects are provided by the runtime environment (browser or Node), such as `window`, `XMLHTTPRequest`, etc.
 * **Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?**
 * **Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`**
 * **Can you explain what `Function.call` and `Function.apply` do? What's the notable difference between the two?**
