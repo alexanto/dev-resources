@@ -12,6 +12,7 @@
  - [ ] [Learn Python Programming Masterclass](https://www.udemy.com/python-the-complete-python-developer-course/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-QywXX.4zUmezJZAxzXWkag&LSNPUBID=JVFxdTr9V80)
  - [ ] [The Python Bible™ | Everything You Need to Program in Python](https://www.udemy.com/the-python-bible/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-2cZF.JHSTpPJbvo2QXgRoQ&LSNPUBID=JVFxdTr9V80)
  - [ ] [30 Days of Python | Unlock your Python Potential](https://www.udemy.com/course/30-days-of-python/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-RW3PmNUoc8JVDLWlMyXvug)
+ - [ ] [Introduction to python](https://www.udacity.com/course/introduction-to-python--ud1110)
  
  ### Ebooks
 - [ ] [A Whirlwind Tour of Python](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/)
