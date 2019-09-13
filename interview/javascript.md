@@ -2286,6 +2286,17 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     When an event triggers on a DOM element, it will attempt to handle the event if there is a listener attached, then the event is bubbled up to its parent and the same thing happens. This bubbling occurs up the element's ancestors all the way to the `document`. Event bubbling is the mechanism behind event delegation.
 * **Describe event capturing.**
 * **What's the difference between an "attribute" and a "property"?**
+    Attributes are defined on the HTML markup but properties are defined on the DOM. To illustrate the difference, imagine we have this text field in our HTML: `<input type="text" value="Hello">`.
+    ```
+    const input = document.querySelector('input');
+    console.log(input.getAttribute('value')); // Hello
+    console.log(input.value); // Hello
+    ```
+    But after you change the value of the text field by adding "World!" to it, this becomes:
+    ```
+    console.log(input.getAttribute('value')); // Hello
+    console.log(input.value); // Hello World!
+    ```
 * **What are the pros and cons of extending built-in JavaScript objects?**
 * **Explain the same-origin policy with regards to JavaScript.**
 * **Why is it called a Ternary operator, what does the word "Ternary" indicate?**
