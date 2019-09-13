@@ -550,6 +550,11 @@
    The above `fill="purple"` is an example of a presentational attribute. Interestingly, and unlike inline styles like `style="fill: purple"` which also happens to be an attribute, presentational attributes can be overriden by CSS styles defined in a stylesheet. So, if you did something like `svg { fill: blue; }` it would override the purple fill we've defined.
 * **Can you give an example of an `@media` property other than `screen`?**
 * **What are some of the "gotchas" for writing efficient CSS?**
+    Firstly, understand that browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector. Hence avoid key selectors that are tag and universal selectors. They match a large number of elements and browsers will have to do more work in determining if the parents do match.
+
+    BEM (Block Element Modifier) methodology recommends that everything has a single class, and, where you need hierarchy, that gets baked into the name of the class as well, this naturally makes the selector efficient and easy to override.
+
+    Be aware of which CSS properties trigger reflow, repaint, and compositing. Avoid writing styles that change the layout (trigger reflow) where possible.
 * **What are the advantages/disadvantages of using CSS preprocessors?**
 * **Describe what you like and dislike about the CSS preprocessors you have used.**
 * **How would you implement a web design comp that uses non-standard fonts?**
