@@ -2343,3 +2343,8 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
   JSONP can be unsafe and has some security implications. As JSONP is really JavaScript, it can do everything else JavaScript can do, so you need to trust the provider of the JSONP data.
 
   These days, CORS is the recommended approach and JSONP is seen as a hack.
+  
+* **Why is extending built-in JavaScript objects not a good idea?**
+    Extending a built-in/native JavaScript object means adding properties/functions to its `prototype`. While this may seem like a good idea at first, it is dangerous in practice. Imagine your code uses a few libraries that both extend the `Array.prototype` by adding the same `contains`  method, the implementations will overwrite each other and your code will break if the behavior of these two methods is not the same.
+
+    The only time you may want to extend a native object is when you want to create a polyfill, essentially providing your own implementation for a method that is part of the JavaScript specification but might not exist in the user's browser due to it being an older browser.
