@@ -2194,6 +2194,26 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     
     The main difference between `.forEach` and `.map()` is that `.map()` returns a new array. If you need the result, but do not wish to mutate the original array, `.map()` is the clear choice. If you simply need to iterate over an array, `forEach` is a fine choice.
 * **What's a typical use case for anonymous functions?**
+    They can be used in IIFEs to encapsulate some code within a local scope so that variables declared in it do not leak to the global scope.
+    ```
+    (function() {
+      // Some code here.
+    })();
+    ```
+    As a callback that is used once and does not need to be used anywhere else. The code will seem more self-contained and readable when handlers are defined right inside the code calling them, rather than having to search elsewhere to find the function body.
+    ```
+    setTimeout(function() {
+      console.log('Hello world!');
+    }, 1000);
+    ```
+    Arguments to functional programming constructs or Lodash (similar to callbacks).
+    ```
+    const arr = [1, 2, 3];
+    const double = arr.map(function(el) {
+      return el * 2;
+    });
+    console.log(double); // [2, 4, 6]
+    ```
 * **What's the difference between host objects and native objects?**
 * **Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?**
 * **Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`**
