@@ -2283,6 +2283,7 @@ However in modern SPAs, client-side rendering is used instead. The browser loads
     console.log(bar); // [Function: bar]
     ```
 * **Describe event bubbling.**
+    When an event triggers on a DOM element, it will attempt to handle the event if there is a listener attached, then the event is bubbled up to its parent and the same thing happens. This bubbling occurs up the element's ancestors all the way to the `document`. Event bubbling is the mechanism behind event delegation.
 * **Describe event capturing.**
 * **What's the difference between an "attribute" and a "property"?**
 * **What are the pros and cons of extending built-in JavaScript objects?**
