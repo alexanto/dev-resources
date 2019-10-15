@@ -1,3 +1,7 @@
 * [ ] [Designing Restful APIs](https://www.udacity.com/course/designing-restful-apis--ud388)
 * [ ] [Storybook](https://storybook.js.org/)
-* [ ] [Learn Storybook](https://www.learnstorybook.com/?utm_source=stateofjs2018&utm_campaign=stateofjs2018&utm_content=textlink)
+* [ ] [Learn Storybook](https://www.learnstorybook.com/?utm_source=stateofjs2018&utm_campaign=stateofjs2018&utm_content=textlink
+* [ ] [Clojure](https://clojurescript.org/)
+* [ ] [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial)
+* [ ] [SEO](https://frontendmasters.com/books/front-end-handbook/2018/learning/seo.html)
+* [ ] [Cordova](https://cordova.apache.org/)
