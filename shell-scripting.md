@@ -1,0 +1,2 @@
+- [ShellScript sh](https://www.shellscript.sh/)
+- [TutorialsPonint](https://www.tutorialspoint.com/unix/shell_scripting.htm)
