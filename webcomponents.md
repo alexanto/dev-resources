@@ -1,0 +1,4 @@
+- [Wbcomponents and Angular elements](https://medium.com/@rahulsahay19/web-components-in-angular-using-angular-elements-d969d5422bdd)
+- [Angular Custom Elements](https://medium.com/@tomsu/building-web-components-with-angular-elements-746cd2a38d5b)
+- [Angular Elements](https://medium.com/codingthesmartway-com-blog/angular-elements-a-practical-introduction-to-web-components-with-angular-6-52c0b3076c2c)
+- [WebComponents Tutorial for Beginners](https://www.robinwieruch.de/web-components-tutorial)
