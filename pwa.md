@@ -1,0 +1,4 @@
+- [MDA Using Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+- [Make your PWA work offline](https://www.monterail.com/blog/pwa-working-offline?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [PWA 101](https://www.freecodecamp.org/news/progressive-web-apps-101-the-what-why-and-how-4aa5e9065ac2/)
+- [Guide to PWAs](https://www.smashingmagazine.com/2018/11/guide-pwa-progressive-web-applications/)
