@@ -1,0 +1,7 @@
+- [Intro to GraphQL](https://graphql.org/learn/)
+- [Intro to Apollo](https://flaviocopes.com/apollo/)
+- [React + Apollo tutorial](https://www.howtographql.com/react-apollo/0-introduction/)
+- [Apollo docs](https://www.apollographql.com/docs/react/)
+- [Strawars GraphQL](https://github.com/necccc/starwars-graphql)
+- [GraphQL Server Tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [Nodejs GraphQL API](https://www.toptal.com/graphql/graphql-nodejs-api)
