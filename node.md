@@ -1,2 +1,4 @@
 - [Be a better Node developer ](https://medium.com/@me_37286/19-ways-to-become-a-better-node-js-developer-in-2019-ffd3a8fbfe38)
 - [Free ways to host a node app](https://amitbend.com/node.js/2019/05/13/five-free-ways-to-host-your-node-app-2019)
+- [Node best practices](https://github.com/goldbergyoni/nodebestpractices)
+- [Top to learn for fullstack web](https://medium.com/zerotomastery/top-libraries-tech-to-learn-in-2019-for-full-stack-developers-f8c0331b8a00)
