@@ -1,0 +1,7 @@
+- [TutorialsPoint](https://www.tutorialspoint.com/go/)
+- [Golangbot](https://golangbot.com/)
+- [Google Go Tutorial](https://www.guru99.com/google-go-tutorial.html)
+- [Golang Tutorial for Nodejs Developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
+- [Golang Docs](https://golang.org/doc/)
+- [Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=f6kdp27TYZs)
+- [Advanced Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=QDDwwePbDtw)
