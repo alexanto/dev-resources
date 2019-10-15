@@ -1,0 +1,2 @@
+- [TutorialsPoint](https://www.tutorialspoint.com/kotlin/index.htm)
+- [Kotlin Tutorial](https://www.javatpoint.com/kotlin-tutorial)
