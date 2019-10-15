@@ -5,3 +5,4 @@
 - [Golang Docs](https://golang.org/doc/)
 - [Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=f6kdp27TYZs)
 - [Advanced Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=QDDwwePbDtw)
+- [Go tutorials](https://stackify.com/learn-go-tutorials/)
