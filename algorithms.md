@@ -9,3 +9,6 @@
 * [ ] Introduction to Algorithms: A Creative Approach
 * [ ] Data Structures and Algorithms. Aho, Ullman & Hopcroft
 * [ ] Python Algorithms: Mastering Basic Algorithms in the Python Language
+
+### Resources
+* [ ] [avaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms#readme)
