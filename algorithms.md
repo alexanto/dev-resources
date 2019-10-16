@@ -11,4 +11,4 @@
 * [ ] Python Algorithms: Mastering Basic Algorithms in the Python Language
 
 ### Resources
-* [ ] [avaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms#readme)
+* [ ] [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms#readme)
