@@ -169,7 +169,192 @@
 
 3. **How do you find the largest and smallest number in an unsorted integer array?**
 
+    ```
+    import java.util.Arrays;
+    /**
+     * Java program to find largest and smallest number from an array in Java.
+     * You cannot use any library method both from Java and third-party library.
+     *
+     * @author http://java67.blogspot.com
+     */
+    public class MaximumMinimumArrayDemo{
+
+        public static void main(String args[]) {
+            largestAndSmallest(new int[]{-20, 34, 21, -87, 92,
+                                 Integer.MAX_VALUE});
+            largestAndSmallest(new int[]{10, Integer.MIN_VALUE, -2});
+            largestAndSmallest(new int[]{Integer.MAX_VALUE, 40,
+                                 Integer.MAX_VALUE});
+            largestAndSmallest(new int[]{1, -1, 0});
+        }
+
+        public static void largestAndSmallest(int[] numbers) {
+            int largest = Integer.MIN_VALUE;
+            int smallest = Integer.MAX_VALUE;
+            for (int number : numbers) {
+                if (number > largest) {
+                    largest = number;
+                } else if (number < smallest) {
+                    smallest = number;
+                }
+            }
+
+            System.out.println("Given integer array : " + Arrays.toString(numbers));
+            System.out.println("Largest number in array is : " + largest);
+            System.out.println("Smallest number in array is : " + smallest);
+        }
+    }
+    Output:
+    Given integer array : [-20, 34, 21, -87, 92, 2147483647]
+    Largest number in array is : 2147483647
+    Smallest number in array is : -87
+    Given integer array : [10, -2147483648, -2]
+    Largest number in array is : 10
+    Smallest number in array is : -2147483648
+    Given integer array : [2147483647, 40, 2147483647]
+    Largest number in array is : 2147483647
+    Smallest number in array is : 40
+    Given integer array : [1, -1, 0]
+    Largest number in array is : 1
+    Smallest number in array is : -1
+    ```
+
 4. **How do you find all pairs of an integer array whose sum is equal to a given number?**
+
+```
+import java.util.Arrays;
+/**
+* Java Program to find pairs on integer array whose sum is equal to k 
+* 
+* @author WINDOWS 8 
+*/ 
+public class ProblemInArray{
+    public static void main(String args[]) { 
+        int[] numbers = { 2, 4, 3, 5, 7, 8, 9 };
+        int[] numbersWithDuplicates = { 2, 4, 3, 5, 6, -2, 4, 7, 8, 9 };
+        prettyPrint(numbers, 7);
+        prettyPrint(numbersWithDuplicates, 7);
+    }
+    /**
+    * Prints all pair of integer values from given array whose sum is is equal to given number. 
+    * complexity of this solution is O(n^2) 
+    */ 
+    public static void printPairs(int[] array, int sum) {
+    
+        for (int i = 0; i < array.length; i++) {
+            int first = array[i];
+                for (int j = i + 1; j < array.length; j++) {
+                    int second = array[j]; 
+                    
+                    if ((first + second) == sum) {
+                        System.out.printf("(%d, %d) %n", first, second);
+                    } 
+                } 
+            } 
+    } 
+    /** 
+    * Utility method to print input and output for better explanation. 
+    */ 
+    public static void prettyPrint(int[] givenArray, int givenSum){ 
+        System.out.println("Given array : " + Arrays.toString(givenArray));
+        System.out.println("Given sum : " + givenSum);
+        System.out.println("Integer numbers, whose sum is equal to value : " + givenSum);
+        printPairs(givenArray, givenSum);
+    } 
+}
+
+Output: 
+Given sum : 7
+Integer numbers, whose sum is equal to value : 7
+(2, 5)
+(4, 3)
+Given array : [2, 4, 3, 5, 6, -2, 4, 7, 8, 9]
+Given sum : 7 
+Integer numbers, whose sum is equal to value : 7 
+(2, 5)
+(4, 3)
+(3, 4)
+(-2, 9)
+
+```
+
+This solution is correct but it's time complexity is very hight, O(n^2), which means Interviewer will surely ask you to improve your answer and come up with solution whose complexity is either O(1), O(n) or O(nLog(n)). So let's dig deeper to improve this answer. In order to find two numbers in an array whose sum equals a given value, we probably don't need compare each number with other. What we can do here is to store all numbers in a hashtable and just check if it contains second value in a pair. For example, if given sum is 4 and one number in pair is 3, then other must be 1 or -7. Do you remember the first question we asked, if array only contains positive numbers then we don't need to check for negative values in Map. How is this solution better than previous one? It would require less comparisons. Only N to iterate through array and insert values in a Set because add() and contains() both O(1) operation in hash table. So total complexity of solution would be O(N). Here is a Java program which find the pair of values in the array whose sum is equal to k using Hashtable or Set. In this program we have also written a utility method to generate random numbers in a given range in Java. You can use this method for testing with random inputs. By the way, random numbers are only good for demonstration, don't use them in your unit test. One more good thing you can learn from printPairsUsingSet() method is pre validation, checking if inputs are valid to proceed further.
+
+```
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+/** 
+* Java Program to find two elements in an array that sum to k. 
+* 
+* @author WINDOWS 8 
+*/ 
+public class ArraySumUsingSet {
+
+    public static void main(String args[]) {
+        prettyPrint(getRandomArray(9), 11);
+        prettyPrint(getRandomArray(10), 12);
+    } 
+    
+    /** 
+    * Given an array of integers finds two elements in the array whose sum is equal to n. 
+    * @param numbers 
+    * @param n 
+    */ 
+    public static void printPairsUsingSet(int[] numbers, int n){
+        if(numbers.length < 2){
+            return;
+        } 
+        Set set = new HashSet(numbers.length);
+        
+        for(int value : numbers){
+            int target = n - value;
+            
+            // if target number is not in set then add 
+            if(!set.contains(target)){
+                set.add(value);
+            }else { 
+                System.out.printf("(%d, %d) %n", value, target);
+            } 
+        } 
+    } 
+    
+    /* 
+    * Utility method to find two elements in an array that sum to k. 
+    */ 
+    public static void prettyPrint(int[] random, int k){
+        System.out.println("Random Integer array : " + Arrays.toString(random)); 
+        System.out.println("Sum : " + k); 
+        System.out.println("pair of numbers from an array whose sum equals " + k);
+        printPairsUsingSet(random, k);
+    } 
+    /** 
+    * Utility method to return random array of Integers in a range of 0 to 15 
+    */ 
+    public static int[] getRandomArray(int length){
+        int[] randoms = new int[length];
+        for(int i=0; i<length; i++){
+            randoms[i] = (int) (Math.random()*15); 
+        }
+            return randoms;
+    } 
+} 
+
+Output: 
+Random Integer array : [0, 14, 0, 4, 7, 8, 3, 5, 7] 
+Sum : 11 
+pair of numbers from an array whose sum equals 11 
+(7, 4) 
+(3, 8) 
+(7, 4) 
+Random Integer array : [10, 9, 5, 9, 0, 10, 2, 10, 1, 9] 
+Sum : 12 
+pair of numbers from an array whose sum equals 12 
+(2, 10)
+
+```
+
 
 5. **How do you find duplicate numbers in an array if it contains multiple duplicates?**
 
