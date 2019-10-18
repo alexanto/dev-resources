@@ -1,0 +1,5 @@
+- [ ] [The Complete SQL Bootcamp](https://www.udemy.com/course/the-complete-sql-bootcamp/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-zYpvs3__fPARauDkRpwdUw)
+- [ ] [SQL for Data Analysis: Weekender Crash Course for Beginners](https://www.udemy.com/course/sql-for-newbs/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-fNllEI2Pg5doOLbdP_YJ3A)
+- [ ] [SQL & Database Design A-Z™: Learn MS SQL Server + PostgreSQL](https://www.udemy.com/course/sqldatabases/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-ykOtSpYap24KPWVNLVMkxQ)
+- [ ] [Oracle SQL : Become a Certified SQL Developer From Scratch!](https://www.udemy.com/course/oracle-sql-12c-become-an-sql-developer-with-subtitle/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-sILH_CWK60nWp68B3ZtRPw)
+- [ ] [200+ SQL Interview Questions](https://www.udemy.com/course/sql-interview-questions/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-AI3yOwT5uZYvfhxAL3KO6Q)
