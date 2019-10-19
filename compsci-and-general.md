@@ -1,0 +1,13 @@
+- [ ] [Software Design and Architecture Specialization](https://www.coursera.org/specializations/software-design-architecture?source=post_page)
+- [ ] [Software Development Lifecycle Specialization](https://www.coursera.org/specializations/software-design-architecture?source=post_page)
+- [ ] [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages?source=post_page---------------------------)
+- [ ] [Advanced Operating Systems](https://www.udacity.com/course/advanced-operating-systems--ud189?source=post_page---------------------------)
+- [ ] bsz
+- [ ] adatb
+- [ ] algel
+- [ ] szar
+- [ ] opre
+- [ ] hálók
+- [ ] analízis
+- [ ] clean code
+- [ ] stat
