@@ -1,1 +1,24 @@
 - [Frontend Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
+- [PWA Complete Guide](https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/learn/lecture/13914126#overview)
+- [Intro to Ajax](https://www.udacity.com/course/intro-to-ajax--ud110)
+- [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+- [HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292)
+- enyzme
+- css grid
+- bff pattern
+- angular.io
+- [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS)
+- rxjs docs
+- freecodecamp
+- webgl
+- freecodecamp
+- cordova
+- phonegap
+- electron
+- canvas
+- webpack
+- Ionic
+- server side rendering
+- YDKJS
+- [Complete Junior to Senior Web Developer Roadmap](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10285818#overview)
+
