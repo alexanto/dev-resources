@@ -24,3 +24,14 @@
 - [ ] [Picking a Python Version: A Manifesto](https://learning.oreilly.com/library/view/picking-a-python/9781492048565/)
 - [ ] [Python Web Frameworks](https://learning.oreilly.com/library/view/python-web-frameworks/9781492037873/)
 - [ ] [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+
+### Libraries
+- [ ] [Libs](https://javarevisited.blogspot.com/2018/10/top-8-python-libraries-for-data-science-machine-learning.html)
+- [ ] django
+- [ ] web2py
+- [ ] turbo gears
+- [ ] cubic web
+- [ ] flask
+- [ ] cherrypy
+- [ ] bottle
+- [ ] tornado
