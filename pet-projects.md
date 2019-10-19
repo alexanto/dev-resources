@@ -1,0 +1,5 @@
+- [ ] ebed oldal (scraper)
+- [ ] build online reputation-->github
+- [ ] contribute to open source
+- [ ] participate in hackaton
+- [ ] write android app for craftsman tinder
