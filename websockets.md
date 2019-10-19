@@ -8,3 +8,4 @@
 - [9 killer uses for Websockets](https://www.infoworld.com/article/2609720/9-killer-uses-for-websockets.html)
 - [MDN Websocket API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - [Intergrate Angular, Node and Websockets](https://medium.com/dailyjs/real-time-apps-with-typescript-integrating-web-sockets-node-angular-e2b57cbd1ec1)
+- [Socket.io](https://www.udemy.com/course/socketio-with-websockets-the-details/learn/lecture/13938966#overview)
