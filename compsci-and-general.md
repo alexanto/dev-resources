@@ -11,3 +11,4 @@
 - [ ] analízis
 - [ ] clean code
 - [ ] stat
+- [ ] [Your First Steps from Programmer to Software Architect](https://www.udemy.com/course/software-architect-course-first-steps/)
