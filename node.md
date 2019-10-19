@@ -6,3 +6,13 @@
 - [ ] [Enforce Code Quality for Node](https://hackernoon.com/enforcing-code-quality-for-node-js-c3b837d7ae17)
 - [ ] [The Ultimate Guide to Performance Monitoring in Node.js](https://pages.nodesource.com/guide-performance-monitoring-nodejs-nodeweekly.html)
 - [ ] [Private Class Fields](http://thecodebarbarian.com/nodejs-12-private-class-fields.html)
+- [ ] [Guide to threads in Node](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
+- [ ] [TypeScript with Node.js](https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html)
+- [ ] [A crash course on TypeScript with Node.js](https://blog.sourcerer.io/a-crash-course-on-typescript-with-node-js-2c376285afe1)
+- [ ] newrelic
+- [ ] swagger
+- [ ] [Node with React Udemy](https://www.udemy.com/course/node-with-react-fullstack-web-development/learn/lecture/7593644#overview)
+- [ ] service workers
+- [ ] context logging
+- [ ] groovy, jenkins
+- [ ] cloudant, couchdb
