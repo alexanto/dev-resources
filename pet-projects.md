@@ -3,3 +3,4 @@
 - [ ] contribute to open source
 - [ ] participate in hackaton
 - [ ] write android app for craftsman tinder
+- [ ] https://hackernoon.com/building-a-web-scraper-from-start-to-finish-bb6b95388184
