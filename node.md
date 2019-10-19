@@ -2,3 +2,7 @@
 - [Free ways to host a node app](https://amitbend.com/node.js/2019/05/13/five-free-ways-to-host-your-node-app-2019)
 - [Node best practices](https://github.com/goldbergyoni/nodebestpractices)
 - [Top to learn for fullstack web](https://medium.com/zerotomastery/top-libraries-tech-to-learn-in-2019-for-full-stack-developers-f8c0331b8a00)
+- [ ] [Async hooks](https://nodejs.org/api/async_hooks.html)
+- [ ] [Enforce Code Quality for Node](https://hackernoon.com/enforcing-code-quality-for-node-js-c3b837d7ae17)
+- [ ] [The Ultimate Guide to Performance Monitoring in Node.js](https://pages.nodesource.com/guide-performance-monitoring-nodejs-nodeweekly.html)
+- [ ] [Private Class Fields](http://thecodebarbarian.com/nodejs-12-private-class-fields.html)
