@@ -69,3 +69,17 @@
 - [25+ Tutorials](https://www.softwaretestinghelp.com/devops-tutorials/)
 - [Udemy Complete Beginner Tutorial](https://www.udemy.com/course/devops-docker-complete-guide-hands-on-with-practical/)
 - [TutorialsPoint](https://www.tutorialspoint.com/devops_tutorials.htm)
+- [Awesome Cash](https://github.com/awesome-lists/awesome-bash)
+- [Painless Docker](https://painlessdocker.com/)
+- [Docker for Developers and DevOps](https://www.udemy.com/course/docker-for-developers/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-ytNnesxY2yJ.PFcgst2Nrw)
+- [Deploying Containerized Applications Technical Overview](https://www.udemy.com/course/deploying-containerized-applications-technical-overview/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-FKMS24hUfvowYikKiWuc6g)
+- [Understanding Docker and using it for Selenium automation](udemy.com/course/understanding-docker-performing-selenium-automation/)
+- [Web Developer Roadmap 2019](https://github.com/kamranahmedse/developer-roadmap#-devops-roadmap)
+- [https://hackernoon.com/top-5-amazon-web-services-or-aws-courses-to-learn-online-free-and-best-of-lot-d94e192054b7](https://hackernoon.com/top-5-amazon-web-services-or-aws-courses-to-learn-online-free-and-best-of-lot-d94e192054b7)
+- [Docker from A to Z™: Swarm + Jenkins](https://www.udemy.com/course/a-practical-guide-to-docker-swarm-and-jenkins/)
+- [Jenkins Tutorial For Beginners (DevOps and Developers)](https://www.udemy.com/course/jenkins-tutorial-for-beginners-devops-and-developers/)
+- nginx
+- apache
+- vault
+- helm
+- [Pro Git](https://www.amazon.com/gp/product/1430218339/ref=as_li_tl?ie=UTF8&tag=eon01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1430218339&linkId=5a10b59c9f9568691a9162ddc873532c)
