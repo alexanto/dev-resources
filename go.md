@@ -6,3 +6,6 @@
 - [Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=f6kdp27TYZs)
 - [Advanced Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=QDDwwePbDtw)
 - [Go tutorials](https://stackify.com/learn-go-tutorials/)
+- [Go Programming by example](https://www.udemy.com/go-programming-by-example/)
+- [Golang tour](https://tour.golang.org/welcome/1)
+- [Go tut for Node devs](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
