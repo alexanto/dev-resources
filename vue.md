@@ -1,0 +1,2 @@
+- [ ] [Udemy Vue tutorial](https://www.udemy.com/vuejs-build-a-full-stack-app-with-firebase-vuex-router/learn/lecture/8039958#overview)
+- [ ] [Vue JS 2 - The Complete Guide ](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
