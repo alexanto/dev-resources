@@ -10,3 +10,29 @@
 * Google AppEngine
 * [ ] [Snyk](https://snyk.io/)
 * [ ] [Electron](https://electronjs.org/)
+* [ ] [Networking for Web Developers](https://www.udacity.com/course/networking-for-web-developers--ud256)
+* [ ] [Nework Security](https://www.udacity.com/course/network-security--ud199)
+* [ ] [HTTP Web Server](https://www.udacity.com/course/http-web-servers--ud303)
+* [ ] [Android Basics UI](https://www.udacity.com/course/android-basics-user-interface--ud834)
+* [ ] [Authentication & Authorization: OAuth](https://www.udacity.com/course/authentication-authorization-oauth--ud330)
+* [ ] OWASP top 10
+* [ ] sans top 25
+* [ ] regex
+* [ ] redis
+* [ ] tensorflow
+* [ ] istio
+* [ ] openshift
+* [ ] firebase
+* [ ] micro and macro tasks
+* [ ] big data: hadoop and spark
+* [ ] imperative/procedural programming along with OOP vs functional programming
+* [ ] wordpress
+* [ ] tensorflow
+* [ ] Parcel
+* [ ] aurelia
+* [ ] solid
+* [ ] webassembly
+* [ ] neo4j
+* [ ] google clean code talks
+* [ ] soap
+
