@@ -1,2 +1,5 @@
 * [ ] [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 * [ ] [Intro to AI](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)
+* [ ] [Top 10 Data Science and Machine Learning Certification Courses from Udemy, Coursera, and Pluralsight](https://www.java67.com/2018/10/top-10-data-science-and-machine-learning-courses.html)
+* [ ] [Top 10 Data Science Courses and Certification to Learn Online in 2019 (Python and R](https://javarevisited.blogspot.com/2018/10/data-science-and-machine-learning-courses-using-python-and-R-programming.html)
+* [ ] [The Data Science Course 2019: Complete Data Science Bootcamp](https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/)
