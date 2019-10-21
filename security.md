@@ -1,0 +1,1 @@
+- [10 npm Seciruty Best Practices](https://snyk.io/blog/ten-npm-security-best-practices/)
