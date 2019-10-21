@@ -4,3 +4,17 @@
 * [Developer Manifesto](https://www.git-tower.com/blog/developer-manifesto/)
 * [How to become an architect](https://medium.com/@nvashanin/the-path-to-becoming-a-software-architect-de53f1cb310a)
 * [Design Pattern Game](https://designpatternsgame.com/)
+
+### Articles
+
+- [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
+- [Conventional Commit messages](http://karma-runner.github.io/3.0/dev/git-commit-msg.html)
+- [Why JSON isn't a good configuartion language](https://www.lucidchart.com/techblog/2018/07/16/why-json-isnt-a-good-configuration-language/)
+- [Enforce Dangling Commas](https://medium.com/@nikgraf/why-you-should-enforce-dangling-commas-for-multiline-statements-d034c98e36f8)
+- [Interactive Rebase](http://ardupilot.org/dev/docs/git-interactive-rebase.html)
+- [Get Coverage Info for integration tests](https://github.com/istanbuljs/nyc/issues/548)
+- [Dependency Graph Tool](https://github.com/pahen/madge)
+- [Scrum a gyakorlatban](https://speakerdeck.com/madbence/scrum-a-gyakorlatban?slide=14)
+- [20 patterns in software teams](https://www.gitprime.com/content/20-patterns-in-software-teams.pdf)
+- [12 factor app](https://12factor.net/codebase)
+- [WTF Dashboard](https://github.com/wtfutil/wtf)
