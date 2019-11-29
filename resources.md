@@ -4,6 +4,7 @@
 * [Developer Manifesto](https://www.git-tower.com/blog/developer-manifesto/)
 * [How to become an architect](https://medium.com/@nvashanin/the-path-to-becoming-a-software-architect-de53f1cb310a)
 * [Design Pattern Game](https://designpatternsgame.com/)
+* [Web App Security Checklist](https://appsecure.security/blog/security-checklist-for-web-developers?utm_campaign=DevOpsLinks%20-%20Must-read%20Stories%20for%20Aspiring%20DevOps%20Professional&utm_content=Faun%20%F0%9F%90%AE%20DevOpsLinks%20%23192%3A%20Merging%20the%20Work%20of%201000%2B%20Developers%2C%20%2B1k%20Raspberry%20Pi%20Supercomputer%20%26%20The%207%20Deadly%20Diseases%20of%20DevOps&utm_medium=email&utm_source=faun)
 
 ### Articles
 
