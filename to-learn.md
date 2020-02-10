@@ -3,8 +3,11 @@
 - [ ] Kafka
 - [ ] Spark
 - [ ] Cassandra
+- [ ] Storm
+- [ ] Flink
 - [ ] functiuonal/imperative/OO languages
 - [ ] Scala
 - [ ]  C++
 - [ ] Golang
 - [ ] Machine Learning
+- [ ] encryption and crypthography standards
