@@ -11,3 +11,4 @@
 - [ ] Golang
 - [ ] Machine Learning
 - [ ] encryption and crypthography standards
+- [ ] neo4j
