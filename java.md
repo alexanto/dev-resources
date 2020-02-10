@@ -12,4 +12,5 @@
 - [ ] [Modern WebSockets Application Development with Java EE](https://www.udemy.com/course/java-ee-fundamentals-websockets-app-development-for-java-developers/)
 - [ ] jboss and widlfly
 - [ ] [The Complete Android Kotlin Developer Course](https://www.udemy.com/course/the-complete-kotlin-developer-course/)
-- oracle books
+- [ ] oracle books
+- [ ] spring boot
