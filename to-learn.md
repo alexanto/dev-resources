@@ -1,1 +1,10 @@
 - [ ] AWS
+- [ ] Kubernetes, Docker
+- [ ] Kafka
+- [ ] Spark
+- [ ] Cassandra
+- [ ] functiuonal/imperative/OO languages
+- [ ] Scala
+- [ ]  C++
+- [ ] Golang
+- [ ] Machine Learning
