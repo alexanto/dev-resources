@@ -12,3 +12,8 @@
 - [ ] Machine Learning
 - [ ] encryption and crypthography standards
 - [ ] neo4j
+- [ ] Rust
+- [ ] Elixir
+- [ ] GraphQL
+- [ ] Redis
+
