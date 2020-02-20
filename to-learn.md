@@ -16,4 +16,5 @@
 - [ ] Elixir
 - [ ] GraphQL
 - [ ] Redis
+- [ ] vim
 
