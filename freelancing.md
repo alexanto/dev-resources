@@ -8,6 +8,7 @@
 - [Könyvelés 1.](https://freelancerblog.hu/konyvelovaltas-reality-01-az-elso-talalkozo/)
 - [Könyvelés 2.](https://freelancerblog.hu/a-negyzethalos-multbol-a-digitalis-utopiaba/)
 - [ProAb könyvelő cég](https://proab.hu/)
+- [KATA 101](https://prezi.com/view/eFHMDilnRhJ9c57LYlFi/)
 
 
 ## Upwork
