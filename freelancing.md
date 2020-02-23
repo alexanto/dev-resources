@@ -4,6 +4,7 @@
 - [Ügyfélszerzés Online Oldalakon](https://freelancerblog.hu/ugyfelszerzes-online-munka-oldalakon/)
 - [Online munka oldalak](https://freelancerblog.hu/301-online-munka-oldal/)
 - [Online munka how to start](https://freelancerblog.hu/online-munka-oldalak-upwork-freelancer-toptal-es-tarsaik/)
+- [Ügyfélszerzés mesterfokon](https://freelancerblog.hu/ugyfelszerzes-mesterfokon-meetup-beszamolo/)
 
 
 ## Upwork
