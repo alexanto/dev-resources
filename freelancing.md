@@ -2,6 +2,7 @@
 
 - [Freelancer Blog](https://freelancerblog.hu/)
 - [Ügyfélszerzés Online Oldalakon](https://freelancerblog.hu/ugyfelszerzes-online-munka-oldalakon/)
+- [Online munka oldalak](https://freelancerblog.hu/301-online-munka-oldal/)
 
 
 ## Upwork
