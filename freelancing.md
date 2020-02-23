@@ -9,4 +9,5 @@
 ## Upwork
 
 - [Upwork How To Start](https://freelancerblog.hu/az-upwork-es-meses-sikerek-igaz-tortenete/)
+- [Ilyen munkák vannak](https://freelancerblog.hu/upwork-ilyen-munkakat-talalhatsz-legnagyobb-online-munka-oldalon/)
 
