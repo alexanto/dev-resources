@@ -1,3 +1,3 @@
 ## Blogs, articles
 
-- [https://freelancerblog.hu/](Freelancer Blog)
+- [Freelancer Blog](https://freelancerblog.hu/)
