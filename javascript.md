@@ -7,3 +7,4 @@
 - [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS)
 ### Resources
  - [Must watch Javascript](https://github.com/AllThingsSmitty/must-watch-javascript)
+ - [Javascript testing best practices](https://github.com/goldbergyoni/javascript-testing-best-practices#section-0%EF%B8%8F%E2%83%A3-the-golden-rule)
