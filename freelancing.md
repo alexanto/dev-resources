@@ -11,7 +11,11 @@
 - [KATA 101](https://prezi.com/view/eFHMDilnRhJ9c57LYlFi/)
 - [Online számlázó](https://www.szamlazz.hu/szamla/main)
 - [First steps to become a freelancer](https://freelancerblog.hu/elso-lepesek-a-szabaduszas-es-ugyfelszerzes-fele/)
-
+- [Facilitalasi utmutato](https://freelancerblog.hu/facilitalasi-utmutato-megbeszelesek-szuperhoseinek/)
+- [Hatekony megbeszelesek](https://freelancerblog.hu/hatekony-megbeszelesek-6-aranyszabalya/)
+- [Projektmenedzsment appok](https://freelancerblog.hu/51-kihagyhatatlan-projektmenedzsment-app/)
+- [Tokeletes ajanlat](https://freelancerblog.hu/tokeletes-arajanlat/)
+- [Hogyan tartsuk meg az ugyfelet](https://freelancerblog.hu/hogyan-tartsuk-meg-az-ugyfeleinket/)
 
 ## Upwork
 
