@@ -3,7 +3,7 @@
 - [ ] [33 concepts every JS dev should know](https://github.com/leonardomso/33-js-concepts#readme)
 - [ ] [Javascript testing](https://www.udacity.com/course/javascript-testing--ud549)
 - [ ] [Javascript Async Requests](https://www.udacity.com/course/asynchronous-javascript-requests--ud109)
-- [ ][Sessionstack blog tutorials](https://blog.sessionstack.com/tagged/tutorial)
+- [ ] [Sessionstack blog tutorials](https://blog.sessionstack.com/tagged/tutorial)
 ### Books
 - [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS)
 ### Resources
