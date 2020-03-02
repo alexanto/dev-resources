@@ -22,3 +22,4 @@
 - [12 factor app](https://12factor.net/codebase)
 - [WTF Dashboard](https://github.com/wtfutil/wtf)
 - [How to Fake Being a Goog Programmer](https://towardsdatascience.com/how-to-fake-being-a-good-programmer-cbef2c39764c)
+- [Joel](https://www.joelonsoftware.com/)
