@@ -13,4 +13,5 @@
  
  ### Great tutorial articles
  - [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
- - [the THIS keyword](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85)
+ - [THIS keyword](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85)
+ - [Arrow functions](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
