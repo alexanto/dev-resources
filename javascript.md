@@ -10,6 +10,7 @@
  - [Must watch Javascript](https://github.com/AllThingsSmitty/must-watch-javascript)
  - [Javascript testing best practices](https://github.com/goldbergyoni/javascript-testing-best-practices#section-0%EF%B8%8F%E2%83%A3-the-golden-rule)
  - [How to become an Ace JS Developer](https://codeburst.io/things-you-need-to-know-to-become-an-ace-javascript-developer-aa703397268d)
+ - [Testing best practices](https://github.com/goldbergyoni/javascript-testing-best-practices#section-0%EF%B8%8F%E2%83%A3-the-golden-rule)
  
  ### Great tutorial articles
  - [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
