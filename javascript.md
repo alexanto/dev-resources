@@ -20,3 +20,5 @@
  - [OO in JS](https://codeburst.io/object-oriented-programming-in-javascript-51b2bdfdfe9f)
  - [Regular Expressions](https://www.freecodecamp.org/news/a-quick-and-simple-guide-to-javascript-regular-expressions-48b46a68df29/)
  - [Promises](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a)
+ - [Useful array methods](https://medium.com/learning-new-stuff/5-array-methods-all-javascript-beginners-should-know-48b5795d77f8)
+ 
