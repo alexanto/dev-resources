@@ -24,3 +24,4 @@
 - [How to Fake Being a Goog Programmer](https://towardsdatascience.com/how-to-fake-being-a-good-programmer-cbef2c39764c)
 - [Joel](https://www.joelonsoftware.com/)
 - [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
+- [Encoding](http://kunststube.net/encoding/)
