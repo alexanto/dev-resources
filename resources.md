@@ -4,7 +4,7 @@
 * [Developer Manifesto](https://www.git-tower.com/blog/developer-manifesto/)
 * [How to become an architect](https://medium.com/@nvashanin/the-path-to-becoming-a-software-architect-de53f1cb310a)
 * [Design Pattern Game](https://designpatternsgame.com/)
-* [Web App Security Checklist](https://appsecure.security/blog/security-checklist-for-web-developers?utm_campaign=DevOpsLinks%20-%20Must-read%20Stories%20for%20Aspiring%20DevOps%20Professional&utm_content=Faun%20%F0%9F%90%AE%20DevOpsLinks%20%23192%3A%20Merging%20the%20Work%20of%201000%2B%20Developers%2C%20%2B1k%20Raspberry%20Pi%20Supercomputer%20%26%20The%207%20Deadly%20Diseases%20of%20DevOps&utm_medium=email&utm_source=faun)
+* [Webhttps://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/ App Security Checklist](https://appsecure.security/blog/security-checklist-for-web-developers?utm_campaign=DevOpsLinks%20-%20Must-read%20Stories%20for%20Aspiring%20DevOps%20Professional&utm_content=Faun%20%F0%9F%90%AE%20DevOpsLinks%20%23192%3A%20Merging%20the%20Work%20of%201000%2B%20Developers%2C%20%2B1k%20Raspberry%20Pi%20Supercomputer%20%26%20The%207%20Deadly%20Diseases%20of%20DevOps&utm_medium=email&utm_source=faun)
 * [Google Engineering Practices](https://github.com/google/eng-practices)
 * [Transition from having a job, get freedom](https://hackernoon.com/do-you-really-want-to-become-a-software-engineer-zlfi3736?source=rss&utm_source=Hacker+Noon+Readers&utm_campaign=a6d5d5e8f8-EMAIL_CAMPAIGN_2020_02_10_12_04&utm_medium=email&utm_term=0_fa796741e6-a6d5d5e8f8-94574477)
 
@@ -25,3 +25,4 @@
 - [Joel](https://www.joelonsoftware.com/)
 - [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
 - [Encoding](http://kunststube.net/encoding/)
+- [Encoding II.](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
