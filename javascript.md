@@ -24,4 +24,5 @@
  - [Useful array methods](https://medium.com/learning-new-stuff/5-array-methods-all-javascript-beginners-should-know-48b5795d77f8)
  - [NEW keyword](https://www.freecodecamp.org/news/demystifying-javascripts-new-keyword-874df126184c/)
  - [Iterators](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)
+ - [Const, Let and Var](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
  
