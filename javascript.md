@@ -17,6 +17,7 @@
  - [THIS keyword](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85)
  - [Arrow functions](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
  - [Closure](https://www.freecodecamp.org/news/whats-a-javascript-closure-in-plain-english-please-6a1fc1d2ff1c/)
+ - [Closure II](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
  - [OO in JS](https://codeburst.io/object-oriented-programming-in-javascript-51b2bdfdfe9f)
  - [Regular Expressions](https://www.freecodecamp.org/news/a-quick-and-simple-guide-to-javascript-regular-expressions-48b46a68df29/)
  - [Promises](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a)
