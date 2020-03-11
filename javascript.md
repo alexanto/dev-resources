@@ -25,4 +25,6 @@
  - [NEW keyword](https://www.freecodecamp.org/news/demystifying-javascripts-new-keyword-874df126184c/)
  - [Iterators](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)
  - [Const, Let and Var](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
+ - [Async](https://blog.usebutton.com/demystifying-async-programming-in-javascript)
+ - [Async II](https://academind.com/learn/javascript/callbacks-vs-promises-vs-rxjs-vs-async-awaits/)
  
