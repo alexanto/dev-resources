@@ -26,3 +26,7 @@
 - [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
 - [Encoding](http://kunststube.net/encoding/)
 - [Encoding II.](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+
+
+## Interesting
+- [History of the URL](https://blog.cloudflare.com/the-history-of-the-url/)
