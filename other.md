@@ -7,7 +7,7 @@
 * [ ] [Cordova](https://cordova.apache.org/)
 * [ ] [Selenium](https://www.seleniumhq.org/)
 * [ ] [Firebase](https://firebase.google.com/)
-* Google AppEngine
+* [ ] Google AppEngine
 * [ ] [Snyk](https://snyk.io/)
 * [ ] [Electron](https://electronjs.org/)
 * [ ] [Networking for Web Developers](https://www.udacity.com/course/networking-for-web-developers--ud256)
@@ -35,5 +35,5 @@
 * [ ] neo4j
 * [ ] google clean code talks
 * [ ] soap
-* [Intro to reactive programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [ ] [Intro to reactive programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
