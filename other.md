@@ -36,4 +36,5 @@
 * [ ] google clean code talks
 * [ ] soap
 * [ ] [Intro to reactive programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [ ] [Developer communities joining this year](https://hackernoon.com/20-developer-communities-worth-joining-this-year-2m2bi3wdp?source=rss)
 
