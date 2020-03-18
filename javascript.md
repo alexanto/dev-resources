@@ -30,4 +30,5 @@
  - [Async II](https://academind.com/learn/javascript/callbacks-vs-promises-vs-rxjs-vs-async-awaits/)
  - [Functions I](https://medium.com/dailyjs/functional-js-1-introduction-7908bfe5ef8d)
  - [Functions II](https://medium.com/dailyjs/functional-js-2-functions-duh-70bf22f87bb8)
+ - [Everything New in EcmaScript](https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e/)
  
