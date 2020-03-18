@@ -25,7 +25,8 @@
 - [Joel](https://www.joelonsoftware.com/)
 - [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
 - [Encoding](http://kunststube.net/encoding/)
-- [Encoding II.](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+- [Encoding II.](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)(https://hackernoon.com/top-10-software-engineering-metrics-to-track-if-you-lead-an-agile-team-3s2b93w9e?source=rss)
+- [Agile Metrics](https://hackernoon.com/top-10-software-engineering-metrics-to-track-if-you-lead-an-agile-team-3s2b93w9e?source=rss)
 
 
 ## Interesting
