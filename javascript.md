@@ -28,4 +28,6 @@
  - [Const, Let and Var](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
  - [Async](https://blog.usebutton.com/demystifying-async-programming-in-javascript)
  - [Async II](https://academind.com/learn/javascript/callbacks-vs-promises-vs-rxjs-vs-async-awaits/)
+ - [Functions I](https://medium.com/dailyjs/functional-js-1-introduction-7908bfe5ef8d)
+ - [Functions II](https://medium.com/dailyjs/functional-js-2-functions-duh-70bf22f87bb8)
  
