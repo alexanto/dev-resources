@@ -33,4 +33,5 @@
  - [Everything New in EcmaScript](https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e/)
  - [IIFE](https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6)
  - [Objects](https://blog.bitsrc.io/the-chronicles-of-javascript-objects-2d6b9205cd66)
+ - [JS Protips](https://hackernoon.com/16-javascript-protips-2020-edition-n7et32dd?source=rss)
  
