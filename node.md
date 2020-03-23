@@ -16,3 +16,4 @@
 - [ ] context logging
 - [ ] groovy, jenkins
 - [ ] cloudant, couchdb
+- [ ][Build a github app with node](http://thecodebarbarian.com/building-a-github-app-with-node-js.html)
