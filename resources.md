@@ -29,6 +29,7 @@
 - [Agile Metrics](https://hackernoon.com/top-10-software-engineering-metrics-to-track-if-you-lead-an-agile-team-3s2b93w9e?source=rss)
 - [Product Management](https://hackernoon.com/the-no-bullshit-guide-to-product-management-7o12v3yk2?source=rss)
 - [Unlearning Toxic Behaviours in a code review culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+- [App Metrics to Track](https://hackernoon.com/app-metrics-101-what-you-should-be-measuring-hc9b3bo8?source=rss)
 
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
