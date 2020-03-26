@@ -38,7 +38,7 @@
 9. **Learn how to build software**
 
 10. **Learn how to automate your software factory**
-  - Jenkins
+  - [Jenkins](https://automationstepbystep.com/jenkins/) 
   - Travis
   - CI&CD
   
