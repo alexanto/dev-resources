@@ -83,3 +83,6 @@
 - vault
 - helm
 - [Pro Git](https://www.amazon.com/gp/product/1430218339/ref=as_li_tl?ie=UTF8&tag=eon01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1430218339&linkId=5a10b59c9f9568691a9162ddc873532c)
+
+
+- [Set up a CI CD pipeline with minikube](https://medium.com/faun/set-up-a-ci-cd-pipeline-with-kubernetes-minikube-de2bacf7caab)
