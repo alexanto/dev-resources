@@ -31,6 +31,7 @@
 - [Unlearning Toxic Behaviours in a code review culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
 - [App Metrics to Track](https://hackernoon.com/app-metrics-101-what-you-should-be-measuring-hc9b3bo8?source=rss)
 - [Vim Cheetsheet](https://medium.com/faun/cheatsheet-for-vim-e65ba648245e)
+- [12Factor App](https://12factor.net/)
 
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
