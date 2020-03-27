@@ -7,7 +7,7 @@
 * [Web App Security Checklist](https://appsecure.security/blog/security-checklist-for-web-developers?utm_campaign=DevOpsLinks%20-%20Must-read%20Stories%20for%20Aspiring%20DevOps%20Professional&utm_content=Faun%20%F0%9F%90%AE%20DevOpsLinks%20%23192%3A%20Merging%20the%20Work%20of%201000%2B%20Developers%2C%20%2B1k%20Raspberry%20Pi%20Supercomputer%20%26%20The%207%20Deadly%20Diseases%20of%20DevOps&utm_medium=email&utm_source=faun)
 * [Google Engineering Practices](https://github.com/google/eng-practices)
 * [Transition from having a job, get freedom](https://hackernoon.com/do-you-really-want-to-become-a-software-engineer-zlfi3736?source=rss&utm_source=Hacker+Noon+Readers&utm_campaign=a6d5d5e8f8-EMAIL_CAMPAIGN_2020_02_10_12_04&utm_medium=email&utm_term=0_fa796741e6-a6d5d5e8f8-94574477)
-
+* [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
 ### Articles
 
 - [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
