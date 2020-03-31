@@ -35,6 +35,8 @@
  - [Objects](https://blog.bitsrc.io/the-chronicles-of-javascript-objects-2d6b9205cd66)
  - [JS Protips](https://hackernoon.com/16-javascript-protips-2020-edition-n7et32dd?source=rss)
  - [Number magic in JS](https://www.youtube.com/watch?v=wPBjd-vb9eI)
+ - [Useful console methods](https://levelup.gitconnected.com/moving-beyond-console-log-8-console-methods-you-should-use-when-debugging-javascript-and-node-25f6ac840ada)
+ 
  ### Fun
  
  - [13k JS Games](https://js13kgames.com/entries/2019)
