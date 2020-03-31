@@ -108,6 +108,22 @@
 - kötelezettségeknek egyesével utánaolvasni, melyik mi és hogyan kell csinálni
 - mik a végzettsgéhez vagy engedélyhez kötött tevékenységek 
 
+# Egyéb tudnivalók
+
+## Alap infók
+
+- csak a "jó" adózóknak engedik a KATÁT
+- 100.000 Ft fölötti adótartozás esetén automatikus (fellebezési lehetőség sincs) kizárásban részesül az adózó az adott és a következő adóévre.
+- ingatlanbérbeadás kizárva a KATÁS tevékenységek közül
+- ha a KATÁS egy évben 1.000.000 forintnál többet számláz egy cégnek, akkor mindkét félnek jelentési kötelezettsége keletkezik
+- a nevétel alapja nem a kiállított számla, hanem a beérkezett bevétel
+
+
+### Kérdések
+- mi van pl ha van főállásom, katázom és még lakást is adok ki
+(- ingatlanbérbeadás után hogyan kell adózni)
+- mit jelent hogy a bevétel alapja nem a számla, hanem a beérkezett bevétel
+
 
 
 
