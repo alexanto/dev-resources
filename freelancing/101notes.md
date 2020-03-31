@@ -27,10 +27,25 @@
   
 - 60% magánszemélyként "kivett" jövedelem
 
+## Székhely szerinti önkormányzat
+
+1. "A" verzió: tárgyévben érkezett bevétel 100%-a adóalap, **IPA** 0%-tól 2%-ig fizetendő
+2. "B" verzió: tárgyévben érkezett bevétel 80%-a adóalap, **IPA** 0%-tól 2%-ig fizetendő
+3. "C" verzió: **FIX KATA IPA** 2x25.000Ft 
+  - 3M fölött éri meg
+  - adóév 1. hónaójában lehet változtatni
+  
+## Kamara
+
+- kötelező a tagság és az éves tagdíj befizetése
+
+* kereskedelmi és iparkamara: **5000Ft**
+
 ### Kérdések
+
 - mit jelent pontosan az időarányos limit
 - mit jelent, hogy 12M fölött ÁFÁT kell fizetni? pl 13.000.000 Ft jövedelem esetén a 12M fölötti 1M-ra 40%+27% ÁFA fizetenfdő?
 - mit jelent a 60% magánszemélyként kivett jövedelem
-
+- utánanézni, hogy hol lenne jobb IPA-t fizetni, Gárdony vagy Budapest, albérletbe egyáltalán be lehetne-e jelenteni a vállalkozást.
 
  
