@@ -32,6 +32,7 @@
 - [App Metrics to Track](https://hackernoon.com/app-metrics-101-what-you-should-be-measuring-hc9b3bo8?source=rss)
 - [Vim Cheetsheet](https://medium.com/faun/cheatsheet-for-vim-e65ba648245e)
 - [12Factor App](https://12factor.net/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
