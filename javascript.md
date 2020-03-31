@@ -35,3 +35,7 @@
  - [Objects](https://blog.bitsrc.io/the-chronicles-of-javascript-objects-2d6b9205cd66)
  - [JS Protips](https://hackernoon.com/16-javascript-protips-2020-edition-n7et32dd?source=rss)
  
+ ### Fun
+ 
+ - [13k JS Games](https://js13kgames.com/entries/2019)
+ 
