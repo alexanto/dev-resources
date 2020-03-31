@@ -1,3 +1,4 @@
+
 - [Frontend Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
 - [PWA Complete Guide](https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/learn/lecture/13914126#overview)
 - [Intro to Ajax](https://www.udacity.com/course/intro-to-ajax--ud110)
@@ -21,4 +22,6 @@
 - server side rendering
 - YDKJS
 - [Complete Junior to Senior Web Developer Roadmap](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10285818#overview)
+- [FrontEnd Arcitectures](https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231)
+
 
