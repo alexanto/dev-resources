@@ -23,5 +23,6 @@
 - YDKJS
 - [Complete Junior to Senior Web Developer Roadmap](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10285818#overview)
 - [FrontEnd Arcitectures](https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231)
+- testing react with enzyme
 
 
