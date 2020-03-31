@@ -9,3 +9,4 @@
 - [Go Programming by example](https://www.udemy.com/go-programming-by-example/)
 - [Golang tour](https://tour.golang.org/welcome/1)
 - [Go tut for Node devs](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
+- [Go instead of bash](https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc)
