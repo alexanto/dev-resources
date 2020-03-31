@@ -48,4 +48,18 @@
 - mit jelent a 60% magánszemélyként kivett jövedelem
 - utánanézni, hogy hol lenne jobb IPA-t fizetni, Gárdony vagy Budapest, albérletbe egyáltalán be lehetne-e jelenteni a vállalkozást.
 
+# Határidők
+
+## ProAb (ha ezt választom)
+
+- **tárgyhónap 1. napján**: díjbekérő
+- **tárgyhónap 5. napjáig**: díjbekérő alapján az aktuális könyvelési díj befizetése bankkártyával
+- **negyedévet követő hónap 10.-e**: könyvelési anyagok leadása
+
+## Kamara
+
+- **március 31** éves kamarai tagdíj befizetés
+
+
+
  
