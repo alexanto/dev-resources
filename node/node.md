@@ -19,3 +19,4 @@
 - [ ] [Build a github app with node](http://thecodebarbarian.com/building-a-github-app-with-node-js.html)
 - [API FIrst Approach](https://developers.redhat.com/blog/2019/01/14/building-a-node-js-service-using-the-api-first-approach/)
 - [API Validation](https://medium.com/@Scampiuk/handling-api-validation-with-openapi-swagger-documents-in-nodejs-1f09c133d4d2)
+- [Collect Node Logs](https://www.datadoghq.com/blog/node-logging-best-practices/)
