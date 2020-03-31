@@ -155,6 +155,17 @@
 - mi az hogy adatszolgáltatásra köteles személy
 - az állandó lakcímem a birtokomban áll? albérlet?
 
+# Hogyan lehetek egyéni vállalkozó?
+
+## Ügyfélkapu
+
+- elenedhetetlen a kiváltás és a folyamatos számviteli szolgáltatáshoz
+
+### Kérdések
+
+- a fentiek közül pontosan mi és mi nem intézhető ügyfélkapun keresztül
+
+
 
 
 
