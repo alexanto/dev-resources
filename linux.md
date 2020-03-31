@@ -4,3 +4,4 @@
 - [ ] [Red Hat Enterprise Linux Technical Overview](https://www.udemy.com/course/red-hat-enterprise-linux-technical-overview/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-QnXBLZSb4.HlfF7PQPPz_g)
 - [ ] [Linux Tutorials and Projects (Free)](https://www.udemy.com/course/linux-tutorials/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-1ll83yanZiBDtYHwXavsig)
 - [ ] [Learn Linux on a MAC](https://www.udemy.com/course/learn-linux-on-a-mac/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-qFQ8k.N6dyzqUGEx.5k6iQ)
+- [Monitor Linux Performance](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/)
