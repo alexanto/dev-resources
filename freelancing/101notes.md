@@ -118,11 +118,44 @@
 - ha a KATÁS egy évben 1.000.000 forintnál többet számláz egy cégnek, akkor mindkét félnek jelentési kötelezettsége keletkezik
 - a nevétel alapja nem a kiállított számla, hanem a beérkezett bevétel
 
+## TB jogviszony
 
+- főállású KATA bruttó 100.000 Ft-nak számít a nyugdíj beszámításánál és 0.8x12 hónap számít bele a szolgálati időbe
+- ha teljes évi szolgálati időt és a teljes bruttó minimálbér szerinti bestámítást szeretne, akkor van leetősége ún. EMELT KATA adó megfizetésére, 75000 Ft/hó
+
+## KATA adó fizetéséről
+
+- csak akkor nem kell megfizteni a KATA ADÓT az adott hónapra, ha
+  - CSED, GYED, GYESEN van (de akkor nem is lehet bevétele)
+  - gyermeknevelési támogatásban vagy ápolási díjban részesül
+  - katonai szolgálatot teljesítő önkéntes tartlékos katona
+  - fogvatartott
+  - szünetel a vállalkozása
+  - a teljes naptári hónapra táppénzen vagy baleseti táppénzen van
+  
+## Felesősség
+
+- A KATÁS felelőssége bizonytani, hogy nem burkolt foglalkoztatásra használja a KATÁT, az alábbi pontoknak legalább kettőnek kell érvényesülnie: (legjobb ha a megbízási szerződésben van belefoglalva)
+  - a kisadózó a tevékenységet nem kizárólag személyesen végezte vagy végezhette
+  - a naptári évi bevételének  legalább 50%-át nem adatszoláltatásra köteles személytől (megrendelő) szerezte
+  - a megrendelő nem adhatott utasítást a tevékenység végzésének módjára vonatkozóan
+  - a tevékenység végézésének helye a kisadózó birtokában áll
+  - a tevékenység végzéséhez szükséges eszközöket és anyagokat nem a megrendelő bocsátotta a kisadózó rendelkezésére
+  - a tevékenység végzésének rendjét a kisadózó határozza meg
+ 
+  
 ### Kérdések
 - mi van pl ha van főállásom, katázom és még lakást is adok ki
 (- ingatlanbérbeadás után hogyan kell adózni)
 - mit jelent hogy a bevétel alapja nem a számla, hanem a beérkezett bevétel
+- mellékállású KATA nem számít a nyugdíjba egyáltalán
+- hogyan lehet vállalkozást szüneteltetni
+- mi az a megbízási szerződés
+- mi az hogy a tevékenységet nem kizárólag személyesen végezte
+- mi az hogy adatszolgáltatásra köteles személy
+- az állandó lakcímem a birtokomban áll? albérlet?
+
+
 
 
 
