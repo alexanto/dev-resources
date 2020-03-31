@@ -77,6 +77,38 @@
 - extra kata adó befizetése, tehát évente egyszer történik? az előző évre vonatkoztatva?
 - mi van akkor ha mellékállású KATA-s vagyok, ilyenkor ki készíti az adóbevallást
 
+# Kötelezettségek
+
+## Magyar állam
+
+- kezdő bejelentés és jogviszony (T1041)
+- helyes ÁFAmentesség (ha van)
+- speciális adók lejelentése ('01-es)
+- alkalmazottak lejelentése ('08-as)
+- számlázó/e-számlázó program lejelentése
+
+## Székhely szerinti önkormányzat
+
+- bejelentkezés iparűzési adóra
+- ha nem saját tulajdonban van a székhely, akkor tulajdonosi hozzájáruló nyilatkozat szükséges
+- engedélyhez vagy végzettséghez kötöttt tevékenység esetén a jogosultság igazolása
+
+## Kamara
+
+- kamarai regisztráció
+
+##ProAB
+
+- kérések, változtatások bejelentését csak emailben való részletes kifejtés után tudják teljesíteni
+- könyvelési anyagokat lehetőség szerint elektronikus formában veszik át, ha nyomtatva van akkor scannelik
+- eredeti dokumentumokat az ügyfélnek kell tárolnia
+
+### Kérdések
+
+- kötelezettségeknek egyesével utánaolvasni, melyik mi és hogyan kell csinálni
+- mik a végzettsgéhez vagy engedélyhez kötött tevékenységek 
+
+
 
 
 
