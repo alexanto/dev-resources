@@ -1,5 +1,5 @@
 # Kérdések
-- hogyan lehet KATAssa valni lépésről lépésre? kiváltatni hol és hogyan? könyvelés? milyen adókat kell fizetni és mikor?
+- hogyan lehet KATAssa valni lépésről lépésre? kiváltatni hol és hogyan? könyvelés? milyen adókat kell fizetni és mikor, ezeket milyen felületen, hogyan kell kiegyenlíteni?
 
 # Hogyan működik, kinek kell fizetni és mennyit?
 
@@ -59,6 +59,24 @@
 ## Kamara
 
 - **március 31** éves kamarai tagdíj befizetés
+
+## Székhely szerinti önkormányzat
+
+- **március 15-e és szeptember 15-e**: IPA előleg fizetés vagy fix kata IPA befizetés
+- **május 31**: IPA bevallás, iparűzési adó fizetés(befizetett előleggel csökkentve)
+
+## Magyar állam
+
+- **tárgyhónapot követő hónap 12. napjáig**: KATA adó befizetése
+- **február 25.**: KATA zárás, extra KATA adó befizetése
+- **május 20.**: adóbevallás
+
+### Kérdések
+
+- hogyan számolják ki az IPA előleget? május 31.-i határidő az előző évi adó befizetésére vonatkozik?
+- extra kata adó befizetése, tehát évente egyszer történik? az előző évre vonatkoztatva?
+- mi van akkor ha mellékállású KATA-s vagyok, ilyenkor ki készíti az adóbevallást
+
 
 
 
