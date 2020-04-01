@@ -8,6 +8,7 @@
 * [Google Engineering Practices](https://github.com/google/eng-practices)
 * [Transition from having a job, get freedom](https://hackernoon.com/do-you-really-want-to-become-a-software-engineer-zlfi3736?source=rss&utm_source=Hacker+Noon+Readers&utm_campaign=a6d5d5e8f8-EMAIL_CAMPAIGN_2020_02_10_12_04&utm_medium=email&utm_term=0_fa796741e6-a6d5d5e8f8-94574477)
 * [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
+* [Alan Kay - Programming and Scaling](https://www.youtube.com/watch?v=YyIQKBzIuBY)
 ### Articles
 
 - [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
