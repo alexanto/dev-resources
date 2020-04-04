@@ -38,6 +38,7 @@
  - [Useful console methods](https://levelup.gitconnected.com/moving-beyond-console-log-8-console-methods-you-should-use-when-debugging-javascript-and-node-25f6ac840ada)
  - [Object Assign vs Object Spread](https://thecodebarbarian.com/object-assign-vs-object-spread.html)
  - [Proxies](https://blog.logrocket.com/having-fun-with-es6-proxies/)
+ - [Console Cheatsheet](https://levelup.gitconnected.com/console-cheat-sheet-for-javascript-developers-21f0c49604d4)
  
  ### Fun
  
