@@ -25,3 +25,4 @@
 - [Stream API](https://medium.com/florence-development/working-with-node-js-stream-api-60c12437a1be)
 - [Natural Language Processing](https://blog.logrocket.com/natural-language-processing-for-node-js/)
 - [Bash Essentials](https://itnext.io/bash-scripting-essentials-for-javascript-developers-ffef92afba2c)
+- [Handling Errors in Express](https://zellwk.com/blog/express-errors/)
