@@ -23,3 +23,4 @@
 - [Express ES6 Stack](https://www.smashingmagazine.com/2019/11/express-es6-javascript-stack-mongodb-mongoose-servers/)
 - [Build a CLI](https://dev.to/yvonnickfrin/7-libraries-to-build-node-js-cli-3jc7)
 - [Stream API](https://medium.com/florence-development/working-with-node-js-stream-api-60c12437a1be)
+- [Natural Language Processing](https://blog.logrocket.com/natural-language-processing-for-node-js/)
