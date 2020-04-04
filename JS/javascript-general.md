@@ -37,6 +37,7 @@
  - [Number magic in JS](https://www.youtube.com/watch?v=wPBjd-vb9eI)
  - [Useful console methods](https://levelup.gitconnected.com/moving-beyond-console-log-8-console-methods-you-should-use-when-debugging-javascript-and-node-25f6ac840ada)
  - [Object Assign vs Object Spread](https://thecodebarbarian.com/object-assign-vs-object-spread.html)
+ - [Proxies](https://blog.logrocket.com/having-fun-with-es6-proxies/)
  
  ### Fun
  
