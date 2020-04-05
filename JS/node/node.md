@@ -26,3 +26,4 @@
 - [Natural Language Processing](https://blog.logrocket.com/natural-language-processing-for-node-js/)
 - [Bash Essentials](https://itnext.io/bash-scripting-essentials-for-javascript-developers-ffef92afba2c)
 - [Handling Errors in Express](https://zellwk.com/blog/express-errors/)
+- [Nodeschool](https://nodeschool.io/)
