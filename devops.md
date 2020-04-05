@@ -87,3 +87,4 @@
 - [Introduction to Kubernetes](https://www.jeremyjordan.me/kubernetes/?utm_campaign=kaptain%20-%20The%20Best%20Distributed%20Systems%20Stories&utm_content=Faun%20%F0%9F%A6%88%20Kaptain%20%23193%3A%20Project%20Antrea%2C%20Container%20Platform%20Networking%20at%20Cruise%20%26%20KubeCon%202019%2C%20San%20Diego&utm_medium=email&utm_source=faun)
 - [Set up a CI CD pipeline with minikube](https://medium.com/faun/set-up-a-ci-cd-pipeline-with-kubernetes-minikube-de2bacf7caab)
 - [TMUX](https://linuxize.com/post/getting-started-with-tmux/)
+- [Kubernetes Developer Challenges](https://medium.com/faun/more-than-just-a-developer-kubernetes-deployment-challenges-and-choosing-the-tools-to-address-8be3f0b8039a)
