@@ -84,5 +84,5 @@
 - helm
 - [Pro Git](https://www.amazon.com/gp/product/1430218339/ref=as_li_tl?ie=UTF8&tag=eon01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1430218339&linkId=5a10b59c9f9568691a9162ddc873532c)
 
-
+- [Introduction to Kubernetes](https://www.jeremyjordan.me/kubernetes/?utm_campaign=kaptain%20-%20The%20Best%20Distributed%20Systems%20Stories&utm_content=Faun%20%F0%9F%A6%88%20Kaptain%20%23193%3A%20Project%20Antrea%2C%20Container%20Platform%20Networking%20at%20Cruise%20%26%20KubeCon%202019%2C%20San%20Diego&utm_medium=email&utm_source=faun)
 - [Set up a CI CD pipeline with minikube](https://medium.com/faun/set-up-a-ci-cd-pipeline-with-kubernetes-minikube-de2bacf7caab)
