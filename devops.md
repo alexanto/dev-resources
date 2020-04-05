@@ -88,3 +88,4 @@
 - [Set up a CI CD pipeline with minikube](https://medium.com/faun/set-up-a-ci-cd-pipeline-with-kubernetes-minikube-de2bacf7caab)
 - [TMUX](https://linuxize.com/post/getting-started-with-tmux/)
 - [Kubernetes Developer Challenges](https://medium.com/faun/more-than-just-a-developer-kubernetes-deployment-challenges-and-choosing-the-tools-to-address-8be3f0b8039a)
+- [Ingress](https://medium.com/faun/securing-k8s-application-using-ingress-rule-nginx-ingress-controller-a819b0e11281)
