@@ -89,3 +89,4 @@
 - [TMUX](https://linuxize.com/post/getting-started-with-tmux/)
 - [Kubernetes Developer Challenges](https://medium.com/faun/more-than-just-a-developer-kubernetes-deployment-challenges-and-choosing-the-tools-to-address-8be3f0b8039a)
 - [Ingress](https://medium.com/faun/securing-k8s-application-using-ingress-rule-nginx-ingress-controller-a819b0e11281)
+- [Docker Tips](https://offby2.com/posts/001-docker-lesser-known-tips/?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=79809318&_hsenc=p2ANqtz-_rPx5gYJeg0AeXK1nGSiXLg08R_fLXEUvxcB46LfhrcUTi3IkxJU_1fZu6navz-44JHfvWPq9cWwywvQQ2S1X3iQYvNg&_hsmi=79809318)
