@@ -15,3 +15,4 @@
 - [Goroutines in Go](https://medium.com/swlh/managing-groups-of-gorutines-in-go-ee7523e3eaca)
 - [Fly DJI Tello with Go](https://muetsch.io/flying-a-dji-tello-drone-with-go.html)
 - [Go tutorial for nodejs developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
+- [Google Secret Management](https://pbhadani.com/posts/google-secret-manager/?__s=dfpzukubxigncbrpsjmb)
