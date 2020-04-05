@@ -94,3 +94,4 @@
 - ["Hacker roadmap"](https://github.com/sundowndev/hacker-roadmap)
 - [DevSecOps](https://research.g2.com/insights/what-is-devsecops-and-how-is-it-different-from-devops)
 - [Basics of CI](https://medium.com/faun/the-basics-of-continuous-integration-delivery-with-10-most-popular-tools-to-use-9514231533f0)
+- [sudo](https://aster.cloud/2019/12/17/what-you-probably-didnt-know-about-sudo/?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23201%3A+What+You+Probably+Didn%E2%80%99t+Know+About+Sudo%2C+Why+do+we+need+distributed+systems%3F+%26+AWS+Cost+Optimization+101&utm_medium=email&utm_source=faun)
