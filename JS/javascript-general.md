@@ -40,6 +40,7 @@
  - [Object Assign vs Object Spread](https://thecodebarbarian.com/object-assign-vs-object-spread.html)
  - [Proxies](https://blog.logrocket.com/having-fun-with-es6-proxies/)
  - [Console Cheatsheet](https://levelup.gitconnected.com/console-cheat-sheet-for-javascript-developers-21f0c49604d4)
+ - [10 useful array methods](https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5)
  
  ### Fun
  
