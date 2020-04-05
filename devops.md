@@ -93,3 +93,4 @@
 - [DevOps Job Requirements](https://medium.com/faun/we-studied-requirements-for-20-top-paying-devops-jobs-heres-what-we-learned-32cd43442220)
 - ["Hacker roadmap"](https://github.com/sundowndev/hacker-roadmap)
 - [DevSecOps](https://research.g2.com/insights/what-is-devsecops-and-how-is-it-different-from-devops)
+- [Basics of CI](https://medium.com/faun/the-basics-of-continuous-integration-delivery-with-10-most-popular-tools-to-use-9514231533f0)
