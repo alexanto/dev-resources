@@ -27,3 +27,4 @@
 - [Bash Essentials](https://itnext.io/bash-scripting-essentials-for-javascript-developers-ffef92afba2c)
 - [Handling Errors in Express](https://zellwk.com/blog/express-errors/)
 - [Nodeschool](https://nodeschool.io/)
+- [Beginner's guide](https://zeroequalsfalse.com/posts/beginners-guide-to-using-express-js-and-node-js-framework/)
