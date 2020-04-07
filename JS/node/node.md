@@ -34,3 +34,4 @@
 - [Expressworks](https://github.com/azat-co/expressworks)
 - [Kick off Koa](https://github.com/koajs/kick-off-koa)
 - [Promise it wont hurt](https://github.com/stevekane/promise-it-wont-hurt)
+- [Async Await Video](https://www.youtube.com/watch?v=vn3tm0quoqE)
