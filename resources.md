@@ -35,6 +35,7 @@
 - [12Factor App](https://12factor.net/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [What to pay JS Developers](https://medium.com/javascript-scene/what-to-pay-javascript-developers-in-2020-2292eb346f3b)
+- [How DNS Works](https://howdns.works/)
 
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
