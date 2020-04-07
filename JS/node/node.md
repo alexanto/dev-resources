@@ -37,3 +37,4 @@
 - [Async Await Video](https://www.youtube.com/watch?v=vn3tm0quoqE)
 - [Learn You Couch DB](https://www.npmjs.com/package/learnyoucouchdb)
 - [NodeJS multithreading](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
+- [How to start a NodeJS project](https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/)
