@@ -33,3 +33,4 @@
 - [Learn You Node](https://github.com/workshopper/learnyounode)
 - [Expressworks](https://github.com/azat-co/expressworks)
 - [Kick off Koa](https://github.com/koajs/kick-off-koa)
+- [Promise it wont hurt](https://github.com/stevekane/promise-it-wont-hurt)
