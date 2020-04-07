@@ -36,3 +36,4 @@
 - [Promise it wont hurt](https://github.com/stevekane/promise-it-wont-hurt)
 - [Async Await Video](https://www.youtube.com/watch?v=vn3tm0quoqE)
 - [Learn You Couch DB](https://www.npmjs.com/package/learnyoucouchdb)
+- [NodeJS multithreading](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
