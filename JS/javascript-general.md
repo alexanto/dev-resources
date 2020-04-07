@@ -4,6 +4,7 @@
 - [ ] [Javascript testing](https://www.udacity.com/course/javascript-testing--ud549)
 - [ ] [Javascript Async Requests](https://www.udacity.com/course/asynchronous-javascript-requests--ud109)
 - [ ] [Sessionstack blog tutorials](https://blog.sessionstack.com/tagged/tutorial)
+- [ ] [Count to 6 JS](https://github.com/domenic/count-to-6)
 ### Books
 - [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS)
 ### Resources
