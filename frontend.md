@@ -25,5 +25,6 @@
 - [FrontEnd Arcitectures](https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231)
 - testing react with enzyme
 - [Simple Parallax](https://simpleparallax.com/)
+- [Frontend Performance Checklist](https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/)
 
 
