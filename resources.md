@@ -38,6 +38,7 @@
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [What to pay JS Developers](https://medium.com/javascript-scene/what-to-pay-javascript-developers-in-2020-2292eb346f3b)
 - [How DNS Works](https://howdns.works/)
+- [Software Architecture 101](https://hackernoon.com/how-to-design-a-web-application-software-architecture-101-eecy36o5?source=rss&utm_source=Hacker+Noon+Readers&utm_campaign=a6d5d5e8f8-EMAIL_CAMPAIGN_2020_02_10_12_04&utm_medium=email&utm_term=0_fa796741e6-a6d5d5e8f8-94574477)
 
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
