@@ -44,6 +44,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Proxies](https://blog.logrocket.com/having-fun-with-es6-proxies/)
  - [Console Cheatsheet](https://levelup.gitconnected.com/console-cheat-sheet-for-javascript-developers-21f0c49604d4)
  - [10 useful array methods](https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5)
+ - [ES2018 Features](https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/)
  
  ### Fun
  
