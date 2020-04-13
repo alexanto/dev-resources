@@ -1,1 +1,2 @@
 - [Learn You React](https://github.com/workshopper/learnyoureact)
+- [Awesome React Talks](https://github.com/tiaanduplessis/awesome-react-talks)
