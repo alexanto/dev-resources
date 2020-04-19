@@ -50,6 +50,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [Floating point number weirdness](https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6)
  - [ ] [How to round binary fractions](https://medium.com/angular-in-depth/how-to-round-binary-fractions-625c8fa3a1af)
  - [ ] [Binary Offset](https://medium.com/angular-in-depth/the-mechanics-behind-exponent-bias-in-floating-point-9b3185083528)
+ - [ ] [Binary and Decimal Conversion Algorithms](https://medium.com/angular-in-depth/the-simple-math-behind-decimal-binary-conversion-algorithms-d30c967c9724)
  
  ### Fun
  
