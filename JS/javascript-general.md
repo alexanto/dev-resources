@@ -48,6 +48,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [10 useful array methods](https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5)
  - [ ] [ES2018 Features](https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/)
  - [ ] [Floating point number weirdness](https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6)
+ - [ ] [How to round binary fractions](https://medium.com/angular-in-depth/how-to-round-binary-fractions-625c8fa3a1af)
  
  ### Fun
  
