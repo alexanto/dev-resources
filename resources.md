@@ -10,7 +10,7 @@
 * [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
 * [Alan Kay - Programming and Scaling](https://www.youtube.com/watch?v=YyIQKBzIuBY)
 * [Free for Dev](https://free-for.dev/#/)
-
+* [Awesome List](https://github.com/sindresorhus/awesome)
 ### Articles
 
 - [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
