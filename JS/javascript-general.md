@@ -52,6 +52,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [Binary Offset](https://medium.com/angular-in-depth/the-mechanics-behind-exponent-bias-in-floating-point-9b3185083528)
  - [ ] [Binary and Decimal Conversion Algorithms](https://medium.com/angular-in-depth/the-simple-math-behind-decimal-binary-conversion-algorithms-d30c967c9724)
  - [ ] [JS Numbers JS Conf](https://www.youtube.com/watch?v=MqHDDtVYJRI)
+ - [ ] [Type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
  
  ### Fun
  
