@@ -51,6 +51,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [How to round binary fractions](https://medium.com/angular-in-depth/how-to-round-binary-fractions-625c8fa3a1af)
  - [ ] [Binary Offset](https://medium.com/angular-in-depth/the-mechanics-behind-exponent-bias-in-floating-point-9b3185083528)
  - [ ] [Binary and Decimal Conversion Algorithms](https://medium.com/angular-in-depth/the-simple-math-behind-decimal-binary-conversion-algorithms-d30c967c9724)
+ - [ ] [JS Numbers JS Conf](https://www.youtube.com/watch?v=MqHDDtVYJRI)
  
  ### Fun
  
