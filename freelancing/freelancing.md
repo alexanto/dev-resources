@@ -16,6 +16,8 @@
 - [Projektmenedzsment appok](https://freelancerblog.hu/51-kihagyhatatlan-projektmenedzsment-app/)
 - [Tokeletes ajanlat](https://freelancerblog.hu/tokeletes-arajanlat/)
 - [Hogyan tartsuk meg az ugyfelet](https://freelancerblog.hu/hogyan-tartsuk-meg-az-ugyfeleinket/)
+- [3 lehetsges freelancer karrier](https://freelancerblog.hu/a-freelancer-karrier-3-lehetseges-utvonala/)
+
 
 ## Upwork
 
