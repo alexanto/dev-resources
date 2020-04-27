@@ -99,3 +99,4 @@
 - [Async best practices](https://blog.risingstack.com/node-js-async-best-practices-avoiding-callback-hell-node-js-at-scale/)
 - [Prod Checklist for Kubernetes](https://srcco.de/posts/web-service-on-kubernetes-production-checklist-2019.html?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=81302698&_hsenc=p2ANqtz-8ImK0TaWnqR2aXMY3OkkL27VZtnje0d2bXZBFSLvKYHlmwNFdraA6oPtrx09q-E4F-Wg2p-vzvsASLQFVrCEIH7yPNHA&_hsmi=81302745)
 - [100 best devops stories of 2019](https://medium.com/faun/100-best-devops-stories-of-2019-faun-11d0c395cd75)
+- [DB stuff](https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
