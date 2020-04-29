@@ -42,6 +42,7 @@
 - [Social Enginieering](https://hackernoon.com/social-engineering-how-to-be-a-craftsman-of-the-dark-arts-2rbm36lo?utm_source=Hacker+Noon+Readers&utm_campaign=8046370f90-EMAIL_CAMPAIGN_2020_01_16_12_42_COPY_01&utm_medium=email&utm_term=0_fa796741e6-8046370f90-94574477)
 - [Github Tipps and Tricks](https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/)
 - [SDLC](https://hackernoon.com/the-sdlc-phases-models-and-methodologies-ultimate-guide-2020-551ab3yjl?source=rss)
+- [Meeting Tools](https://hackernoon.com/all-the-tools-you-need-to-emulate-the-experience-of-being-in-physical-office-e73h3y05?source=rss)
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
 
