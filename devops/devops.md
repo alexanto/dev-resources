@@ -101,3 +101,4 @@
 - [100 best devops stories of 2019](https://medium.com/faun/100-best-devops-stories-of-2019-faun-11d0c395cd75)
 - [DB stuff](https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 - [bash best practices](https://kvz.io/bash-best-practices.html?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23214%3A+The+Chaos+Engineering+Collection%2C+Moving+from+Microservices+to+Macroservices+%26+Kubernetes+vs+OpenShift&utm_medium=email&utm_source=faun)
+- [Branching patterns](https://martinfowler.com/articles/branching-patterns.html?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=87032213&_hsenc=p2ANqtz-9z23ciHn5ZN732Ws2qDjHEav4gR8L2ix9QpBNgbhLr0bi00r1Ri4vumBm4-ScZ2ULVOur5bvKyRPD7HsDNHyyhpaQeEA&_hsmi=87032213)
