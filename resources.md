@@ -11,6 +11,7 @@
 * [Alan Kay - Programming and Scaling](https://www.youtube.com/watch?v=YyIQKBzIuBY)
 * [Free for Dev](https://free-for.dev/#/)
 * [Awesome List](https://github.com/sindresorhus/awesome)
+* [Awesome Npx](https://github.com/junosuarez/awesome-npx)
 ### Articles
 
 - [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
