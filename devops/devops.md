@@ -103,3 +103,4 @@
 - [bash best practices](https://kvz.io/bash-best-practices.html?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23214%3A+The+Chaos+Engineering+Collection%2C+Moving+from+Microservices+to+Macroservices+%26+Kubernetes+vs+OpenShift&utm_medium=email&utm_source=faun)
 - [Branching patterns](https://martinfowler.com/articles/branching-patterns.html?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=87032213&_hsenc=p2ANqtz-9z23ciHn5ZN732Ws2qDjHEav4gR8L2ix9QpBNgbhLr0bi00r1Ri4vumBm4-ScZ2ULVOur5bvKyRPD7HsDNHyyhpaQeEA&_hsmi=87032213)
 - [k8s tutorials](https://techbeacon.com/enterprise-it/47-advanced-tutorials-mastering-kubernetes)
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
