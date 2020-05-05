@@ -106,3 +106,4 @@
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 - vspehere
 - terraform
+- [Shift-Left](https://hackernoon.com/devsecops-shifting-left-and-shifting-right-m5do32zj?source=rss)
