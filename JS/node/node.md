@@ -41,3 +41,4 @@
 - [Be a better nodeJS developer](https://medium.com/@me_37286/20-ways-to-become-a-better-node-js-developer-in-2020-d6bd73fcf424)
 - [Testing Best Practices](https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347)
 - [Express Best Pracrtices](https://sematext.com/blog/expressjs-best-practices/)
+- [Node Buffers](https://www.digitalocean.com/community/tutorials/using-buffers-in-node-js)
