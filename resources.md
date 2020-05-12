@@ -46,6 +46,7 @@
 - [Meeting Tools](https://hackernoon.com/all-the-tools-you-need-to-emulate-the-experience-of-being-in-physical-office-e73h3y05?source=rss)
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
+- [Scrum vs Kanban](https://hackernoon.com/kanban-vs-scrum-heres-what-your-team-needs-to-know-mxa23y9v?source=rss)
 
 
 ## Interesting
