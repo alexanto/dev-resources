@@ -14,6 +14,7 @@
 - [ ] [The Complete Android Kotlin Developer Course](https://www.udemy.com/course/the-complete-kotlin-developer-course/)
 - [ ] oracle books
 - [ ] [spring boot](https://www.baeldung.com/spring-boot)
+- [ ] [Java Annotations](https://hackernoon.com/a-beginners-guide-to-annotations-and-annotation-processors-explained-wu6r321s?source=rss)
 
 ## Tutorial Articles
 - [Annotations](https://hackernoon.com/annotations-in-java-everything-you-wanted-to-know-bz4t32in?source=rss)
