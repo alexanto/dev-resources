@@ -19,6 +19,13 @@
 JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  
  ### Great tutorial articles
+ 
+ 18. `Object.create` and `Object.assign()`
+ - [Javascript Object Creation Patterns](https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/)
+ 
+ 
+ 
+ 
  - [ ] [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
  - [ ] [THIS keyword](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85)
  - [ ] [Arrow functions](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
