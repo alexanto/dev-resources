@@ -22,6 +22,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  
  18. `Object.create` and `Object.assign()`
  - [Javascript Object Creation Patterns](https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/)
+ - [Object.assign, Object.keys, hasOwnProperty](https://alligator.io/js/dealing-with-objects/)
  
  
  
