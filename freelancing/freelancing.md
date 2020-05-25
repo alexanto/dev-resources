@@ -18,6 +18,7 @@
 - [Hogyan tartsuk meg az ugyfelet](https://freelancerblog.hu/hogyan-tartsuk-meg-az-ugyfeleinket/)
 - [3 lehetsges freelancer karrier](https://freelancerblog.hu/a-freelancer-karrier-3-lehetseges-utvonala/)
 - [Ugyfelszerzes](https://freelancerblog.hu/ugyfelszerzes-karantenon-innen-es-tul/?fbclid=IwAR3zGW7lEgXvY5TFFJrC-ratxhDjeHyPaSsctCnXiCXtQs9o0uKFrRLixW4)
+- [Codementor](https://www.codementor.io/mentor/apply)
 
 
 ## Upwork
