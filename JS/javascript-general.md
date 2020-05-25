@@ -24,7 +24,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Javascript Object Creation Patterns](https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/)
  - [Object.assign, Object.keys, hasOwnProperty](https://alligator.io/js/dealing-with-objects/)
  - [Copying Object](https://scotch.io/bar-talk/copying-objects-in-javascript)
- 
+ - [How to clone a JS object](https://flaviocopes.com/how-to-clone-javascript-object/) 
  
  
  
