@@ -61,6 +61,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [JS Numbers JS Conf](https://www.youtube.com/watch?v=MqHDDtVYJRI)
  - [ ] [Type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
  - [ ] [Package JSON dependencies in depth](https://medium.com/better-programming/package-jsons-dependencies-in-depth-a1f0637a3129)
+ - [ ] [Differences betweeen arrow and regular functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/)
  
  ### Fun
  
