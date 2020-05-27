@@ -48,6 +48,7 @@
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
 - [Scrum vs Kanban](https://hackernoon.com/kanban-vs-scrum-heres-what-your-team-needs-to-know-mxa23y9v?source=rss)
+- [Internet Protocols](https://hackernoon.com/everything-you-ever-wanted-to-know-about-internet-protocols-d3a93zss?source=rss)
 
 
 ## Interesting
