@@ -26,5 +26,6 @@
 - testing react with enzyme
 - [Simple Parallax](https://simpleparallax.com/)
 - [Frontend Performance Checklist](https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/)
+- [CSS Variables](https://increment.com/frontend/a-users-guide-to-css-variables/)
 
 
