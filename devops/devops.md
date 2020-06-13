@@ -107,3 +107,4 @@
 - vspehere
 - terraform
 - [Shift-Left](https://hackernoon.com/devsecops-shifting-left-and-shifting-right-m5do32zj?source=rss)
+- [Top 10 Linux questions](https://www.youtube.com/watch?v=l0QGLMwR-lY&list=WL&index=4&t=0s)
