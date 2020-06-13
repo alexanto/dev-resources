@@ -46,6 +46,7 @@
 - [SDLC](https://hackernoon.com/the-sdlc-phases-models-and-methodologies-ultimate-guide-2020-551ab3yjl?source=rss)
 - [Meeting Tools](https://hackernoon.com/all-the-tools-you-need-to-emulate-the-experience-of-being-in-physical-office-e73h3y05?source=rss)
 - [WebGL](https://xem.github.io/articles/webgl-guide.html)
+- [The main thread is overworked and underpaid](https://www.youtube.com/watch?v=7Rrv9qFMWNM)
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
 - [Scrum vs Kanban](https://hackernoon.com/kanban-vs-scrum-heres-what-your-team-needs-to-know-mxa23y9v?source=rss)
