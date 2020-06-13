@@ -12,6 +12,7 @@
 * [Free for Dev](https://free-for.dev/#/)
 * [Awesome List](https://github.com/sindresorhus/awesome)
 * [Awesome Npx](https://github.com/junosuarez/awesome-npx)
+- [Agile is Dead](https://www.youtube.com/watch?v=rIaz-l1Kf8w)
 ### Articles
 
 - [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
