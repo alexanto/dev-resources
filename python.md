@@ -18,7 +18,7 @@
  - [ ] [Introduction to python](https://www.udacity.com/course/introduction-to-python--ud1110)
  - [ ] [Complete Python Bootcamp](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/3421822#overview)
  - [ ] [Pzthon Refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p?source=rss)
- 
+ - [ ] [Python Setup](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
  
  ### Ebooks
 - [ ] [A Whirlwind Tour of Python](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/)
