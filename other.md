@@ -41,4 +41,5 @@
 * [ ] [Build a web scraper](https://hackernoon.com/building-a-web-scraper-from-start-to-finish-bb6b95388184)
 * [Curl](https://curl.haxx.se/book.html)
 * [DNS](https://hackernoon.com/how-domain-name-system-work-318j3w0d?source=rss)
+* [Open Source Projects](https://hackernoon.com/open-source-series-issues-and-prs-9y8g30ey?source=rss)
 
