@@ -108,3 +108,4 @@
 - terraform
 - [Shift-Left](https://hackernoon.com/devsecops-shifting-left-and-shifting-right-m5do32zj?source=rss)
 - [Top 10 Linux questions](https://www.youtube.com/watch?v=l0QGLMwR-lY&list=WL&index=4&t=0s)
+- [Microservices in Kubernetes](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/?utm_campaign=Newsletter&utm_medium=email&_hsmi=89168336&_hsenc=p2ANqtz-_FtNQW-rjXhkcOxvUg0Bavd55yogJ0dlYjGErDCOyF8A3XmTwQpOhe43LztTYQQ2d_94yCUc484Kj4KdtzHvgBTiylPw&utm_content=89168336&utm_source=hs_email)
