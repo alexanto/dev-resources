@@ -42,4 +42,5 @@
 * [Curl](https://curl.haxx.se/book.html)
 * [DNS](https://hackernoon.com/how-domain-name-system-work-318j3w0d?source=rss)
 * [Open Source Projects](https://hackernoon.com/open-source-series-issues-and-prs-9y8g30ey?source=rss)
+* [Start ups](https://hackernoon.com/3-ways-to-make-sure-your-startup-isnt-successful-g61v308s?source=rss)
 
