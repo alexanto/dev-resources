@@ -8,6 +8,7 @@
 
 ## Articles
 - [ ] [Beginners Guide](https://hackernoon.com/imagine-yourself-being-a-hacker-beginners-guide-iq3j3umr?source=rss)
+- [ ] [How not to become a script kiddie](http://gettinggeek.com/how-not-to-become-a-script-kiddie/?ref=hackernoon.com)
 
 ## Other
 - [ ] [Avatao Hacker Playground](https://avatao.com/)
