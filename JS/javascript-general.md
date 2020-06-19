@@ -26,6 +26,8 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Copying Object](https://scotch.io/bar-talk/copying-objects-in-javascript)
  - [How to clone a JS object](https://flaviocopes.com/how-to-clone-javascript-object/) 
  
+ 19. `map, reduce, filter`
+ 
  ---
  
  - [ ] [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
