@@ -19,6 +19,7 @@
 - [3 lehetsges freelancer karrier](https://freelancerblog.hu/a-freelancer-karrier-3-lehetseges-utvonala/)
 - [Ugyfelszerzes](https://freelancerblog.hu/ugyfelszerzes-karantenon-innen-es-tul/?fbclid=IwAR3zGW7lEgXvY5TFFJrC-ratxhDjeHyPaSsctCnXiCXtQs9o0uKFrRLixW4)
 - [Codementor](https://www.codementor.io/mentor/apply)
+- [PR Best Practices](https://hackernoon.com/this-is-what-i-learnt-after-making-over-1000-code-reviews-ad4r3ujy?source=rss)
 
 
 ## Upwork
@@ -26,4 +27,3 @@
 - [Upwork How To Start](https://freelancerblog.hu/az-upwork-es-meses-sikerek-igaz-tortenete/)
 - [Ilyen munkák vannak](https://freelancerblog.hu/upwork-ilyen-munkakat-talalhatsz-legnagyobb-online-munka-oldalon/)
 - [Application denied](https://support.upwork.com/hc/en-us/articles/214180797-Why-was-my-application-to-join-Upwork-not-accepted-)
-
