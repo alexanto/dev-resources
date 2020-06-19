@@ -6,5 +6,8 @@
 - [ ] [BugCrowd Bug Bounty List](https://www.bugcrowd.com/bug-bounty-list/)
 - [ ] [Hackerone Bug Bounty Programs](https://hackerone.com/bug-bounty-programs)
 
+## Articles
+- [ ] [Beginners Guide](https://hackernoon.com/imagine-yourself-being-a-hacker-beginners-guide-iq3j3umr?source=rss)
+
 ## Other
 - [ ] [Avatao Hacker Playground](https://avatao.com/)
