@@ -27,6 +27,10 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [How to clone a JS object](https://flaviocopes.com/how-to-clone-javascript-object/) 
  
  19. `map, reduce, filter`
+ - [Manipulating arrays](https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/)
+ 
+ 34. `arrow functions`
+ - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  
  ---
  
