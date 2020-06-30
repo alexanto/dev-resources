@@ -28,6 +28,10 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  
  19. `map, reduce, filter`
  - [Manipulating arrays](https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/)
+ - [JS Functional Programming I](https://hackernoon.com/javascript-and-functional-programming-an-introduction-286aa625e26d)
+ - [JS Functional Programming II: First class functions](https://hackernoon.com/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217)
+ - [JS Functional Programming III: Pure Functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
+ - [JS Functional Programming IV: Currying](https://hackernoon.com/javascript-and-functional-programming-currying-pt-4-96e3230782ab)
  
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
