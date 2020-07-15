@@ -20,6 +20,7 @@
  - [ ] [Pzthon Refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p?source=rss)
  - [ ] [Python Setup](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
  - [ ] [Selenium with Python](https://selenium-python.readthedocs.io/?ref=hackernoon.com)
+ - [ ] [Build a web scrapoer with python](https://realpython.com/beautiful-soup-web-scraper-python/?ref=hackernoon.com)
  
  ### Ebooks
 - [ ] [A Whirlwind Tour of Python](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/)
