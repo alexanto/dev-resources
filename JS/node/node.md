@@ -42,3 +42,4 @@
 - [Testing Best Practices](https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347)
 - [Express Best Pracrtices](https://sematext.com/blog/expressjs-best-practices/)
 - [Node Buffers](https://www.digitalocean.com/community/tutorials/using-buffers-in-node-js)
+- [Microservice Development Patterns](https://hackernoon.com/practical-microservices-development-patterns-crud-vs-cqrs-h6m3y5y?source=rss)
