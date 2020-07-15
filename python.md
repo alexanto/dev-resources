@@ -21,6 +21,7 @@
  - [ ] [Python Setup](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
  - [ ] [Selenium with Python](https://selenium-python.readthedocs.io/?ref=hackernoon.com)
  - [ ] [Build a web scrapoer with python](https://realpython.com/beautiful-soup-web-scraper-python/?ref=hackernoon.com)
+ - [ ] [Send emails with Pyhton](https://realpython.com/python-send-email/?ref=hackernoon.com)
  
  ### Ebooks
 - [ ] [A Whirlwind Tour of Python](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/)
