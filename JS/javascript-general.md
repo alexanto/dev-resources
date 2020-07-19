@@ -50,6 +50,10 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Simplified JavaScript: Getting Started with Closures](https://code.likeagirl.io/simplified-javascript-getting-started-with-closures-f40f65317d00)
  - [A basic guide to Closures in JavaScript](https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e/)
  
+ 22. `Higher Order Functions`
+ - [Higher Order Functions](https://hackernoon.com/effective-functional-javascript-first-class-and-higher-order-functions-713fde8df50a)
+ - [Understanding Higher-Order Functions in JavaScript](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
