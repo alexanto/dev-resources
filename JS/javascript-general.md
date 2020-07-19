@@ -34,7 +34,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [JS Functional Programming IV: Currying](https://hackernoon.com/javascript-and-functional-programming-currying-pt-4-96e3230782ab)
  
  20. `Pure Functions` 
- - [Javascript and Functional Programming — Pt. 3: Pure Functions](Javascript and Functional Programming — Pt. 3: Pure Functions)
+ - [Javascript and Functional Programming — Pt. 3: Pure Functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
  - [Master the JavaScript Interview: What is a Pure Function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
  - [JavaScript: What Are Pure Functions And Why Use Them?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
  - [The State of Immutability](https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310)
