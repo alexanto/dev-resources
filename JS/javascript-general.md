@@ -33,10 +33,19 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [JS Functional Programming III: Pure Functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
  - [JS Functional Programming IV: Currying](https://hackernoon.com/javascript-and-functional-programming-currying-pt-4-96e3230782ab)
  
+ 20. `Pure Functions` 
+ - [Javascript and Functional Programming — Pt. 3: Pure Functions](Javascript and Functional Programming — Pt. 3: Pure Functions)
+ - [Master the JavaScript Interview: What is a Pure Function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
+ - [JavaScript: What Are Pure Functions And Why Use Them?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
+ - [The State of Immutability](https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310)
+ - [Functional programming paradigms in modern JavaScript: Pure functions](https://hackernoon.com/functional-programming-paradigms-in-modern-javascript-pure-functions-797d9abbee1)
+ - [Functional-ish JavaScript](https://medium.com/@bluepnume/functional-ish-javascript-205c05d0ed08)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
- - [When to use arrow functions](https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/)
+ - [When to use arrow functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
+
  
  ---
  
