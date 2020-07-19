@@ -54,6 +54,12 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Higher Order Functions](https://hackernoon.com/effective-functional-javascript-first-class-and-higher-order-functions-713fde8df50a)
  - [Understanding Higher-Order Functions in JavaScript](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad)
  
+ 23. `Recursion`
+ - [Recursion in JS](https://www.freecodecamp.org/news/recursion-in-javascript-1608032c7a1f/)
+ - [Understanding recusrion in JS](https://medium.com/@zfrisch/understanding-recursion-in-javascript-992e96449e03)
+ - [Learn and Understand Recursion in JavaScript](https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea)
+ - [Programming with JS Recursion](https://hackernoon.com/programming-with-js-recursion-31371e2bf808)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
