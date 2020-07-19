@@ -41,6 +41,15 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Functional programming paradigms in modern JavaScript: Pure functions](https://hackernoon.com/functional-programming-paradigms-in-modern-javascript-pure-functions-797d9abbee1)
  - [Functional-ish JavaScript](https://medium.com/@bluepnume/functional-ish-javascript-205c05d0ed08)
  
+ 21. `Closures`
+ - [I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+ - [Understanding JavaScript Closures](https://codeburst.io/understanding-javascript-closures-da6aab330302)
+ - [Understand Closures in JavaScript](https://codeburst.io/understand-closures-in-javascript-d07852fa51e7)
+ - [Understanding JavaScript: Closures](https://hackernoon.com/understanding-javascript-closures-4188edf5ea1b)
+ - [How to use JavaScript closures with confidence](https://hackernoon.com/how-to-use-javascript-closures-with-confidence-85cd1f841a6b)
+ - [Simplified JavaScript: Getting Started with Closures](https://code.likeagirl.io/simplified-javascript-getting-started-with-closures-f40f65317d00)
+ - [A basic guide to Closures in JavaScript](https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e/)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
