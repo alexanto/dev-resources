@@ -84,6 +84,12 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [JavaScript Engines: The Good Parts™ - Mathias Bynens & Benedikt Meurer - JSConf EU 2018](https://www.youtube.com/watch?v=5nmpokoRaZI)
 
  12. `Bitwise Operators, Type Arrays and Array Buffers`
+ - [Programming with JS: Bitwise Operations](https://hackernoon.com/programming-with-js-bitwise-operations-393eb0745dc4)
+ - [Using JavaScript’s Bitwise Operators in Real Life](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
+ - [Bitwise Operators in Javascript](https://medium.com/bother7-blog/bitwise-operators-in-javascript-65c4c69be0d3)
+ - [A Comprehensive Primer on Binary Computation and Bitwise Operators in Javascript](https://medium.com/techtrument/a-comprehensive-primer-on-binary-computation-and-bitwise-operators-in-javascript-81acf8341f04)
+ - [JavaScript Bitwise Operators](https://www.youtube.com/watch?v=mesu75PTDC8)
+ 
  13. `DOM and Layout Trees`
  14. `Factories and Classes`
  15. `this, call, apply and bind`
