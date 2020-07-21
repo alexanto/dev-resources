@@ -93,34 +93,57 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d](Playing with data structures in Javascript — Stack)
  - [The Little Guide of Queue in JavaScript](https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9)
  - [Data Structures: Understanding Graphs](https://medium.com/javascript-in-plain-english/data-structures-understanding-graphs-82509d35e6b5)
- 
+
  28. `Expensive Operation and Big O Notation`
-- [Big O Notation in JavaScript](https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b)
-- [Time Complexity/Big O Notation](https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b)
-- [Big O in JavaScript](https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051
-- [Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/)
-- [An Introduction to Big O Notation](https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o)
+ - [Big O Notation in JavaScript](https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b)
+ - [Time Complexity/Big O Notation](https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b)
+ - [Big O in JavaScript](https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051
+ - [Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/)
+ - [An Introduction to Big O Notation](https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o)
 
-29. `Algorithms`
-- [Algorithms in JavaScript](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
-- [JavaScript Objects, Square Brackets and Algorithms](https://www.freecodecamp.org/news/javascript-objects-square-brackets-and-algorithms-e9a2916dc158/)
+ 29. `Algorithms`
+ - [Algorithms in JavaScript](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
+ - [JavaScript Objects, Square Brackets and Algorithms](https://www.freecodecamp.org/news/javascript-objects-square-brackets-and-algorithms-e9a2916dc158/)
 
-30. `Inheritance, Polymorphism and Code Reuse`
-- [Inheritance in JavaScript](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)
-- [JavaScript — Inheritance, delegation patterns and Object linking](https://codeburst.io/javascript-inheritance-25fe61ab9f85)
-- [Program like Proteus — a beginner’s guide to polymorphism in JavaScript](https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2)
+ 30. `Inheritance, Polymorphism and Code Reuse`
+ - [Inheritance in JavaScript](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)
+ - [JavaScript — Inheritance, delegation patterns and Object linking](https://codeburst.io/javascript-inheritance-25fe61ab9f85)
+ - [Program like Proteus — a beginner’s guide to polymorphism in JavaScript](https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2)
 
-31. `Design Patterns`
-- [4 JavaScript Design Patterns You Should Know](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know)
-- [JavaScript Design Patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-- [JavaScript Design Patterns](https://medium.com/front-end-weekly/javascript-design-patterns-ed9d4c144c81)
-- [Understanding Design Patterns in JavaScript](https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd)
-- [The Power of the Module Pattern in JavaScript](https://medium.com/better-programming/the-power-of-the-module-pattern-in-javascript-3c73f7cd10e8)
-- [Design patterns in modern JavaScript development](https://levelup.gitconnected.com/design-patterns-in-modern-javascript-development-ec84d8be06ca)
-- [JavaScript Design Pattern — Module Pattern](https://medium.com/javascript-in-plain-english/javascript-design-pattern-module-pattern-555737eccecd)
-- [Design Patterns: Null Object](https://medium.com/better-programming/design-patterns-null-object-5ee839e37892)
-- [JavaScript Design Patterns](https://www.udacity.com/course/javascript-design-patterns--ud989)
- 
+ 31. `Design Patterns`
+ - [4 JavaScript Design Patterns You Should Know](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know)
+ - [JavaScript Design Patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+ - [JavaScript Design Patterns](https://medium.com/front-end-weekly/javascript-design-patterns-ed9d4c144c81)
+ - [Understanding Design Patterns in JavaScript](https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd)
+ - [The Power of the Module Pattern in JavaScript](https://medium.com/better-programming/the-power-of-the-module-pattern-in-javascript-3c73f7cd10e8)
+ - [Design patterns in modern JavaScript development](https://levelup.gitconnected.com/design-patterns-in-modern-javascript-development-ec84d8be06ca)
+ - [JavaScript Design Pattern — Module Pattern](https://medium.com/javascript-in-plain-english/javascript-design-pattern-module-pattern-555737eccecd)
+ - [Design Patterns: Null Object](https://medium.com/better-programming/design-patterns-null-object-5ee839e37892)
+ - [JavaScript Design Patterns](https://www.udacity.com/course/javascript-design-patterns--ud989)
+
+ 32. `Partial Applications, Currying, Compose and Pipe`
+ - [Use function composition in JavaScript](https://www.codementor.io/@michelre/use-function-composition-in-javascript-gkmxos5mj)
+ - [Currying in JavaScript ES6](https://blog.benestudio.co/currying-in-javascript-es6-540d2ad09400)
+ - [Writing Middleware —Composition and Currying Elegance in JavaScript](https://medium.com/@pragyan88/writing-middleware-composition-and-currying-elegance-in-javascript-8b15c98a541b)
+ - [Functional JavaScript: Function Composition For Every Day Use](https://hackernoon.com/javascript-functional-composition-for-every-day-use-22421ef65a10)
+ - [The beauty in Partial Application, Currying, and Function Composition.](https://hackernoon.com/the-beauty-in-partial-application-currying-and-function-composition-d885bdf0d574)
+ - [Curry or Partial Application?](https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8)
+ - [Partial Application of Functions](https://hackernoon.com/partial-application-of-functions-dbe7d9b80760)
+ - [So You Want to be a Functional Programmer (Part 1)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536)
+ - [So You Want to be a Functional Programmer (Part 2)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-2-7005682cec4a)
+ - [So You Want to be a Functional Programmer (Part 3)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-3-1b0fd14eb1a7)
+ - [So You Want to be a Functional Programmer (Part 4)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-4-18fbe3ea9e49)
+ - [So You Want to be a Functional Programmer (Part 5)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-5-c70adc9cf56a)
+ - [An Introduction to the basic principles of Functional Programming](https://www.freecodecamp.org/news/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84/)
+ - [Functional Programming Principles in Javascript](https://www.freecodecamp.org/news/functional-programming-principles-in-javascript-1b8fc6c3563f/)
+ - [A practical guide to writing more functional JavaScript](https://www.freecodecamp.org/news/a-practical-guide-to-writing-more-functional-javascript-db49409f71/)
+
+ 33. `Clean Code`
+ - [JavaScript Clean Coding Best Practices](https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/)
+ - [Function parameters in JavaScript — Clean Code](https://medium.com/@kevin_peters/function-parameters-in-javascript-clean-code-4caac109159b)
+ - [Keeping your code clean](https://codeburst.io/keeping-your-code-clean-d30bcffd1a10)
+ - [Writing Clean Code and The Practice of Programming: Actionable advice for beginners](https://dev.to/nityeshaga/writing-clean-code-and-the-practice-of-programming-actionable-advice-for-beginners-5f0k)
+
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
