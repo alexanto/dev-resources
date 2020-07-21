@@ -91,10 +91,39 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [JavaScript Bitwise Operators](https://www.youtube.com/watch?v=mesu75PTDC8)
  
  13. `DOM and Layout Trees`
+ - [What’s the Document Object Model, and why you should know how to use it.](https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/)
+ - [What is the DOM?](https://css-tricks.com/dom/)
+ - [How to traverse the DOM in JavaScript](https://medium.com/javascript-in-plain-english/how-to-traverse-the-dom-in-javascript-d6555c335b4e)
+ - [JavaScript DOM Crash Course - Part 1](https://www.youtube.com/watch?v=0ik6X4DJKCc)
+ 
  14. `Factories and Classes`
+ - [Javascript Classes — Under The Hood](https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677)
+ - [Understand the Factory Design Pattern in plain JavaScript](https://medium.com/front-end-weekly/understand-the-factory-design-pattern-in-plain-javascript-20b348c832bd)
+ - [The Factory Pattern in JS ES6](https://medium.com/@SntsDev/the-factory-pattern-in-js-es6-78f0afad17e9)
+ - [Class vs Factory function: exploring the way forward](https://www.freecodecamp.org/news/class-vs-factory-function-exploring-the-way-forward-73258b6a8d15/)
+ - [How ES6 classes really work and how to build your own](https://medium.com/@robertgrosse/how-es6-classes-really-work-and-how-to-build-your-own-fd6085eb326a)
+ - [Factory functions](https://www.youtube.com/watch?v=jpegXpQpb3o)
+ 
  15. `this, call, apply and bind`
+ - [Grokking call(), apply() and bind() methods in JavaScript](https://levelup.gitconnected.com/grokking-call-apply-and-bind-methods-in-javascript-392351a4be8b)
+ - [How-to: call() , apply() and bind() in JavaScript](https://www.codementor.io/@niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp)
+ 
  16. `new, Constructor, instanceof and Instances`
+ - [Javascript: call(), apply() and bind()](https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb)
+ - [The difference between call / apply / bind](https://medium.com/@ivansifrim/the-differences-between-call-apply-bind-276724bb825b)
+ - [Understanding the “this” Keyword in JavaScript](https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
+ - [How to understand the keyword this and context in JavaScript](https://www.freecodecamp.org/news/how-to-understand-the-keyword-this-and-context-in-javascript-cd624c6b74b8/)
+ 
  17. `Prototype Inheritance and Prototype Chain`
+ - [Javascript : Prototype vs Class](https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b)
+ - [JavaScript — Prototype](https://codeburst.io/javascript-prototype-cb29d82b8809)
+ - [Prototypes in JavaScript](https://medium.com/better-programming/prototypes-in-javascript-5bba2990e04b)
+ - [Prototype in JavaScript: it’s quirky, but here’s how it works](https://www.freecodecamp.org/news/prototype-in-js-busted-5547ec68872/)
+ - [Understanding JavaScript: Prototype and Inheritance](https://hackernoon.com/understanding-javascript-prototype-and-inheritance-d55a9a23bde2)
+ - [Master JavaScript Prototypes & Inheritance](https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e)
+ - [JavaScript’s Prototypal Inheritance Explained Using CSS](https://www.freecodecamp.org/news/understanding-prototypal-inheritance-in-javascript-with-css-93b2fcda75e4/)
+ - [Classes in JavaScript - Explained](http://blog.brew.com.hk/classes-in-javascript-explained/)
+ - [A Beginner's Guide to JavaScript's Prototype](https://www.youtube.com/watch?v=XskMWBXNbp0)
  
  18. `Object.create` and `Object.assign()`
  - [Javascript Object Creation Patterns](https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/)
