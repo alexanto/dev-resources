@@ -20,6 +20,7 @@
 - [Ugyfelszerzes](https://freelancerblog.hu/ugyfelszerzes-karantenon-innen-es-tul/?fbclid=IwAR3zGW7lEgXvY5TFFJrC-ratxhDjeHyPaSsctCnXiCXtQs9o0uKFrRLixW4)
 - [Codementor](https://www.codementor.io/mentor/apply)
 - [PR Best Practices](https://hackernoon.com/this-is-what-i-learnt-after-making-over-1000-code-reviews-ad4r3ujy?source=rss)
+- [Erősítsd meg a személyes márkád ezekkel a hackekkel!](https://freelancerblog.hu/erositsd-meg-a-szemelyes-markad-ezekkel-a-hackekkel/)
 
 
 ## Upwork
