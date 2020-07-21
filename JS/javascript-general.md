@@ -73,7 +73,16 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
  
  10. `setTimeout, setInterval and requestAnimationFrame`
+ - [setTimeout VS setInterval](https://develoger.com/settimeout-vs-setinterval-cff85142555b)
+ - [Using requestAnimationFrame](https://css-tricks.com/using-requestanimationframe/)
+ 
  11. `JavaScript Engines`
+ - [Understanding How the Chrome V8 Engine Translates JavaScript into Machine Code](https://www.freecodecamp.org/news/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964/)
+ - [Understanding V8’s Bytecode](https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775)
+ - [A Brief History of Google’s V8 JavaScript Engine](https://www.mediacurrent.com/blog/brief-history-googles-v8-javascript-engine/)
+ - [JavaScript essentials: why you should know how the engine works](https://www.freecodecamp.org/news/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553/)
+ - [JavaScript Engines: The Good Parts™ - Mathias Bynens & Benedikt Meurer - JSConf EU 2018](https://www.youtube.com/watch?v=5nmpokoRaZI)
+
  12. `Bitwise Operators, Type Arrays and Array Buffers`
  13. `DOM and Layout Trees`
  14. `Factories and Classes`
