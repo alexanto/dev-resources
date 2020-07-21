@@ -105,6 +105,11 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
 29. `Algorithms`
 - [Algorithms in JavaScript](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
 - [JavaScript Objects, Square Brackets and Algorithms](https://www.freecodecamp.org/news/javascript-objects-square-brackets-and-algorithms-e9a2916dc158/)
+
+30. `Inheritance, Polymorphism and Code Reuse`
+- [Inheritance in JavaScript](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)
+- [JavaScript — Inheritance, delegation patterns and Object linking](https://codeburst.io/javascript-inheritance-25fe61ab9f85)
+- [Program like Proteus — a beginner’s guide to polymorphism in JavaScript](https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2)
  
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
