@@ -80,6 +80,28 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [How to Write a JavaScript Promise](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
  - [JavaScript Promises: Zero To Hero Plus Cheat Sheet](https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa)
  
+ 26.  `Async/Await`
+ - [Understanding async-await in Javascript](https://hackernoon.com/understanding-async-await-in-javascript-1d81bb079b2c)
+ - [Javascript — ES8 Introducing `async/await` Functions](https://medium.com/@_bengarrison/javascript-es8-introducing-async-await-functions-7a471ec7de8a)
+ - [How to escape async/await hell](https://www.freecodecamp.org/news/avoiding-the-async-await-hell-c77a0fb71c4c/)
+ - [The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await](https://www.freecodecamp.org/news/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40/)
+ - [JavaScript — from callbacks to async/await](https://www.freecodecamp.org/news/javascript-from-callbacks-to-async-await-1cc090ddad99/)
+ - [dotJS 2017 - Wes Bos - Async + Await](https://www.youtube.com/watch?v=9YkUCxvaLEk)
+ 
+ 27. `Data Structures`
+ - [Data Structures in JavaScript](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
+ - [Algorithms and Data Structures in JavaScript](https://itnext.io/algorithms-and-data-structures-in-javascript-a71548f902cb)
+ - [https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d](Playing with data structures in Javascript — Stack)
+ - [The Little Guide of Queue in JavaScript](https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9)
+ - [Data Structures: Understanding Graphs](https://medium.com/javascript-in-plain-english/data-structures-understanding-graphs-82509d35e6b5)
+ 
+ 28. `Expensive Operation and Big O Notation`
+- [Big O Notation in JavaScript](https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b)
+- [Time Complexity/Big O Notation](https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b)
+- [Big O in JavaScript](https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051
+- [Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/)
+- [An Introduction to Big O Notation](https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
