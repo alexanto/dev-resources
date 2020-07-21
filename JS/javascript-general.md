@@ -21,7 +21,17 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  ### Great tutorials/articles by topic
  
  1. `Call Stack`
+ - [Understanding Javascript Function Executions — Call Stack, Event Loop , Tasks & more](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
+ - [The JavaScript Call Stack - What It Is and Why It's Necessary](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/)
+ - [Understanding Execution Context and Execution Stack in Javascript](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
+ - [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
+ - [The Ultimate Guide to Execution Contexts, Hoisting, Scopes, and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
+ - [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+ 
  2. `Primitive Types`
+ - [Here is what you need to know about JavaScript’s Number type](https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6)
+ - [The differences between Object.freeze() vs Const in JavaScript](https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c)
+ 
  3. `Value Types and Reference Types`
  4. `Implicit, Explicit, Nominal, Structuring and Duck Typing`
  5. `== vs === vs typeof`
