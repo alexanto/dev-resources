@@ -101,6 +101,10 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
 - [Big O in JavaScript](https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051
 - [Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/)
 - [An Introduction to Big O Notation](https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o)
+
+29. `Algorithms`
+- [Algorithms in JavaScript](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
+- [JavaScript Objects, Square Brackets and Algorithms](https://www.freecodecamp.org/news/javascript-objects-square-brackets-and-algorithms-e9a2916dc158/)
  
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
