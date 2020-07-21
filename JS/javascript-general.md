@@ -60,6 +60,14 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Learn and Understand Recursion in JavaScript](https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea)
  - [Programming with JS Recursion](https://hackernoon.com/programming-with-js-recursion-31371e2bf808)
  
+ 24. `Collections and Generators`
+ 
+ - [ES6 — Set vs Array — What and when?](https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a)
+ - [ES6 — Map vs Object — What and when?](https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373)
+ - [Array vs Set vs Map vs Object — Real-time use cases in Javascript (ES6/ES7)](https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b)
+ - [What You Should Know About ES6 Maps](https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e)
+ - [What are JavaScript Generators and how to use them](https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
