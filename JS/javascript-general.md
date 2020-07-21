@@ -68,6 +68,18 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [What You Should Know About ES6 Maps](https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e)
  - [What are JavaScript Generators and how to use them](https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e)
  
+ 25. `Promises`
+ - [Understanding promises in JavaScript](https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1)
+ - [Master the JavaScript Interview: What is a Promise?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
+ - [How JavaScript promises actually work from the inside out](https://www.freecodecamp.org/news/how-javascript-promises-actually-work-from-the-inside-out-76698bb7210b/)
+ - [Implementing Promises In JavaScript](https://www.freecodecamp.org/news/how-to-implement-promises-in-javascript-1ce2680a7f51/)
+ - [ES6 Promises: Patterns and Anti-Patterns](https://medium.com/datafire-io/es6-promises-patterns-and-anti-patterns-bbb21a5d0918)
+ - [A Simple Guide to ES6 Promises](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a)
+ - [The ES6 Promises](https://codeburst.io/the-es6-promises-87a979ab27e4)
+ - [Javascript Promises: An In-Depth Approach](https://codeburst.io/playing-with-javascript-promises-a-comprehensive-approach-25ab752c78c3)
+ - [How to Write a JavaScript Promise](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
+ - [JavaScript Promises: Zero To Hero Plus Cheat Sheet](https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa)
+ 
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
