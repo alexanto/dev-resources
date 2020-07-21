@@ -33,12 +33,45 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [The differences between Object.freeze() vs Const in JavaScript](https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c)
  
  3. `Value Types and Reference Types`
+ - [Explaining Value vs. Reference in Javascript](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
+ - [Back to roots: JavaScript Value vs Reference](https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18)
+ - [Grasp “By Value” and “By Reference” in JavaScript](https://hackernoon.com/grasp-by-value-and-by-reference-in-javascript-7ed75efa1293)
+ - [JavaScript Reference and Copy Variables](https://hackernoon.com/javascript-reference-and-copy-variables-b0103074fdf0)
+ 
  4. `Implicit, Explicit, Nominal, Structuring and Duck Typing`
+ - [JavaScript type coercion explained](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
+ - [Javascript Coercion Explained](https://hackernoon.com/javascript-coercion-explained-545c895213d3)
+ - [Shirmung Bielefeld: == ? === ??? ...#@^% | JSConf EU](https://www.youtube.com/watch?v=qGyqzN0bjhc&t)
+ 
  5. `== vs === vs typeof`
+ - [JavaScript — Double Equals vs. Triple Equals](https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a)
+ 
  6. `Function Scope, Block Scope and Lexical Scope`
+ - [JavaScript Functions — Understanding The Basics](https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99)
+ - [The Difference Between Function and Block Scope in JavaScript](https://medium.com/@vontmer/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe)
+ - [JavaScript Scope and Closures](https://css-tricks.com/javascript-scope-closures/)
+ - [Understanding Scope in JavaScript](https://www.telerik.com/blogs/understanding-scope-in-javascript)
+ - [When to use a function declaration vs. a function expression](https://www.freecodecamp.org/news/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0/)
+ 
  7. `Expression vs Statement`
+ - [JavaScript Function — Declaration vs Expression](https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38)
+ - [Function Declarations vs. Function Expressions](https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052)
+ 
  8. `IIFE, Modules and Namespaces`
+ - [Essential JavaScript: Mastering Immediately-invoked Function Expressions](https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6)
+ - [A 10 minute primer to JavaScript modules, module formats, module loaders and module bundlers](https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/)
+ - [An overview of ES6 Modules in JavaScript](https://blog.cloud66.com/an-overview-of-es6-modules-in-javascript/)
+ - [JavaScript Modules: A Beginner’s Guide](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/)
+ - [JavaScript Modules: From IIFEs to CommonJS to ES6 Modules](https://www.freecodecamp.org/news/javascript-modules-from-iifes-to-commonjs-to-es6-modules-4d10c16f55d4/)
+ - [ES6 Modules](https://www.youtube.com/watch?v=5P04OK6KlXA)
+ 
  9. `Message Queue and Event Loop`
+ - [JavaScript Event Loop Explained](https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4)
+ - [Understanding JS: The Event Loop](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
+ - [Event loop in javascript](https://code.likeagirl.io/what-the-heck-is-event-loop-1e414fccef49)
+ - [How JavaScript works: Event loop and the rise of Async programming + 5 ways to better coding with async/await](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
+ - [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+ 
  10. `setTimeout, setInterval and requestAnimationFrame`
  11. `JavaScript Engines`
  12. `Bitwise Operators, Type Arrays and Array Buffers`
