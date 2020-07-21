@@ -61,7 +61,6 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Programming with JS Recursion](https://hackernoon.com/programming-with-js-recursion-31371e2bf808)
  
  24. `Collections and Generators`
- 
  - [ES6 — Set vs Array — What and when?](https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a)
  - [ES6 — Map vs Object — What and when?](https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373)
  - [Array vs Set vs Map vs Object — Real-time use cases in Javascript (ES6/ES7)](https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b)
@@ -110,6 +109,17 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
 - [Inheritance in JavaScript](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)
 - [JavaScript — Inheritance, delegation patterns and Object linking](https://codeburst.io/javascript-inheritance-25fe61ab9f85)
 - [Program like Proteus — a beginner’s guide to polymorphism in JavaScript](https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2)
+
+31. `Design Patterns`
+- [4 JavaScript Design Patterns You Should Know](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know)
+- [JavaScript Design Patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+- [JavaScript Design Patterns](https://medium.com/front-end-weekly/javascript-design-patterns-ed9d4c144c81)
+- [Understanding Design Patterns in JavaScript](https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd)
+- [The Power of the Module Pattern in JavaScript](https://medium.com/better-programming/the-power-of-the-module-pattern-in-javascript-3c73f7cd10e8)
+- [Design patterns in modern JavaScript development](https://levelup.gitconnected.com/design-patterns-in-modern-javascript-development-ec84d8be06ca)
+- [JavaScript Design Pattern — Module Pattern](https://medium.com/javascript-in-plain-english/javascript-design-pattern-module-pattern-555737eccecd)
+- [Design Patterns: Null Object](https://medium.com/better-programming/design-patterns-null-object-5ee839e37892)
+- [JavaScript Design Patterns](https://www.udacity.com/course/javascript-design-patterns--ud989)
  
  34. `arrow functions`
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
