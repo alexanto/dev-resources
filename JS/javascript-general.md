@@ -202,7 +202,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  28. `Expensive Operation and Big O Notation`
  - [Big O Notation in JavaScript](https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b)
  - [Time Complexity/Big O Notation](https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b)
- - [Big O in JavaScript](https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051
+ - [Big O in JavaScript](https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051)
  - [Algorithms in plain English: time complexity and Big-O notation](https://www.freecodecamp.org/news/time-is-complex-but-priceless-f0abd015063c/)
  - [An Introduction to Big O Notation](https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o)
 
