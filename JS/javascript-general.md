@@ -195,7 +195,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  27. `Data Structures`
  - [Data Structures in JavaScript](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
  - [Algorithms and Data Structures in JavaScript](https://itnext.io/algorithms-and-data-structures-in-javascript-a71548f902cb)
- - [https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d](Playing with data structures in Javascript — Stack)
+ - [Playing with data structures in Javascript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
  - [The Little Guide of Queue in JavaScript](https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9)
  - [Data Structures: Understanding Graphs](https://medium.com/javascript-in-plain-english/data-structures-understanding-graphs-82509d35e6b5)
 
