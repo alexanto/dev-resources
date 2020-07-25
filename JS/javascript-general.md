@@ -198,6 +198,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Playing with data structures in Javascript — Stack](https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d)
  - [The Little Guide of Queue in JavaScript](https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9)
  - [Data Structures: Understanding Graphs](https://medium.com/javascript-in-plain-english/data-structures-understanding-graphs-82509d35e6b5)
+ - [JS Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
  28. `Expensive Operation and Big O Notation`
  - [Big O Notation in JavaScript](https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b)
