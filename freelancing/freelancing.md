@@ -40,3 +40,7 @@
 - [InterviewCake](https://www.interviewcake.com/)
 - [Toptal process](https://carlosroso.com/how-i-got-into-the-most-exclusive-remote-working-platforms/)
 - [Competitive Programming](https://aviaryan.com/letters/getting-started-with-cp)
+- [Code Chef](https://www.codechef.com/)
+- [Code Forces](https://codeforces.com/)
+- [Data Structures and Algorithms](https://discuss.codechef.com/t/data-structures-and-algorithms/6599)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
