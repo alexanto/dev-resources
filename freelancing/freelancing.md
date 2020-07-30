@@ -29,3 +29,7 @@
 - [Ilyen munkák vannak](https://freelancerblog.hu/upwork-ilyen-munkakat-talalhatsz-legnagyobb-online-munka-oldalon/)
 - [Application denied](https://support.upwork.com/hc/en-us/articles/214180797-Why-was-my-application-to-join-Upwork-not-accepted-)
 - [Szamlazasi es adozasi kisokos](https://freelancerblog.hu/upwork-szamlazasi-es-adozasi-kisokos/)
+
+## Toptal
+
+- [Hiring Process](https://dev.to/aviaryan/the-toptal-hiring-process-for-freelancers-27jp)
