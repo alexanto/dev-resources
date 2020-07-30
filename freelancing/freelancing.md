@@ -33,3 +33,4 @@
 ## Toptal
 
 - [Hiring Process](https://dev.to/aviaryan/the-toptal-hiring-process-for-freelancers-27jp)
+- [Get Into Toptal entire process](https://medium.com/@karolisram/getting-into-toptal-the-entire-process-f3ee4f931949)
