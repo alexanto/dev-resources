@@ -38,3 +38,4 @@
 - [Codility Practice](https://app.codility.com/programmers/lessons/1-iterations/)
 - [Entire Hiring Process](https://medium.com/@karolisram/getting-into-toptal-the-entire-process-f3ee4f931949)
 - [InterviewCake](https://www.interviewcake.com/)
+- [Toptal process](https://carlosroso.com/how-i-got-into-the-most-exclusive-remote-working-platforms/)
