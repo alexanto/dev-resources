@@ -44,3 +44,4 @@
 - [Code Forces](https://codeforces.com/)
 - [Data Structures and Algorithms](https://discuss.codechef.com/t/data-structures-and-algorithms/6599)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+- [Ultimate Freelancing Guide](https://www.toptal.com/ultimate-freelancing-guide)
