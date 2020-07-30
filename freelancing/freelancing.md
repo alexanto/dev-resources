@@ -46,3 +46,4 @@
 - [Geeks for Geeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 - [Ultimate Freelancing Guide](https://www.toptal.com/ultimate-freelancing-guide)
 - [The New Millionaires](https://www.toptal.com/insights/future-of-work/millionaire-freelancing-career)
+- [FAQ](https://www.toptal.com/faq)
