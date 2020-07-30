@@ -47,3 +47,4 @@
 - [Ultimate Freelancing Guide](https://www.toptal.com/ultimate-freelancing-guide)
 - [The New Millionaires](https://www.toptal.com/insights/future-of-work/millionaire-freelancing-career)
 - [FAQ](https://www.toptal.com/faq)
+- [History of remote work](https://www.toptal.com/insights/future-of-work/history-of-remote-work)
