@@ -254,7 +254,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Arrow functions](https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946)
  - [Arrow functions II.](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
  - [When to use arrow functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
-
+ - [Differences between arrow and regular functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/)
  
  ---
  
@@ -293,7 +293,6 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [JS Numbers JS Conf](https://www.youtube.com/watch?v=MqHDDtVYJRI)
  - [ ] [Type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
  - [ ] [Package JSON dependencies in depth](https://medium.com/better-programming/package-jsons-dependencies-in-depth-a1f0637a3129)
- - [ ] [Differences betweeen arrow and regular functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/)
  - [ ] [TS Computing with types](https://2ality.com/2020/06/computing-with-types.html)
  
  ### Fun
