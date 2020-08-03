@@ -297,7 +297,6 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
 
  ### Typescript
  
-  - [Type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
  
  ### Fun
  
