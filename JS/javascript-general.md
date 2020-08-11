@@ -294,6 +294,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ ] [Binary Offset](https://medium.com/angular-in-depth/the-mechanics-behind-exponent-bias-in-floating-point-9b3185083528)
  - [ ] [Binary and Decimal Conversion Algorithms](https://medium.com/angular-in-depth/the-simple-math-behind-decimal-binary-conversion-algorithms-d30c967c9724)
  - [ ] [JS Numbers JS Conf](https://www.youtube.com/watch?v=MqHDDtVYJRI)
+ - [ ] [CJS vs MJS](https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1)
 
  ### Typescript
  
