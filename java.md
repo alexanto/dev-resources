@@ -16,6 +16,7 @@
 - [ ] [spring boot](https://www.baeldung.com/spring-boot)
 - [ ] [Java Annotations](https://hackernoon.com/a-beginners-guide-to-annotations-and-annotation-processors-explained-wu6r321s?source=rss)
 - [Java 2019](https://www.youtube.com/watch?v=te3OU9fxC8U&list=WL&index=8&t=0s)
+- [Maven for a beginner](https://medium.com/faun/maven-for-a-beginner-9cc2dc04a8da)
 
 ## Tutorial Articles
 - [Annotations](https://hackernoon.com/annotations-in-java-everything-you-wanted-to-know-bz4t32in?source=rss)
