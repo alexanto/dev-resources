@@ -258,6 +258,9 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  
  35. `package.json`
   - [Package JSON dependencies in depth](https://medium.com/better-programming/package-jsons-dependencies-in-depth-a1f0637a3129)
+  
+ 36. `const, let and var`
+ - [Const let and var](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
  
  ---
  
