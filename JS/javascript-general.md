@@ -265,6 +265,9 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  37. `console`
  - [Console Cheetsheet](https://levelup.gitconnected.com/console-cheat-sheet-for-javascript-developers-21f0c49604d4)
  
+ 38. `new features`
+ - [ES2018 new features](https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/)
+ 
  ---
  
  - [ ] [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
