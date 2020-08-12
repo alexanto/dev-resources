@@ -262,6 +262,9 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  36. `const, let and var`
  - [Const let and var](https://codeburst.io/const-let-and-var-which-and-when-541a2721c18)
  
+ 37. `console`
+ - [Console Cheetsheet](https://levelup.gitconnected.com/console-cheat-sheet-for-javascript-developers-21f0c49604d4)
+ 
  ---
  
  - [ ] [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
