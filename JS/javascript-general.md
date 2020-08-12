@@ -269,6 +269,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  
  38. `new features`
  - [ES2018 new features](https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/)
+ - [Examples of new stuff 2016, 2017, 2018](https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e/)
  
  ---
  
