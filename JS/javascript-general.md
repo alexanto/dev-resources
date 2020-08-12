@@ -131,12 +131,13 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Copying Object](https://scotch.io/bar-talk/copying-objects-in-javascript)
  - [How to clone a JS object](https://flaviocopes.com/how-to-clone-javascript-object/) 
  
- 19. `map, reduce, filter`
+ 19. `array methods`
  - [Manipulating arrays](https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/)
  - [JS Functional Programming I](https://hackernoon.com/javascript-and-functional-programming-an-introduction-286aa625e26d)
  - [JS Functional Programming II: First class functions](https://hackernoon.com/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217)
  - [JS Functional Programming III: Pure Functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
  - [JS Functional Programming IV: Currying](https://hackernoon.com/javascript-and-functional-programming-currying-pt-4-96e3230782ab)
+ - [10 array methods](https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5)
  
  20. `Pure Functions` 
  - [Javascript and Functional Programming — Pt. 3: Pure Functions](https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c)
