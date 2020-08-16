@@ -115,6 +115,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [The difference between call / apply / bind](https://medium.com/@ivansifrim/the-differences-between-call-apply-bind-276724bb825b)
  - [Understanding the “this” Keyword in JavaScript](https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
  - [How to understand the keyword this and context in JavaScript](https://www.freecodecamp.org/news/how-to-understand-the-keyword-this-and-context-in-javascript-cd624c6b74b8/)
+ - [Demistifying JS new keyword](https://www.freecodecamp.org/news/demystifying-javascripts-new-keyword-874df126184c/)
  
  17. `Prototype Inheritance and Prototype Chain`
  - [Javascript : Prototype vs Class](https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b)
