@@ -64,6 +64,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [JavaScript Modules: A Beginner’s Guide](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/)
  - [JavaScript Modules: From IIFEs to CommonJS to ES6 Modules](https://www.freecodecamp.org/news/javascript-modules-from-iifes-to-commonjs-to-es6-modules-4d10c16f55d4/)
  - [ES6 Modules](https://www.youtube.com/watch?v=5P04OK6KlXA)
+ - [From IIFEs to ESModules](https://ui.dev/javascript-modules-iifes-commonjs-esmodules/)
  
  9. `Message Queue and Event Loop`
  - [JavaScript Event Loop Explained](https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4)
