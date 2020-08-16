@@ -108,6 +108,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  15. `this, call, apply and bind`
  - [Grokking call(), apply() and bind() methods in JavaScript](https://levelup.gitconnected.com/grokking-call-apply-and-bind-methods-in-javascript-392351a4be8b)
  - [How-to: call() , apply() and bind() in JavaScript](https://www.codementor.io/@niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp)
+ - [JS keyword this](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85)
  
  16. `new, Constructor, instanceof and Instances`
  - [Javascript: call(), apply() and bind()](https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb)
