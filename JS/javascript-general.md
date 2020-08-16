@@ -189,6 +189,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Javascript Promises: An In-Depth Approach](https://codeburst.io/playing-with-javascript-promises-a-comprehensive-approach-25ab752c78c3)
  - [How to Write a JavaScript Promise](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
  - [JavaScript Promises: Zero To Hero Plus Cheat Sheet](https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa)
+ - [A simple guide to es6 promises](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a)
  
  26.  `Async/Await`
  - [Understanding async-await in Javascript](https://hackernoon.com/understanding-async-await-in-javascript-1d81bb079b2c)
