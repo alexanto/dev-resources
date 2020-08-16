@@ -158,6 +158,7 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [How to use JavaScript closures with confidence](https://hackernoon.com/how-to-use-javascript-closures-with-confidence-85cd1f841a6b)
  - [Simplified JavaScript: Getting Started with Closures](https://code.likeagirl.io/simplified-javascript-getting-started-with-closures-f40f65317d00)
  - [A basic guide to Closures in JavaScript](https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e/)
+ - [Whats a closure? in plain English please](https://www.freecodecamp.org/news/whats-a-javascript-closure-in-plain-english-please-6a1fc1d2ff1c/)
  
  22. `Higher Order Functions`
  - [Higher Order Functions](https://hackernoon.com/effective-functional-javascript-first-class-and-higher-order-functions-713fde8df50a)
