@@ -283,6 +283,9 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  40. `Iterators`
  - [Interators in JS](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)
  
+ 41. `Proxies`
+ - [ES6 Proxies](https://blog.logrocket.com/having-fun-with-es6-proxies/)
+ 
  ---
  
  - [ ] [Javascript Modules](https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/)
