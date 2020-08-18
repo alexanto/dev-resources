@@ -277,8 +277,11 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [ES2018 new features](https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/)
  - [Examples of new stuff 2016, 2017, 2018](https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e/)
  
- 39. ``
+ 39. `OOP`
  - [OOP in JS](https://codeburst.io/object-oriented-programming-in-javascript-51b2bdfdfe9f)
+ 
+ 40. `Iterators`
+ - [Interators in JS](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)
  
  ---
  
