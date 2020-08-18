@@ -285,6 +285,9 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  
  41. `Proxies`
  - [ES6 Proxies](https://blog.logrocket.com/having-fun-with-es6-proxies/)
+
+42. `Regex`
+- [Regex in JS](https://www.freecodecamp.org/news/a-quick-and-simple-guide-to-javascript-regular-expressions-48b46a68df29/)
  
  ---
  
