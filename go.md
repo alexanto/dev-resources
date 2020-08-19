@@ -16,3 +16,4 @@
 - [Fly DJI Tello with Go](https://muetsch.io/flying-a-dji-tello-drone-with-go.html)
 - [Go tutorial for nodejs developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
 - [Google Secret Management](https://pbhadani.com/posts/google-secret-manager/?__s=dfpzukubxigncbrpsjmb)
+- [Go for Frontend developers](https://hackernoon.com/why-front-end-developers-going-full-stack-should-choose-go-2ct3ewm?source=rss)
