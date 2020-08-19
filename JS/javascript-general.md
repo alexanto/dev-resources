@@ -31,6 +31,10 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  2. `Primitive Types`
  - [Here is what you need to know about JavaScript’s Number type](https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6)
  - [The differences between Object.freeze() vs Const in JavaScript](https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c)
+ - [JS Number Type](https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6)
+ - [How to round binary fractions](https://medium.com/angular-in-depth/how-to-round-binary-fractions-625c8fa3a1af)
+ - [Exponent Bias](https://medium.com/angular-in-depth/the-mechanics-behind-exponent-bias-in-floating-point-9b3185083528)
+ - [Decimal Binary Conversion](https://medium.com/angular-in-depth/the-simple-math-behind-decimal-binary-conversion-algorithms-d30c967c9724)
  
  3. `Value Types and Reference Types`
  - [Explaining Value vs. Reference in Javascript](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
