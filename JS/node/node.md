@@ -1,15 +1,32 @@
 - [19 Ways to become a better node js developer](https://medium.com/@me_37286/19-ways-to-become-a-better-node-js-developer-in-2019-ffd3a8fbfe38)
 
-## Topics
+## Tutorials, articles
 
 ### Architecture
 - [Domain Driven Design](https://www.infoq.com/minibooks/domain-driven-design-quickly/)
+- [Hexagonal Architecture](https://dzone.com/articles/hexagonal-architecture-is-powerful)
+- [Node Boilerplate](https://github.com/talyssonoc/node-api-boilerplate/wiki?fbclid=IwAR0uQYNM62YzUlfGoI53wHX8jiCyjshQ9domCtSuB7B0sRS4oJ1LDP05Uzk)
+
+### Async hooks
+- [Async hooks](https://medium.com/autodesk-tlv/async-hooks-a-whole-new-world-of-opportunities-a1a6daf1990a)
 
 ### Best Practices
 - [node best practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices)
 
+### GraphQL
+- [Rest vs GraphQL](https://apisyouwonthate.com/blog/understanding-rpc-rest-and-graphql)
+- [GraphQL with Node and Express](https://medium.com/codingthesmartway-com-blog/creating-a-graphql-server-with-node-js-and-express-f6dddc5320e1)
 
 ### Service Workers
+
+### Testing
+- [Consimer Driven Testing](https://blog.risingstack.com/consumer-driven-contract-testing-with-pact/)
+- [Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing)
+- [Component Testing](https://martinfowler.com/bliki/ComponentTest.html)
+- [Testing](https://www.youtube.com/watch?v=-2zP494wdUY&feature=youtu.be)
+
+### Monitoring
+- [SRE Golden SIgnals](https://www.infoq.com/articles/monitoring-SRE-golden-signals/)
 
 ### Context logging
 
@@ -22,7 +39,8 @@
 - [ ] newrelic
 - [ ] swagger
 
-
+### Info
+- [node.green](https://node.green/)
 
 - [Be a better Node developer ](https://medium.com/@me_37286/19-ways-to-become-a-better-node-js-developer-in-2019-ffd3a8fbfe38)
 - [Free ways to host a node app](https://amitbend.com/node.js/2019/05/13/five-free-ways-to-host-your-node-app-2019)
