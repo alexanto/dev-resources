@@ -27,6 +27,7 @@
 
 ### Monitoring
 - [SRE Golden SIgnals](https://www.infoq.com/articles/monitoring-SRE-golden-signals/)
+- [Monitoring Distributes Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
 
 ### Context logging
 
