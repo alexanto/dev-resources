@@ -19,6 +19,18 @@
 - [Rest vs GraphQL](https://apisyouwonthate.com/blog/understanding-rpc-rest-and-graphql)
 - [GraphQL with Node and Express](https://medium.com/codingthesmartway-com-blog/creating-a-graphql-server-with-node-js-and-express-f6dddc5320e1)
 
+### Event loop
+- [Event loop part 1](https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810)
+
+### k8s
+- [Node.js containers with k8s](https://nodesource.com/blog/orchestrating-nodejs-containers-with-kubernetes/)
+- [Istio](https://istio.io/latest/docs/concepts/what-is-istio/)
+- [Knative](https://cloud.google.com/knative/)
+- [Kubernetes Architecture](https://eastbanctech.com/technology-insights/what-the-tech/kubernetes-architecture/)
+
+### Linux
+- [Linux Process Management](https://www.tecmint.com/linux-process-management/)
+
 ### Monitoring
 - [SRE Golden SIgnals](https://www.infoq.com/articles/monitoring-SRE-golden-signals/)
 - [Monitoring Distributes Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
