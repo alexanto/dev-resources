@@ -21,6 +21,12 @@
 
 ### Event loop
 - [Event loop part 1](https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810)
+- [Event loop part 2](https://blog.insiderattack.net/timers-immediates-and-process-nexttick-nodejs-event-loop-part-2-2c53fd511bb3)
+- [Event loop part 3](https://blog.insiderattack.net/promises-next-ticks-and-immediates-nodejs-event-loop-part-3-9226cbe7a6aa)
+- [Event loop part 4](https://blog.insiderattack.net/handling-io-nodejs-event-loop-part-4-418062f917d1)
+- [Event loop part 5](https://blog.insiderattack.net/event-loop-best-practices-nodejs-event-loop-part-5-e29b2b50bfe2)
+- [Event loop app. 1](https://blog.insiderattack.net/new-changes-to-timers-and-microtasks-from-node-v11-0-0-and-above-68d112743eb3)
+- [Event loop app. 2](https://blog.insiderattack.net/javascript-event-loop-vs-node-js-event-loop-aea2b1b85f5c)
 
 ### k8s
 - [Node.js containers with k8s](https://nodesource.com/blog/orchestrating-nodejs-containers-with-kubernetes/)
