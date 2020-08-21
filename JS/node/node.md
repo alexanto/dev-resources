@@ -1,6 +1,9 @@
 - [19 Ways to become a better node js developer](https://medium.com/@me_37286/19-ways-to-become-a-better-node-js-developer-in-2019-ffd3a8fbfe38)
-### Topics
 
+## Topics
+
+### Best Practices
+- [node best practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices)
 - service workers
 - context logging
 - groovy, jenkins
