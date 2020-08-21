@@ -4,6 +4,14 @@
 
 ### Best Practices
 - [node best practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices)
+
+
+### Service Workers
+
+### Context logging
+
+
+
 - service workers
 - context logging
 - groovy, jenkins
