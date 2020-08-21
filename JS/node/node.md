@@ -2,6 +2,9 @@
 
 ## Topics
 
+### Architecture
+- [Domain Driven Design](https://www.infoq.com/minibooks/domain-driven-design-quickly/)
+
 ### Best Practices
 - [node best practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices)
 
