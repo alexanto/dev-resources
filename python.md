@@ -22,6 +22,7 @@
  - [ ] [Selenium with Python](https://selenium-python.readthedocs.io/?ref=hackernoon.com)
  - [ ] [Build a web scrapoer with python](https://realpython.com/beautiful-soup-web-scraper-python/?ref=hackernoon.com)
  - [ ] [Send emails with Pyhton](https://realpython.com/python-send-email/?ref=hackernoon.com)
+ - [Python resources](https://hackernoon.com/top-python-resources-for-beginners-yi6h3yh0?utm_source=Hacker+Noon+Readers&utm_campaign=47470ec532-EMAIL_CAMPAIGN_2020_01_22_11_50_COPY_01&utm_medium=email&utm_term=0_fa796741e6-47470ec532-94574477)
  
  ### Ebooks
 - [ ] [A Whirlwind Tour of Python](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/)
