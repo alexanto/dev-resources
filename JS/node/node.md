@@ -106,6 +106,7 @@
 - [Security Best Practices](https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d)
 - [Security Handbook](nodejs-security-handbook.pdf)
 - [NPQ](https://github.com/lirantal/npq)
+- [Security Best Practices for Node JS](https://blog.appsignal.com/2020/08/12/security-best-practices-for-nodejs.html)
 
 ### Stack
 - [MEAN](https://www.smashingmagazine.com/2019/11/express-es6-javascript-stack-mongodb-mongoose-servers/)
