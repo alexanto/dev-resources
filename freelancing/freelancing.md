@@ -29,6 +29,7 @@
 - [Ilyen munkák vannak](https://freelancerblog.hu/upwork-ilyen-munkakat-talalhatsz-legnagyobb-online-munka-oldalon/)
 - [Application denied](https://support.upwork.com/hc/en-us/articles/214180797-Why-was-my-application-to-join-Upwork-not-accepted-)
 - [Szamlazasi es adozasi kisokos](https://freelancerblog.hu/upwork-szamlazasi-es-adozasi-kisokos/)
+- [Upwork Top Secret in Quora](https://www.quora.com/q/upworktopsecret?q=upwork)
 
 ## Toptal
 
