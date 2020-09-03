@@ -78,6 +78,7 @@
 #### Manage Servers & Linux
 
 - [Sudo](https://aster.cloud/2019/12/17/what-you-probably-didnt-know-about-sudo/?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23201%3A+What+You+Probably+Didn%E2%80%99t+Know+About+Sudo%2C+Why+do+we+need+distributed+systems%3F+%26+AWS+Cost+Optimization+101&utm_medium=email&utm_source=faun)
+- [Top 10 Linux interview questions](https://www.youtube.com/watch?v=l0QGLMwR-lY&list=WL&index=4&t=0s&ab_channel=tutoriaLinux)
 
 #### Networking and Security
 
