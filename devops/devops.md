@@ -63,8 +63,11 @@
   
   
 
-
 ### Resources
+
+### Articles
+
+- [Requirements for 20 top paying devops jobs](https://medium.com/faun/we-studied-requirements-for-20-top-paying-devops-jobs-heres-what-we-learned-32cd43442220)
 
 #### Tutorials
 
