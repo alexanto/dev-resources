@@ -87,6 +87,8 @@
 
 #### Deploy Software
 
+- [The Basisc of CI](https://medium.com/faun/the-basics-of-continuous-integration-delivery-with-10-most-popular-tools-to-use-9514231533f0)
+
 #### GIT
 
 - [Pro Git](https://www.amazon.com/gp/product/1430218339/ref=as_li_tl?ie=UTF8&tag=eon01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1430218339&linkId=5a10b59c9f9568691a9162ddc873532c)
