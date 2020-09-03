@@ -77,6 +77,7 @@
 #### Scripting
 
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
+- [TMUX](https://linuxize.com/post/getting-started-with-tmux/)
 
 #### Install and Configure Middlewares
 
