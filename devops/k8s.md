@@ -2,6 +2,7 @@
 ### Tutorials for Beginners
 
 - [Intro to Kubernetes](https://www.jeremyjordan.me/kubernetes/?utm_campaign=kaptain%20-%20The%20Best%20Distributed%20Systems%20Stories&utm_content=Faun%20%F0%9F%A6%88%20Kaptain%20%23193%3A%20Project%20Antrea%2C%20Container%20Platform%20Networking%20at%20Cruise%20%26%20KubeCon%202019%2C%20San%20Diego&utm_medium=email&utm_source=faun)
+- [Getting Started With k8s](https://www.youtube.com/watch?v=ziUvpQPy_SQ&ab_channel=DevOpsJourney)
 
 ### Advanced Tutorials
 
