@@ -9,10 +9,14 @@
 
 - [Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)
 - [Advanced Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw)
+- [Websockets in GO](https://yalantis.com/blog/how-to-build-websockets-in-go/)
+- [Package Visibility in GO](https://www.digitalocean.com/community/tutorials/understanding-package-visibility-in-go?utm_source=reddit&utm_medium=social&utm_campaign=do-package-visibility)
+- [Managing Group on Goroutines in GO](https://medium.com/swlh/managing-groups-of-gorutines-in-go-ee7523e3eaca)
 
 ### Articles
 
 - [Using Go Instead of Bash for Script](https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc)
+- [GO For Frontend Devs Going Full Stack](https://hackernoon.com/why-front-end-developers-going-full-stack-should-choose-go-2ct3ewm?source=rss)
 
 ### For Node.js Devs
 
@@ -22,22 +26,6 @@
 
 - [Golang.org - good getting started material](https://golang.org/doc/)
 
+### Fun
 
-- [Golangbot](https://golangbot.com/)
-- [Google Go Tutorial](https://www.guru99.com/google-go-tutorial.html)
-- [Golang Tutorial for Nodejs Developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
-- [Golang Docs](https://golang.org/doc/)
-- [Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=f6kdp27TYZs)
-- [Advanced Go Concurrency Patterns Google I/O](https://www.youtube.com/watch?v=QDDwwePbDtw)
-- [Go tutorials](https://stackify.com/learn-go-tutorials/)
-- [Go Programming by example](https://www.udemy.com/go-programming-by-example/)
-- [Golang tour](https://tour.golang.org/welcome/1)
-- [Go tut for Node devs](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
-- [Go instead of bash](https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc)
-- [Websocketes in GO](https://yalantis.com/blog/how-to-build-websockets-in-go/)
-- [Package Visibility in Go](https://www.digitalocean.com/community/tutorials/understanding-package-visibility-in-go?utm_source=reddit&utm_medium=social&utm_campaign=do-package-visibility)
-- [Goroutines in Go](https://medium.com/swlh/managing-groups-of-gorutines-in-go-ee7523e3eaca)
-- [Fly DJI Tello with Go](https://muetsch.io/flying-a-dji-tello-drone-with-go.html)
-- [Go tutorial for nodejs developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
-- [Google Secret Management](https://pbhadani.com/posts/google-secret-manager/?__s=dfpzukubxigncbrpsjmb)
-- [Go for Frontend developers](https://hackernoon.com/why-front-end-developers-going-full-stack-should-choose-go-2ct3ewm?source=rss)
+- [Flying a DJI Tello Dronw with GO](https://muetsch.io/flying-a-dji-tello-drone-with-go.html)
