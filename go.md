@@ -1,4 +1,28 @@
+### Tutorials for Beginners
+
 - [TutorialsPoint](https://www.tutorialspoint.com/go/)
+- [GolangBot - Learn Golang Series](https://golangbot.com/learn-golang-series/)
+- [Udemy-  Go Programming by example](https://www.udemy.com/course/go-programming-by-example/)
+- [Tour of Go](https://tour.golang.org/welcome/1)
+
+### Advanced Topics
+
+- [Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)
+- [Advanced Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw)
+
+### Articles
+
+- [Using Go Instead of Bash for Script](https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc)
+
+### For Node.js Devs
+
+- [Golang Tutorial for Node.js Developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
+
+### Documentation
+
+- [Golang.org - good getting started material](https://golang.org/doc/)
+
+
 - [Golangbot](https://golangbot.com/)
 - [Google Go Tutorial](https://www.guru99.com/google-go-tutorial.html)
 - [Golang Tutorial for Nodejs Developers](https://blog.risingstack.com/golang-tutorial-for-nodejs-developers-getting-started/)
