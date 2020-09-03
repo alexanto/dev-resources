@@ -15,6 +15,7 @@
 - [Agile is Dead](https://www.youtube.com/watch?v=rIaz-l1Kf8w)
 - [Auth](https://www.youtube.com/watch?v=2PPSXonhIck)
 - [30 seconds of code](https://www.30secondsofcode.org/)
+- [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap#-devops-roadmap)
 ### Articles
 
 - [Polyfill missing types in typescript](https://justintimecoder.com/how-to-polyfil-missing-types-in-typescript/)
