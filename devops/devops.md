@@ -74,14 +74,19 @@
 
 - [Beginner DevOps Tutorial](https://www.guru99.com/devops-tutorial.html)
 
-#### Manage Servers
+#### Manage Servers & Linux
+
+- [Sudo](https://aster.cloud/2019/12/17/what-you-probably-didnt-know-about-sudo/?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23201%3A+What+You+Probably+Didn%E2%80%99t+Know+About+Sudo%2C+Why+do+we+need+distributed+systems%3F+%26+AWS+Cost+Optimization+101&utm_medium=email&utm_source=faun)
 
 #### Networking and Security
+
+- [Wireshark](https://opensource.com/article/20/1/wireshark-linux-tshark?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23201%3A+What+You+Probably+Didn%E2%80%99t+Know+About+Sudo%2C+Why+do+we+need+distributed+systems%3F+%26+AWS+Cost+Optimization+101&utm_medium=email&utm_source=faun)
 
 #### Scripting
 
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
 - [TMUX](https://linuxize.com/post/getting-started-with-tmux/)
+- [Best bash practices](https://kvz.io/bash-best-practices.html?utm_campaign=DevOpsLinks+-+Must-read+Stories+for+Aspiring+DevOps+Professional&utm_content=%F0%9F%90%AE+DevOpsLinks+%23214%3A+The+Chaos+Engineering+Collection%2C+Moving+from+Microservices+to+Macroservices+%26+Kubernetes+vs+OpenShift&utm_medium=email&utm_source=faun)
 
 #### Install and Configure Middlewares
 
@@ -92,6 +97,7 @@
 #### GIT
 
 - [Pro Git](https://www.amazon.com/gp/product/1430218339/ref=as_li_tl?ie=UTF8&tag=eon01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1430218339&linkId=5a10b59c9f9568691a9162ddc873532c)
+- [GIT Handbook](https://guides.github.com/introduction/git-handbook/)
 
 #### Pipeline tech
 
