@@ -69,6 +69,7 @@
 
 - [Requirements for 20 top paying devops jobs](https://medium.com/faun/we-studied-requirements-for-20-top-paying-devops-jobs-heres-what-we-learned-32cd43442220)
 - [What is DevSecOps](https://research.g2.com/insights/what-is-devsecops-and-how-is-it-different-from-devops)
+- [DevSecOps](https://hackernoon.com/devsecops-shifting-left-and-shifting-right-m5do32zj?source=rss)
 
 #### Tutorials
 
