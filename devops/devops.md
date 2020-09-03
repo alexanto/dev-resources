@@ -78,10 +78,6 @@
 - [https://hackernoon.com/top-5-amazon-web-services-or-aws-courses-to-learn-online-free-and-best-of-lot-d94e192054b7](https://hackernoon.com/top-5-amazon-web-services-or-aws-courses-to-learn-online-free-and-best-of-lot-d94e192054b7)
 - [Docker from A to Z™: Swarm + Jenkins](https://www.udemy.com/course/a-practical-guide-to-docker-swarm-and-jenkins/)
 - [Jenkins Tutorial For Beginners (DevOps and Developers)](https://www.udemy.com/course/jenkins-tutorial-for-beginners-devops-and-developers/)
-- nginx
-- apache
-- vault
-- helm
 - [Pro Git](https://www.amazon.com/gp/product/1430218339/ref=as_li_tl?ie=UTF8&tag=eon01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1430218339&linkId=5a10b59c9f9568691a9162ddc873532c)
 
 - [Introduction to Kubernetes](https://www.jeremyjordan.me/kubernetes/?utm_campaign=kaptain%20-%20The%20Best%20Distributed%20Systems%20Stories&utm_content=Faun%20%F0%9F%A6%88%20Kaptain%20%23193%3A%20Project%20Antrea%2C%20Container%20Platform%20Networking%20at%20Cruise%20%26%20KubeCon%202019%2C%20San%20Diego&utm_medium=email&utm_source=faun)
@@ -104,9 +100,16 @@
 - [Branching patterns](https://martinfowler.com/articles/branching-patterns.html?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=87032213&_hsenc=p2ANqtz-9z23ciHn5ZN732Ws2qDjHEav4gR8L2ix9QpBNgbhLr0bi00r1Ri4vumBm4-ScZ2ULVOur5bvKyRPD7HsDNHyyhpaQeEA&_hsmi=87032213)
 - [k8s tutorials](https://techbeacon.com/enterprise-it/47-advanced-tutorials-mastering-kubernetes)
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
-- vspehere
-- terraform
 - [Shift-Left](https://hackernoon.com/devsecops-shifting-left-and-shifting-right-m5do32zj?source=rss)
 - [Top 10 Linux questions](https://www.youtube.com/watch?v=l0QGLMwR-lY&list=WL&index=4&t=0s)
 - [Microservices in Kubernetes](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/?utm_campaign=Newsletter&utm_medium=email&_hsmi=89168336&_hsenc=p2ANqtz-_FtNQW-rjXhkcOxvUg0Bavd55yogJ0dlYjGErDCOyF8A3XmTwQpOhe43LztTYQQ2d_94yCUc484Kj4KdtzHvgBTiylPw&utm_content=89168336&utm_source=hs_email)
 - [Setting up Kubernetes](https://www.youtube.com/watch?v=ziUvpQPy_SQ)
+
+### Important topics to learn
+
+- vspehere
+- terraform
+- nginx
+- apache
+- vault
+- helm
