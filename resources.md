@@ -51,6 +51,7 @@
 - [WebGL](https://xem.github.io/articles/webgl-guide.html)
 - [The main thread is overworked and underpaid](https://www.youtube.com/watch?v=7Rrv9qFMWNM)
 - [noob mistakes](https://hackernoon.com/how-to-avoid-n00b-programming-mistakes-if273xdw?source=rss)
+- [Non technical tips](https://hackernoon.com/8-essential-non-technical-tips-every-software-developer-should-know-rk3b3uco?source=rss)
 ### Tuts
 - [Cracking the PM interview](http://www.crackingthepminterview.com/)
 - [Scrum vs Kanban](https://hackernoon.com/kanban-vs-scrum-heres-what-your-team-needs-to-know-mxa23y9v?source=rss)
