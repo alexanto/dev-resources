@@ -8,7 +8,6 @@
 - [How to start a Node JS](https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/)
 
 ### Architecture
-- [Domain Driven Design](https://www.infoq.com/minibooks/domain-driven-design-quickly/)
 - [Hexagonal Architecture](https://dzone.com/articles/hexagonal-architecture-is-powerful)
 - [Node Boilerplate](https://github.com/talyssonoc/node-api-boilerplate/wiki?fbclid=IwAR0uQYNM62YzUlfGoI53wHX8jiCyjshQ9domCtSuB7B0sRS4oJ1LDP05Uzk)
 - [API first approach](https://developers.redhat.com/blog/2019/01/14/building-a-node-js-service-using-the-api-first-approach/)
