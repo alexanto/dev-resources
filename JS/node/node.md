@@ -35,7 +35,7 @@
 - [Learn you couchDB](https://www.npmjs.com/package/learnyoucouchdb)
 
 ### Code quality
-- [Enforce code qualoty](https://hackernoon.com/enforcing-code-quality-for-node-js-c3b837d7ae17)
+- [Enforce code quality](https://hackernoon.com/enforcing-code-quality-for-node-js-c3b837d7ae17)
 
 ### Context logging
 
