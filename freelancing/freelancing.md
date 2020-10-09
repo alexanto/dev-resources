@@ -21,6 +21,7 @@
 - [Codementor](https://www.codementor.io/mentor/apply)
 - [PR Best Practices](https://hackernoon.com/this-is-what-i-learnt-after-making-over-1000-code-reviews-ad4r3ujy?source=rss)
 - [Erősítsd meg a személyes márkád ezekkel a hackekkel!](https://freelancerblog.hu/erositsd-meg-a-szemelyes-markad-ezekkel-a-hackekkel/)
+- [Freelancer interju lepesek](https://freelancerblog.hu/magyar-freelancer-reality-interju-gabnay-mateval/?mc_cid=bb7e8d3a17&mc_eid=bfd58002af)
 
 
 ## Upwork
