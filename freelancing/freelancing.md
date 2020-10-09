@@ -22,6 +22,9 @@
 - [PR Best Practices](https://hackernoon.com/this-is-what-i-learnt-after-making-over-1000-code-reviews-ad4r3ujy?source=rss)
 - [Erősítsd meg a személyes márkád ezekkel a hackekkel!](https://freelancerblog.hu/erositsd-meg-a-szemelyes-markad-ezekkel-a-hackekkel/)
 - [Freelancer interju lepesek](https://freelancerblog.hu/magyar-freelancer-reality-interju-gabnay-mateval/?mc_cid=bb7e8d3a17&mc_eid=bfd58002af)
+- https://freelancehu.blog.hu/2016/07/01/az_upwork_es_az_elso_ezres_a_freelance_kaland_kezdete
+- http://penzcsinalok.transindex.ro/penzpiac/20101116-freelancing-meg-lehet-elni-ebbol-nem-is-rosszul
+- http://fullbit.ca/how-i-find-six-figure-remote-software-developer-jobs/
 - [3x3 lista onertekeleshez](https://freelancerblog.hu/a-3x3-as-lista-ami-alapjan-ertekeld-magad-kulonosen-nehez-helyzetekben/?mc_cid=bb7e8d3a17&mc_eid=bfd58002af)
 
 
