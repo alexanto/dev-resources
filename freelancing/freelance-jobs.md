@@ -11,7 +11,10 @@
 ### Taxation info
 - [adozas](https://www.jogiforum.hu/forum/23/43440)
 
-### Articles
-- https://freelancehu.blog.hu/2016/07/01/az_upwork_es_az_elso_ezres_a_freelance_kaland_kezdete
-- http://penzcsinalok.transindex.ro/penzpiac/20101116-freelancing-meg-lehet-elni-ebbol-nem-is-rosszul
-- http://fullbit.ca/how-i-find-six-figure-remote-software-developer-jobs/
+### Lepesek
+
+1. Portfolio (5 darab oldal, deployolva)
+2. Honlap, social media
+3. KATA
+4. Gyakorlas
+5. Kommunikacio az ugyfelekkel
