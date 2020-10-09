@@ -15,7 +15,7 @@
 
 1. Portfolio (5 darab oldal, deployolva)
 2. Honlap, social media
-3. KATA
+3. KATA, KATA valtozasok
 4. how to start freelancing as a software developer
 5. Kommunikacio az ugyfelekkel
 6. Arazas, hanyszor lehet valtoztatni
