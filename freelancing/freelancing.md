@@ -18,6 +18,7 @@
 3. KATA
 4. how to start freelancing as a software developer
 5. Kommunikacio az ugyfelekkel
+6. Arazas, hanyszor lehet valtoztatni
 
 
 ## Blogs, articles
