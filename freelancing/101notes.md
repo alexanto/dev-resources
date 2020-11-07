@@ -160,11 +160,30 @@
 ## Ügyfélkapu
 
 - elenedhetetlen a kiváltás és a folyamatos számviteli szolgáltatáshoz
+https://nav.gov.hu/nav/egyeni_vallalkozok_nyilvantartasa/egyeni_vallalkozas_megkezdese
+https://nav.gov.hu/nav/egyeni_vallalkozok_nyilvantartasa
 
 ### Kérdések
 
 - a fentiek közül pontosan mi és mi nem intézhető ügyfélkapun keresztül
 
+
+# KATA valtozasok 2021
+
+-  https://www.billingo.hu/blog/olvas/kata-valtozasok-2021-tol
+- https://konyvelescentrum.hu/aktualis/kata-adozas-valtozasa/
+- https://sikermania.hu/kata-torveny-valtozasok/
+- https://www.vallalkozas-okosan.hu/kata_valtozasok_2021
+
+### Kérdések
+
+- online munkaközvetítő oldalak kinek számlázok, 1 felé vagy nem?
+
+
+
+
+
+https://ithub.hu/blog/post/7_tipp_hogyan_legyunk_sikeres_freelancer_fejlesztok
 
 
 
