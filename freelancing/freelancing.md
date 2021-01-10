@@ -1,3 +1,18 @@
+# Temak
+
+## Adozas
+- [adozas](https://www.jogiforum.hu/forum/23/43440)
+- [egyeni vallakozo adozasi formak](https://www.mozaikkonyvelo.hu/l/adozasi-formak-egyeni-vallalkozo/)
+
+# Lepesek
+
+1. Portfolio (5 darab oldal, deployolva)
+2. Honlap, social media
+3. KATA, KATA valtozasok
+4. how to start freelancing as a software developer
+5. Kommunikacio az ugyfelekkel
+6. Arazas, hanyszor lehet valtoztatni
+
 ## Webpages to find work on
 
 - [Freelancer](https://www.freelancer.com/work/projects/?funnel=true#)
@@ -8,21 +23,35 @@
 - [TopTal](https://www.toptal.com/)
 - [MoonLightwork](https://www.moonlightwork.com/)
 
-## Taxation info
-- [adozas](https://www.jogiforum.hu/forum/23/43440)
-- [egyeni vallakozo adozasi formak](https://www.mozaikkonyvelo.hu/l/adozasi-formak-egyeni-vallalkozo/)
+## Upwork
 
-## Lepesek
+- [Upwork How To Start](https://freelancerblog.hu/az-upwork-es-meses-sikerek-igaz-tortenete/)
+- [Ilyen munkák vannak](https://freelancerblog.hu/upwork-ilyen-munkakat-talalhatsz-legnagyobb-online-munka-oldalon/)
+- [Application denied](https://support.upwork.com/hc/en-us/articles/214180797-Why-was-my-application-to-join-Upwork-not-accepted-)
+- [Szamlazasi es adozasi kisokos](https://freelancerblog.hu/upwork-szamlazasi-es-adozasi-kisokos/)
+- [Upwork Top Secret in Quora](https://www.quora.com/q/upworktopsecret?q=upwork)
 
-1. Portfolio (5 darab oldal, deployolva)
-2. Honlap, social media
-3. KATA, KATA valtozasok
-4. how to start freelancing as a software developer
-5. Kommunikacio az ugyfelekkel
-6. Arazas, hanyszor lehet valtoztatni
+## Toptal
+
+- [Hiring Process](https://dev.to/aviaryan/the-toptal-hiring-process-for-freelancers-27jp)
+- [Get Into Toptal entire process](https://medium.com/@karolisram/getting-into-toptal-the-entire-process-f3ee4f931949)
+- [Codility](https://www.codility.com/)
+- [Codility Practice](https://app.codility.com/programmers/lessons/1-iterations/)
+- [Entire Hiring Process](https://medium.com/@karolisram/getting-into-toptal-the-entire-process-f3ee4f931949)
+- [InterviewCake](https://www.interviewcake.com/)
+- [Toptal process](https://carlosroso.com/how-i-got-into-the-most-exclusive-remote-working-platforms/)
+- [Competitive Programming](https://aviaryan.com/letters/getting-started-with-cp)
+- [Code Chef](https://www.codechef.com/)
+- [Code Forces](https://codeforces.com/)
+- [Data Structures and Algorithms](https://discuss.codechef.com/t/data-structures-and-algorithms/6599)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+- [Ultimate Freelancing Guide](https://www.toptal.com/ultimate-freelancing-guide)
+- [The New Millionaires](https://www.toptal.com/insights/future-of-work/millionaire-freelancing-career)
+- [FAQ](https://www.toptal.com/faq)
+- [History of remote work](https://www.toptal.com/insights/future-of-work/history-of-remote-work)
 
 
-## Blogs, articles
+# Blogs, articles
 
 - [Freelancer Blog](https://freelancerblog.hu/)
 - [Ügyfélszerzés Online Oldalakon](https://freelancerblog.hu/ugyfelszerzes-online-munka-oldalakon/)
@@ -51,31 +80,3 @@
 - http://fullbit.ca/how-i-find-six-figure-remote-software-developer-jobs/
 - [3x3 lista onertekeleshez](https://freelancerblog.hu/a-3x3-as-lista-ami-alapjan-ertekeld-magad-kulonosen-nehez-helyzetekben/?mc_cid=bb7e8d3a17&mc_eid=bfd58002af)
 - [Megeri szabaduszonak lenni?](https://www.pixeldesigns.hu/megeri-szabaduszonak-lenni)
-
-
-## Upwork
-
-- [Upwork How To Start](https://freelancerblog.hu/az-upwork-es-meses-sikerek-igaz-tortenete/)
-- [Ilyen munkák vannak](https://freelancerblog.hu/upwork-ilyen-munkakat-talalhatsz-legnagyobb-online-munka-oldalon/)
-- [Application denied](https://support.upwork.com/hc/en-us/articles/214180797-Why-was-my-application-to-join-Upwork-not-accepted-)
-- [Szamlazasi es adozasi kisokos](https://freelancerblog.hu/upwork-szamlazasi-es-adozasi-kisokos/)
-- [Upwork Top Secret in Quora](https://www.quora.com/q/upworktopsecret?q=upwork)
-
-## Toptal
-
-- [Hiring Process](https://dev.to/aviaryan/the-toptal-hiring-process-for-freelancers-27jp)
-- [Get Into Toptal entire process](https://medium.com/@karolisram/getting-into-toptal-the-entire-process-f3ee4f931949)
-- [Codility](https://www.codility.com/)
-- [Codility Practice](https://app.codility.com/programmers/lessons/1-iterations/)
-- [Entire Hiring Process](https://medium.com/@karolisram/getting-into-toptal-the-entire-process-f3ee4f931949)
-- [InterviewCake](https://www.interviewcake.com/)
-- [Toptal process](https://carlosroso.com/how-i-got-into-the-most-exclusive-remote-working-platforms/)
-- [Competitive Programming](https://aviaryan.com/letters/getting-started-with-cp)
-- [Code Chef](https://www.codechef.com/)
-- [Code Forces](https://codeforces.com/)
-- [Data Structures and Algorithms](https://discuss.codechef.com/t/data-structures-and-algorithms/6599)
-- [Geeks for Geeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
-- [Ultimate Freelancing Guide](https://www.toptal.com/ultimate-freelancing-guide)
-- [The New Millionaires](https://www.toptal.com/insights/future-of-work/millionaire-freelancing-career)
-- [FAQ](https://www.toptal.com/faq)
-- [History of remote work](https://www.toptal.com/insights/future-of-work/history-of-remote-work)
