@@ -50,6 +50,7 @@
 - http://penzcsinalok.transindex.ro/penzpiac/20101116-freelancing-meg-lehet-elni-ebbol-nem-is-rosszul
 - http://fullbit.ca/how-i-find-six-figure-remote-software-developer-jobs/
 - [3x3 lista onertekeleshez](https://freelancerblog.hu/a-3x3-as-lista-ami-alapjan-ertekeld-magad-kulonosen-nehez-helyzetekben/?mc_cid=bb7e8d3a17&mc_eid=bfd58002af)
+- [Megeri szabaduszonak lenni?](https://www.pixeldesigns.hu/megeri-szabaduszonak-lenni)
 
 
 ## Upwork
