@@ -10,6 +10,7 @@
 
 ## Taxation info
 - [adozas](https://www.jogiforum.hu/forum/23/43440)
+- [egyeni vallakozo adozasi formak](https://www.mozaikkonyvelo.hu/l/adozasi-formak-egyeni-vallalkozo/)
 
 ## Lepesek
 
