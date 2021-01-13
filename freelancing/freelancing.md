@@ -31,7 +31,7 @@
 - [Szamlazasi es adozasi kisokos](https://freelancerblog.hu/upwork-szamlazasi-es-adozasi-kisokos/)
 - [Upwork Top Secret in Quora](https://www.quora.com/q/upworktopsecret?q=upwork)
 
-
+### Infos
 - regisztrálsz, utána az ügyfelek által kirakott projektekre tudsz pályázni
 - Vannak kisebb volumenű, egyszerűbb, alkalmi feladatok, és egészen komplex projektek is, amelyekért persze komolyabb összegeket lehet kérni.
 - az amatőrizmusnak nincs helye: kell az alaposan kitöltött profil, a jól megválasztott fotó
@@ -58,6 +58,8 @@
 - [The New Millionaires](https://www.toptal.com/insights/future-of-work/millionaire-freelancing-career)
 - [FAQ](https://www.toptal.com/faq)
 - [History of remote work](https://www.toptal.com/insights/future-of-work/history-of-remote-work)
+
+### Infos
 
 - a jelentkezők mindössze három százalékát választják ki és regisztrálják be
 - Ez a szűrt csapat az ügyfelek számára önmagában már komoly garancia.
