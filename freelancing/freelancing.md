@@ -38,6 +38,16 @@
 - a projektre beadott ajánlatod a kulcs. Fontos, hogy semmi sablonos ne legyen benne, a konkrét feladatra fókuszáljon, és érződjön rajta a személyes kötődésed – ezekre mind szükség lesz ahhoz, hogy jó esetben rád essen a választás.
 - Arra kell felkészülnöd, hogy egyszerre 30-40 projektet fogsz megpályázni, és három – hat hétbe kerülhet az első komolyabb megbízásod megszerzése, de hamar megtérülhet a befektetett, lelkiismeretes munka.
 - Nagyobb projektre ne nagyon pályázz, ha már két hete fent van, ennyi idő alatt már megtalálnák a jelöltet, ha igazán keresnék. A kisebb munkáknak viszont csak 1 nap a szavatossága: tegnapi posztra már nem is érdemes reagálnod.
+- JELLEMZŐEN AZOK TUDNAK SIKERESEK LENNI AZ ILYEN FELÜLETEKEN, AKIK EGY DOLOGRA KONCENTRÁLNAK
+
+Mire figyeljünk a profil feltöltésénél?
+
+- Tölts fel magadról jó minőségű arcképet. Olyat, amit egy önéletrajzhoz is szívesen használnál. Sokan egyedi logót használnak, de az Upwork is elismeri, hogy az ügyfelek előnyben részesítik azokat a szabadúszókat, akik a saját arcukkal jelennek meg az oldalon.
+- „Professional title”, azaz a szaktudásod röviden, érthetően. Pl. marketing specialist with strong design skills/ graphic designer / virtual assistant. Sokan követik el azt a hibát, hogy virágnyelven körülírják, mihez is értenek, vagy nagyon frappánsak akarnak lenni: „Your ideal help in marketing”. Te is szívesen használnád ezt a leírást magadról? Kérlek ne tedd.
+- „Professional overview”: Írj egy rövid, lényegre törő összefoglalót a szaktudásodról. Koncentrálj a lényegre, azokra a tapasztalatokra, amelyeket az oldalon hasznosítani szeretnél és amelyek kapcsolódnak a megadott kategóriához, amiben munkát keresel. Tagold a leírást, tegyél bele sok-sok példát és hasznos lehet, ha itt is hangsúlyozod az erősségeidet.
+- Óradíj: egy körülbelüli díjat adj meg, de ezt később bármikor módosíthatod. Sőt, projektenként más-más, ettől eltérő óradíjat adhatsz meg. Nagyon-nagyon nagy általánosságban (csak akkor vedd ezt alapul, ha semmilyen ötleted sincs, hogy mi lenne az a nagyságrend, amit a szakmádhoz megadhatsz), $25 – $60 közötti összeggel indulj el.
+
+- A siker érdekében olvass és nézz meg mindent, de tényleg mindent, amit az upwork.com-on találsz.
 
 
 ## Toptal
