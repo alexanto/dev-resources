@@ -31,6 +31,15 @@
 - [Szamlazasi es adozasi kisokos](https://freelancerblog.hu/upwork-szamlazasi-es-adozasi-kisokos/)
 - [Upwork Top Secret in Quora](https://www.quora.com/q/upworktopsecret?q=upwork)
 
+
+- regisztrálsz, utána az ügyfelek által kirakott projektekre tudsz pályázni
+- Vannak kisebb volumenű, egyszerűbb, alkalmi feladatok, és egészen komplex projektek is, amelyekért persze komolyabb összegeket lehet kérni.
+- az amatőrizmusnak nincs helye: kell az alaposan kitöltött profil, a jól megválasztott fotó
+- a projektre beadott ajánlatod a kulcs. Fontos, hogy semmi sablonos ne legyen benne, a konkrét feladatra fókuszáljon, és érződjön rajta a személyes kötődésed – ezekre mind szükség lesz ahhoz, hogy jó esetben rád essen a választás.
+- Arra kell felkészülnöd, hogy egyszerre 30-40 projektet fogsz megpályázni, és három – hat hétbe kerülhet az első komolyabb megbízásod megszerzése, de hamar megtérülhet a befektetett, lelkiismeretes munka.
+- Nagyobb projektre ne nagyon pályázz, ha már két hete fent van, ennyi idő alatt már megtalálnák a jelöltet, ha igazán keresnék. A kisebb munkáknak viszont csak 1 nap a szavatossága: tegnapi posztra már nem is érdemes reagálnod.
+
+
 ## Toptal
 
 - [Hiring Process](https://dev.to/aviaryan/the-toptal-hiring-process-for-freelancers-27jp)
@@ -49,6 +58,12 @@
 - [The New Millionaires](https://www.toptal.com/insights/future-of-work/millionaire-freelancing-career)
 - [FAQ](https://www.toptal.com/faq)
 - [History of remote work](https://www.toptal.com/insights/future-of-work/history-of-remote-work)
+
+- a jelentkezők mindössze három százalékát választják ki és regisztrálják be
+- Ez a szűrt csapat az ügyfelek számára önmagában már komoly garancia.
+- Itt egy angol és egy problémamegoldó tesztet kell elvégezned a “felvételi” során.
+- A kiválasztást egy-egy projektre a Toptal munkatársai végzik, hasonlóan, mint a fejvadász cégeknél, csakhogy itt minden online zajlik és lényegesen nagyobb sebességgel mint a klasszikus recruitingban
+- a felvételi folyamat legelejétől tekintsünk úgy a kommunikációra és a feladatokra, mintha már ügyféllel dolgoznánk
 
 
 # Blogs, articles
