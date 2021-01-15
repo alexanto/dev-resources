@@ -7,7 +7,7 @@
 # Lepesek
 
 1. Portfolio (5 darab oldal, deployolva)
-2. Honlap, social media
+2. Honlap, social media: https://freelancerblog.hu/erositsd-meg-a-szemelyes-markad-ezekkel-a-hackekkel/
 3. KATA, KATA valtozasok
 4. how to start freelancing as a software developer
 5. Kommunikacio az ugyfelekkel
