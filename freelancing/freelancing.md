@@ -13,6 +13,29 @@
 5. Kommunikacio az ugyfelekkel
 6. Arazas, hanyszor lehet valtoztatni
 
+# A freelancer karrier 3 lehetséges útvonala
+
+1. Platform nindzsa
+  Azaz egy kis virtuális alteregót építesz fel például az Upwork-ön, vagy bármelyik számodra szimpatikus, releváns online munka oldalon. Választhatsz több platformot is, de hatékonyabb, ha egyszerre csak egyet ismersz ki A-tól Z-ig, mert a siker titka abban rejlik, hogy alaposan kiismered az alkalmazás működését.
+ 
+  Ez nem azt jelenti, hogy beléptél, regisztráltál és megértetted, hogyan kell egy-egy melóra pályázni, hanem hogy alaposan kiismerted a háttérben zajló folyamatokat:
+
+  1. Tesztelted az oldalt munkaadó szempontjából is (azaz te is posztolsz egy kamu munkát, hogy lásd, mit lát pontosan az ügyfél).
+
+  2. Elolvastál és megnéztél jópár ingyenesen fellelhető anyagot, képzést (sőt, még fizettél is a legjobbakért a Udemy-on vagy a Skillshare-en).
+
+  3. Átböngészed az oldal által felkínált útmutatókat, átrágtad magad a GYIK-en…
+
+   A zsákutca, amibe manapság könnyű belefutni: induló oldal, jelenleg a freelancereket gyűjti, de ügyfél még sehol. Ha erre gyanakszol, érdemes az adott oldal support/ helpdesk/ facebook chatbotjának segítségét kérni: ha válaszol már okosabb vagy, ha nem válaszol, akkor csak regisztálj be és tedd fiókba a dolgot, hátha beérik. Semmiképp se hagyd annyiban, mert az induló oldalak nagy előnye, hogy ha elérik a freelancerek számában a kritikus tömeget, gyorsan nyitnak az ügyfelek akvirálása felé, így könnyen előfordulhat, hogy hamarabb kapsz itt munkát, mint egy régi motoros platformon, ahol jóval nagyobb a verseny a jó megbízásokért.
+   
+[Online munka rovat](https://freelancerblog.hu/category/online-munka/)
+
+2. Ötletguru
+
+  Az Ötletguru útvonal a neked való karrierirány, ha van egy ötleted, ami nem hagy nyugodni, hajlandó vagy a szabadidődből is erre áldozni és azonnal felvillanyoz, ha erről a témáról van szó valahol. Ez egy hosszabb menet lesz, ami komplex tudást és sok időt igényel, és kisebb-nagyobb akadályokkal van megszórva. De ha nem adod fel, két dolgot is nyersz: rengeteget fejlődsz szakmailag és közben számos kulcsfontosságú készséged acélosodik. Emellett megvalósítod a saját ötletedet – ezt egyszer mindenkinek ki kellene próbálni.
+  
+3. (Egy)személyes márka / Szakmai hírnév
+
 ## Webpages to find work on
 
 - [Freelancer](https://www.freelancer.com/work/projects/?funnel=true#)
