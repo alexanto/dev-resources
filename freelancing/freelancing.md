@@ -78,7 +78,58 @@ Mire figyeljünk a profil feltöltésénél?
 - A kiválasztást egy-egy projektre a Toptal munkatársai végzik, hasonlóan, mint a fejvadász cégeknél, csakhogy itt minden online zajlik és lényegesen nagyobb sebességgel mint a klasszikus recruitingban
 - a felvételi folyamat legelejétől tekintsünk úgy a kommunikációra és a feladatokra, mintha már ügyféllel dolgoznánk
 
+## Projektmenedzsment appok
 
+1. Toggl – a pontos elszámolás alapköve
+Nem is tudom, mihez kezdenék a Toggl nélkül. Ez az app a legnagyobb segítségem abban, hogy pontos elszámolásokat tudjak készíteni az ügyfeleimnek, lássam melyik projekt mennyi időt vesz igénybe 
+
+2. Trello
+
+3. 3+4. Asana & Instagantt – együtt igazán erősek
+
+4. Invision - Design
+
+## Árazás
+
+Az árajánlatnak egy fontos feladata van: győzze meg az ügyfelet arról, hogy a munkára te vagy a legjobb, ráadásul egy nagyon jó ajánlat keretében dolgozhat veled
+
+1. A jó árajánlat elegánsan van tálalva.
+Óvakodjunk az email szövegbe írt vagy másolt ajánlattól. Használjuk inkább az emailt a referenciáink megadására, az ajánlat csatolmányként vagy külön linkként szerepeljen, például mutathat egy felhőbe mentett doksira (csak ellenőrizd, hogy a címzettnek legyen olvasási jogosultsága). De lehet az ajánlat formátuma word, excel, power point, pdf is.
+
+2. Adjunk csomagajánlatot, így az adott területen kevés tapasztalattal rendelkező ügyfél egyszerűbben átlátja, hogy miről szól a projekt, milyen tevékenységekből épül fel.
+Ha a kínált szolgáltatás esetén megoldható, akkor mindenképp csomagajánlatban gondolkodj: azaz a tevékenységedet amennyire lehet és érdemes szedd szét külön elemekké. Hogy mit is jelent ez a gyakorlatban?
+
+Weboldal készítés esetén a csomag különálló eleme lehet a SEO, a képkeresés és a szövegírás is, ezeket akár tételesen is beárazhatod, de az is rendben van, ha a végén egy csomagár szerepel csupán.
+
+3. Adjunk minimum 2 alternatívát, döntsön az ügyfél, hogy egyszerűbb dolgot kér olcsóbban, vagy az extrákért hajlandó többet fizetni.
+Több lehetőség felvázolása egyrészt lehetőséget ad az ügyfelednek, hogy maga döntse el, megér-e neki plusz költést egy-egy bizonyos szolgáltatás. Másrészt így elegánsan tudod tisztázni már az elején, hogy mi az, ami benne van a megadott árban és mi az, ami nem
+
+4. Adjunk moduláris / tételes ajánlatot, azaz az ügyfél kijelölheti egy listában, hogy melyik szolgáltatást kéri, melyiket nem.
+Azaz a csomagajánlatban az egyes elemeket külön-külön árazzuk be. Ezt főként olyan munkáknál célszerű bevetni, ami összetettebb, több teret enged az egyedi igények megvalósítására. Mint például a webfejlesztés, ami tartalmazhat SEO és szövegírási munkát is, vagy grafikai munka esetén egy online kiadványhoz elkészíthetünk interaktív tartalmakat, vagy pénzügyi tanácsadás esetén kiegészíthetjük az ajánlatot egy speciális elemzéssel. Számtalan lehetőségünk van arra, hogy feltöltsünk egy ajánlatot extra szolgáltatásokkal, és ebben a formában ez nem is lesz tolakodó.
+
+5. Írjuk le egyértelműen, hogy mi NEM tartozik bele az ajánlott árba.
+Ha a tételes ajánlat egyes elemei nem fedik le a projekt kapcsán felmerülő összes lehetséges munkát, akkor érdemes külön kiemelni az ajánlatban, hogy mi az, amit az NEM tartalmaz. Így egyértelmű már az elején és nem kell fölösleges köröket róni a projekt közben vagy a fizetéskor. Ilyen lehet például egy weboldal elkészítése kapcsán a jogtiszta képek esetleges díja vagy a tárhely szolgáltatás.
+
+6. Óradíj vs. projekt alapú díjazás.
+Ha az elvégzendő munka több elemből épül fel, és meg tudsz határozni az egyes részfeladatokhoz kb. óraszámot, akkor érdemes lehet úgy felépíteni az ajánlatot, hogy minden feladathoz külön óradíjat és tervezett óraszámot állapítasz meg. Ez az ár eltérő lehet a részfeladatok esetén, például egy weboldal elkészítésekor olcsóbb óradíjjal kalkulálhatsz a képkeresésre, de drágábbal a fejlesztésre. Az óradíjas árajánlat akkor lehet igazán hasznos, ha a szakterülethez kevésbé értő ügyféllel van dolgod, így jó áttekintést adsz arról is, hogy milyen feladatok merülnek fel a munka kapcsán és az elvégzésükhöz kb. mennyi időre van szükség.
+
+Akkor is nagy hasznát veheted az óradíjas ajánlatnak, ha a tervezettnél jóval több munka van egy adott részfeladattal, mert például sok extra kérés érkezik az ügyféltől. Így hivatkozhatsz az ajánlatra, és arra, hogy te X órát terveztél, amit el is végeztél, de mivel már most a terv duplájánál tartotok, szeretnéd jelezni, hogy innentől extra órákat fogsz felszámolni. Persze mindezt kedvesen, elegánsan.
+
+7. Look & feel, avagy egy kis tunning nem árthat.
+Apróságnak tűnhet, de az ügyfél kegyeiért folytatott harcban nagy szerepe lehet annak, ha az árajánlat kap egy kis dizájnt. Ha van egy kis szépérzékünk, nem kell erre külön embert felbérelni, elég csak a Google-t segítségül hívni (próbáld ki a „proposal design” kulcsszavakat) és egyszer rászánni pár órát, hogy egy pofás ajánlat sablont dobj össze. Egy-két szín sem árthat, ezzel is azt sugallva, hogy profi vagy, ügyelsz a részletekre.
+
+8. Bruttó vagy nettó?
+El sem hinnétek, hányan mulasztják el még ma is ezt az apró, de fontos részletet az ajánlatban közölni. Egy sor az egész. A hiánya sok-sok fejfájáshoz és konfliktushoz vezethet a fizetéskor.
+
+9. Meddig érvényes az ajánlat?
+Sokszor előfordul, hogy egy kiküldött ajánlatra hetekig, akár hónapokig semmilyen reakció sem érkezik, aztán egyszer csak előkerül az ügyfél és sürgőssé válik a munka. A legtöbb esetben év közben azonos árakkal dolgozunk, de lehetnek olyan elemei az ajánlatnak, amik időközben változtak (pl. weboldal készítés esetén a tárhely szolgáltató árat emel).
+
+10. Mikor kell fizetni?
+Az elején, a végén, vagy előleget kérünk? Érdemes ezt is hamar tisztázni, egyszerűbb, ha az árajánlat részeként, de persze az email szövegében is utalhatunk rá.
+
+
++1 Kreatív szakemberek figyelmébe: hány módosítási kört tartalmaz az ajánlat?
+A grafikusok, webdesignerek biztosan számtalan sztorit tudnának mesélni arról, hogyan húzódhat el a kéthetesre tervezett munka hónapokig. Egy kis módosítási kérés itt, egy-egy kép csere ott, persze ezt sok-sok külön emailben, telefonon, személyesen megosztva. Éppen ezért érdemes beleírni az ajánlatba, hogy hány módosítási kört tartalmaz, és ha már javában folyik a munka, emlékeztessük is az ügyfelet arra, hogy már bizony a 2. körnél járunk, így most szóljon, ha van még valami amin változtatni szeretne.
 # Blogs, articles
 
 - [Freelancer Blog](https://freelancerblog.hu/)
