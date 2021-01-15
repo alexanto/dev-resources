@@ -89,6 +89,10 @@ Nem is tudom, mihez kezdenék a Toggl nélkül. Ez az app a legnagyobb segítsé
 
 4. Invision - Design
 
+## CRM appok
+
+Agile CRM 
+
 ## Árazás
 
 Az árajánlatnak egy fontos feladata van: győzze meg az ügyfelet arról, hogy a munkára te vagy a legjobb, ráadásul egy nagyon jó ajánlat keretében dolgozhat veled
