@@ -58,6 +58,10 @@
   - Containers like Docker
   - https://painlessdocker.com/
   
+  Kubernetes Interview Questions
+  
+  - [Kubernetes Interview Questions](https://www.edureka.co/blog/interview-questions/kubernetes-interview-questions/)
+  
 15. **Learn How To Deploy & Manage Serverless Applications**
   - AWS Lambda, Azure Functions, Google Cloud Functions, IBM OpenWhisk, or Auth0 WebTask, you have the choice to start learning one of them.
   
