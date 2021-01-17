@@ -55,6 +55,13 @@
 - [Beginners guide to express](https://initialcommit.com/blog/beginners-guide-to-using-express-js-and-node-js-framework)
 - [Expressworks](https://github.com/azat-co/expressworks)
 
+### Fastify
+
+- [Create REST API Fastify](https://www.sitepoint.com/create-rest-api-fastify/)
+- [Build a Modern API using Fastify and Node.js](https://developer.okta.com/blog/2020/10/12/build-modern-api-using-fastify)
+- [How to build a blazingly fast API with Fastify](https://blog.logrocket.com/how-to-build-a-blazingly-fast-api-with-fastify/)
+- [Getting Started](https://www.fastify.io/docs/latest/Getting-Started/)
+
 ### Github
 - [Build a github app with node](http://thecodebarbarian.com/building-a-github-app-with-node-js.html)
 
