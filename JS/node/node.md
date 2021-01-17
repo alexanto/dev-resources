@@ -97,8 +97,13 @@
 ### Logging
 - [Logging Best Practices](https://www.datadoghq.com/blog/node-logging-best-practices/)
 
-### Menmory leaks
+### Memory leaks
 - [memory leaks](https://nodesource.com/blog/memory-leaks-demystified)
+
+### MongoDB
+
+- [MongoDB Traversy Media](https://www.youtube.com/watch?v=pWbMrx5rVBE&ab_channel=TraversyMedia)
+- [MongoDB Traversy Media](https://www.youtube.com/watch?v=-56x56UppqQ&ab_channel=TraversyMedia)
 
 ### Monitoring
 - [SRE Golden SIgnals](https://www.infoq.com/articles/monitoring-SRE-golden-signals/)
