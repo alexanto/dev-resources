@@ -61,6 +61,9 @@
   Kubernetes Interview Questions
   
   - [Kubernetes Interview Questions](https://www.edureka.co/blog/interview-questions/kubernetes-interview-questions/)
+  - [Top 55 Kubernetes Interview Questions and Answers](https://www.guru99.com/kubernetes-interview-questions-answers.html)
+  - [Top 30 Kubernetes Interview Questions and Answers in 2020](https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions)
+  - [12 Kubernetes interview questions and answers to score that job](https://www.bluematador.com/blog/12-kubernetes-interview-questions-and-answers)
   
 15. **Learn How To Deploy & Manage Serverless Applications**
   - AWS Lambda, Azure Functions, Google Cloud Functions, IBM OpenWhisk, or Auth0 WebTask, you have the choice to start learning one of them.
