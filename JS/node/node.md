@@ -111,6 +111,11 @@
 ### Natural Lnaguage Processing
 - [Natural Language Processing](https://blog.logrocket.com/natural-language-processing-for-node-js/)
 
+### NestJS
+
+- [Docs First Steps](https://docs.nestjs.com/first-steps)
+- [Academind Tutorial](https://www.youtube.com/watch?v=F_oOtaxb0L8&ab_channel=Academind)
+
 ### NPM
 - [How to npm](https://www.npmjs.com/package/how-to-npm)
 
