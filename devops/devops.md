@@ -39,7 +39,7 @@
 
 10. **Learn how to automate your software factory**
   - [Jenkins](https://automationstepbystep.com/jenkins/) 
-  - Travis
+  - [Travis](https://docs.travis-ci.com/user/tutorial/)
   - CI&CD
   
 11. **Learn Configuration Management**
