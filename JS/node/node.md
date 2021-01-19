@@ -104,6 +104,7 @@
 
 - [MongoDB Traversy Media](https://www.youtube.com/watch?v=pWbMrx5rVBE&ab_channel=TraversyMedia)
 - [MongoDB Traversy Media](https://www.youtube.com/watch?v=-56x56UppqQ&ab_channel=TraversyMedia)
+- [NoSQL cs Relational Database](https://www.mongodb.com/scale/nosql-vs-relational-databases)
 
 ### Monitoring
 - [SRE Golden SIgnals](https://www.infoq.com/articles/monitoring-SRE-golden-signals/)
