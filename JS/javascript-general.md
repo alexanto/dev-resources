@@ -298,6 +298,12 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
  - [Interview questions](https://www.edureka.co/blog/interview-questions/typescript-interview-questions/)
  
  
+ ### jQuery
+ 
+ - [Interview](https://www.javatpoint.com/jquery-interview-questions)
+ - [Interview](https://hackr.io/blog/jquery-interview-questions)
+ - [jquery interview questions](https://www.toptal.com/jquery/interview-questions)
+ 
  ### Fun
  
  - [13k JS Games](https://js13kgames.com/entries/2019)
