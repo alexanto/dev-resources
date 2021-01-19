@@ -295,6 +295,8 @@ JavaScript libraries, frameworks, and plugins.](https://www.javascripting.com/)
 
  ### Typescript
  
+ - [Interview questions](https://www.edureka.co/blog/interview-questions/typescript-interview-questions/)
+ 
  
  ### Fun
  
