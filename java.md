@@ -1,3 +1,8 @@
+- [300 Core Java Interview Questions](https://www.javatpoint.com/corejava-interview-questions)
+- [100+ Java Interview Questions You Must Prepare In 2021](https://www.edureka.co/blog/interview-questions/java-interview-questions/)
+- [Top 50+ Core Java Interview Questions And Answers](https://www.softwaretestinghelp.com/core-java-interview-questions/)
+- [Java Interview Questions](https://www.tutorialspoint.com/java/java_interview_questions.htm)
+
 - [ ] [MyExamCloud](https://www.myexamcloud.com/onlineexam/exam/setGoals.html)
 - [ ] [Spring Framework And Dependency Injection For Beginners](https://www.udemy.com/course/spring-framework-video-tutorial/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-fNNl68OLhWdlsDZGfWmtXA&siteID=JVFxdTr9V80-8SNbhyaiGnts0o5GwK6r0A)
 - [ ] [Introducing Spring Boot](https://www.udemy.com/course/spring-boot-getting-started/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-4zFydWT26hBeqhNRLvJWDw&siteID=JVFxdTr9V80-3gqihJuruthAeld__4bMQw)
