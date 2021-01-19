@@ -4,12 +4,12 @@
 
 ## Interview questions
 
-[48 Interview questions](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions)
-[Top Node.js Interview Questions You Must Prepare In 2021](https://www.edureka.co/blog/interview-questions/top-node-js-interview-questions-2016/)
-[Frequently asked: Node JS Interview Questions and Answers](https://medium.com/@vigowebs/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678)
-[Top 25 Node.js Interview Questions & Answers](https://www.guru99.com/node-js-interview-questions.html)
-[8 Interview Questions](https://www.toptal.com/nodejs/interview-questions)
-[Node.js Interview Questions and Answers !?](https://blog.risingstack.com/node-js-interview-questions-and-answers-2017/)
+- [48 Interview questions](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions)
+- [Top Node.js Interview Questions You Must Prepare In 2021](https://www.edureka.co/blog/interview-questions/top-node-js-interview-questions-2016/)
+- [Frequently asked: Node JS Interview Questions and Answers](https://medium.com/@vigowebs/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678)
+- [Top 25 Node.js Interview Questions & Answers](https://www.guru99.com/node-js-interview-questions.html)
+- [8 Interview Questions](https://www.toptal.com/nodejs/interview-questions)
+- [Node.js Interview Questions and Answers !?](https://blog.risingstack.com/node-js-interview-questions-and-answers-2017/)
 
 ## Tutorials, articles
 
@@ -129,6 +129,10 @@
 
 ### NPM
 - [How to npm](https://www.npmjs.com/package/how-to-npm)
+
+### PostgreSQL
+
+- [PostgreSQL](https://www.postgresqltutorial.com/)
 
 ### Promise
 - [Promise it wont hurt](https://github.com/stevekane/promise-it-wont-hurt)
