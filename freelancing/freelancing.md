@@ -186,3 +186,4 @@ A grafikusok, webdesignerek biztosan számtalan sztorit tudnának mesélni arró
 - http://fullbit.ca/how-i-find-six-figure-remote-software-developer-jobs/
 - [3x3 lista onertekeleshez](https://freelancerblog.hu/a-3x3-as-lista-ami-alapjan-ertekeld-magad-kulonosen-nehez-helyzetekben/?mc_cid=bb7e8d3a17&mc_eid=bfd58002af)
 - [Megeri szabaduszonak lenni?](https://www.pixeldesigns.hu/megeri-szabaduszonak-lenni)
+- [Platformokon tancolok](https://freelancerblog.hu/platformokon-tancolok-tanulmany-keszult-a-freelancerekrol-es-gig-workerekrol/?mc_cid=431185e73b&mc_eid=bfd58002af)
